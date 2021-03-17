@@ -1,0 +1,62 @@
+/*
+This is an OAuth token file for the Salesforce connection manager in SSIS Integration Toolkit for Salesforce. 
+A proper password is required in order to read the file.
+*/
+
+{
+  "_about": {
+    "created_at": "2021-03-17T18:33:43.5123447Z",
+    "updated_at": "2021-03-17T18:33:43.5123447Z",
+    "use_in_app_authentication_on_import": false
+  },
+  "access_token": "Xgfi3PLhGjhw4z4N9ReID8Z1GGn2pIplHSS0sTuBY7aHPQY8ejg6v0LrTnfUPhEcIL2iab715L6VxT4tfqM010lHik4ZHYd8RdxRxwsIlQlL2hnEPvC54B9awPA4Srwap27Dl4xhafdUFoQRNQgwL0u8BLdtJ1IluzA1N3pzSsQ=",
+  "client_assertion": {
+    "additional_claims": []
+  },
+  "client_id": "3MVG9aFryxgomHTav3obvOwdtEZU0eUxPVecYvl8ihf0G0QE9PvexZYha0uIefVrYLoYINl5Jm6XLBObugneX",
+  "client_secret": "Rb223snWCIQQ4y9qxFISu/XLZlIGcwClKmFNeiz4as1ULsF/bJgQ9P/Mo/NRQH4RaVUlseq6Y1nxcvNgMW2yMLt3wfNjTe9OdRTXJ+eUECM=",
+  "connection_user_id": "https://test.salesforce.com/id/00D0m0000001i58EAA/0054x000002AHhqAAG",
+  "has_expiry": false,
+  "instance_url": "https://lolldesigns--lollsb.my.salesforce.com",
+  "manual_token_expiry_time_unit": "Hours",
+  "refresh_token": "tLs9+TckfNzJxOmJmXn6HexPKWz0tYpGyJ6dBWpjnaDfupOAmhnMZk8qrDvT/1LD3pt4RTY7kUfk5a2fHRYndiYQqg/Muga9KwjlzKJ6u8w4qWrhFH6srWqfbAGSH4Np",
+  "refresh_tokens_strategy": {
+    "additional_parameters": [],
+    "base_url": "https://test.salesforce.com/services/oauth2/token",
+    "grant_type": "refresh_token",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/x-www-form-urlencoded"
+      },
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ]
+  },
+  "request_tokens_strategy": {
+    "additional_parameters": [],
+    "base_url": "https://test.salesforce.com/services/oauth2/token",
+    "grant_type": "authorization_code",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/x-www-form-urlencoded"
+      },
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ]
+  },
+  "sign_in_strategy": {
+    "additional_parameters": [
+      {
+        "name": "response_type",
+        "value": "code"
+      }
+    ],
+    "base_url": "https://test.salesforce.com/services/oauth2/authorize"
+  }
+}

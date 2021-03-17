@@ -1,0 +1,2 @@
+ErrorCode,ErrorColumn,ErrorMessage,Salutation,FirstName,LastName,SFAccountID,SFContactID,City,CountryCode,ZipCode,TelephoneNo1,cSageUpdatedDT,cContactCode,EmailAddress,FaxNo,State,StreetAddress
+1,,MISSING_ARGUMENT:Id not specified in an update call:--,,Bucarito,,Victor,0010m00000hR5b5AAC,,San Jose,CR,,,2021-03-15 06:57:48,VICTOR,it@lolldesigns.com,,,
