@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="266"
-  DTS:VersionGUID="{5E431B30-429B-45EE-AD05-DF5C61C2DC05}">
+  DTS:VersionBuild="280"
+  DTS:VersionGUID="{C9AFAD74-8CE2-4269-9653-535B84135128}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2515,7 +2515,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAhOwVSVS9iGlkdM5l/sRqpAAAAAASAAACgAAAAEAAAAJuN11JAjBpeB7YK/NfDSuo4AAAA1cbl0FS1rwK6jHSCGL0B9NOVCDgtU1jm26SAolYgG/yTiF/35s/2FMuICgr+V6PhuYnivv9hBX8UAAAAgWyt4R0UQ3r88IGMgjOc78tdVE4</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACq4SFcy3U+c/I/cvMAcJ6pAAAAAASAAACgAAAAEAAAAB40dBPuvYbp+KdAPPet3iA4AAAAelXwJ7M4oVDpv6TWdEHMWD01O4sCEF8ruLtVSoFwi1qFrjfZi4t6F/eXJrahQ5tu7xF9dtXJZcwUAAAAi57m5HskPDRAzKRl7/kcmZ7psOQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2530,13 +2530,13 @@
           ConnectByProxy="False">
           <TokenPassword
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB32ZFaPO/+vsGaLIwtGmQWAAAAAASAAACgAAAAEAAAAHxOUJ1M4IzJvrfZgKn8zf8wAAAAssNL4wMdvXknhobYx0Knm408g5Dg33yI79AXtNQuAzifnNBGvB5NzOqx/OjV/YYjFAAAADBnIrBT1S6ji6taFd7QAfjcLFqT</TokenPassword>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAA4ZaJRanNzPQqPmwnCM1JAAAAAASAAACgAAAAEAAAAHqIuuMBYxXx8L08vf8dzoQwAAAAlORwhqeIWuOwi09EbLZ3Y7uFUbOVi5inwqbdIVMA/0O5ZvDnvJ+CqR0dDUUICwwpFAAAABwbl+AyEvWZ29RkVILthnSZ8U1B</TokenPassword>
           <Password
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACuHA+beSbraoZ8hh74o3tsAAAAAASAAACgAAAAEAAAAG6byNBouUE1hweeIVHl29kwAAAA6C1Yol4QciYlqLBH/1NE3AV6n/79HijG6MMOdJQBxM12+JDY6NW4E773CpMOlIPJFAAAANflJlvDVbjUSf2khsaN7epRkpjb</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACVRpxrQDKl5Vq+yOZIjBbJAAAAAASAAACgAAAAEAAAAKTcZsS+ZPkXuGd+ThDy8v8wAAAApR9zmU9O6uphCgd0nZnR3+1v6kuSqhYaBBg3Rco6EQ9kgz3YvuBcfCpA8Iu8gztvFAAAAGru7SX1Cgo03/HxPByVhKHP4/s9</Password>
           <ClientSecret
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABmOfzk2S3EaOTtW1SDPDMyAAAAAASAAACgAAAAEAAAALwQFxHbXdhMawlT2l4HLJ+IAAAAuR4Rf1mBHeZfhjUi1LS2J2gf97Nv555z2x/OXQi3UvSEXi4Cd3Jd73pTuDgF6zFq9oaO4Tm1eSazo2k3qyEiNMAV6TjV84N1jLAW5Lh8svLtkOYSzO0O6EGHcYRbG+bRhORsZoSb6aYOXazrNXxz2ZvA0o7aaPco45S8sgHDmviAa7yC6FFWQBQAAAAv/YjjUTmVrD0vTS2M9VWOjW3gYA</ClientSecret>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADrQ0sr0+EcMMcBwWZZ5nCmAAAAAASAAACgAAAAEAAAAFlsU027lyXwmadi5WPh0syIAAAAqyi6lFpahSWv1A0VTLp+z1XiOveh5k8Cxohq8p6McbObafIqYXvjLOvEPWizOKhDOYjQ9g9jW15Y60ZdoBiCTD5dklS0+pbLOPwxzU2JiB02n1dLV5z+SFFlHoYV//hK0k3F6F0fJtC3D5sc4KEdxMV2vnv4oAo/NCyzv4dWU6wGQ08B07lxGBQAAACt/Bk1tmI7QPOvvE2b2wGvT0xwtQ</ClientSecret>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2551,10 +2551,10 @@
           ConnectByProxy="False">
           <Password
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADRMkugMgw8dxVbiVb+9pLUAAAAAASAAACgAAAAEAAAAJvbS647KWi5kaU21cDOw30wAAAA/Axfqw68dXgamSz5Na/Tr1MhOijkiMTza1ASIEsv/yIEHp+wk9u54sJEs3xJpmxIFAAAAO2HpU0PMMzryZUt+ntd1dcZcg0j</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACT6a0CGUTb4ZFiIXhjWsUfAAAAAASAAACgAAAAEAAAAPGjeqY6XsmYCsE97H0TNAowAAAAkGEjbihTcJhRUQADQPXA2hsIT6aK+fS3kN4yG5uJo8RQ7jY0orav7J5qb76MEV2ZFAAAAFf2D2I5QmWSrRVzk7tx/qQqqcmO</Password>
           <SecurityToken
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC7ycp3juDBGXIA1Oml13cXAAAAAASAAACgAAAAEAAAAMJKZ2NDZleABsx5JqfaKVw4AAAAgTLzL0yTuqB5ENse1SgikbV1HVd+iF5K1n2wSjbpQ9743NtTzQZLZJHbhig5Yd3ems5yNdlBamEUAAAAxkQXMees4XrSml6RpjvoS+5Ne8s</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAANvU8grIANLA0Qk3Pvno8HAAAAAASAAACgAAAAEAAAAFeXTLJRHHeMdw//i5sEzGQ4AAAADSD1BpdIo09csj1T7EtsEa88U2VYoDMgDPWxTnB1jI3LVbxecTB2BAKFwASobcQD4roZHj6pb24UAAAA5nBh7oaLVZOueXPV0EI1A65+eGs</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2746,7 +2746,7 @@
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FAEC7864-4411-4136-AF93-2B6FF6F2830B}"
           SQLTask:BypassPrepare="False"
-          SQLTask:SqlStatementSource="Use [SAGE_SF]&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToProductsSF','U') IS  NULL&#xA;BEGIN&#xA;&#x9;CREATE TABLE [dbo].[tblSageStagingToProductsSF](&#xA;&#x9;[SFProductID] [nvarchar](18) NOT NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA;[SageUpdateTime] [datetime] NULL&#xA; CONSTRAINT [PK_tblSageStagingToProductsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFProductID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToAccountsSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToAccountsSF](&#xA;&#x9;[SFAccountID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL&#xA; CONSTRAINT [PK_tblSageStagingToAccountsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFAccountID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Use [SAGE_SF]&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToProductsSF','U') IS  NULL&#xA;BEGIN&#xA;&#x9;CREATE TABLE [dbo].[tblSageStagingToProductsSF](&#xA;&#x9;[SFProductID] [nvarchar](18) NOT NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA;[SageUpdateTime] [datetime] NULL&#xA; CONSTRAINT [PK_tblSageStagingToProductsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFProductID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToAccountsSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToAccountsSF](&#xA;&#x9;[SFAccountID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL&#xA; CONSTRAINT [PK_tblSageStagingToAccountsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFAccountID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToOrdersSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToOrdersSF](&#xA;&#x9;[SFOrderID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA; CONSTRAINT [PK_tblSageStagingToOrdersSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFOrderID] asc&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToContactsSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToContactsSF](&#xA;&#x9;[SFContactID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SFAccountID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA; CONSTRAINT [PK_tblSageStagingToContactsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFContactID] ASC,&#xA;&#x9;[SFAccountID] ASC&#xA;&#x9;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -2815,6 +2815,15 @@
               Language="CSharp"
               ReadOnlyVariables="User::varAccount_U_F_FileName_RAW,User::varAccount_U_FileName_RAW,$Package::FullUpdateRun"
               ReadWriteVariables="User::varAccount_U_Input_FileName_RAW">
+              <ProjectItem
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="ST_bb16abe88d8741889db80e0e3c310706.csproj"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -3021,35 +3030,6 @@
   </resheader>
 </root>]]></ProjectItem>
               <ProjectItem
-                Name="Properties\Settings.Designer.cs"
-                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_bb16abe88d8741889db80e0e3c310706.Properties.Settings.get_Default():ST_bb16abe88d8741889db80e0e3c310706.Properties.Sett" +
-    "ings")]
-
-namespace ST_bb16abe88d8741889db80e0e3c310706.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-              <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
 /* The Script Task allows you to perform virtually any operation that can be accomplished in
@@ -3195,6 +3175,35 @@ namespace ST_bb16abe88d8741889db80e0e3c310706
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
+                Name="Properties\Settings.Designer.cs"
+                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_bb16abe88d8741889db80e0e3c310706.Properties.Settings.get_Default():ST_bb16abe88d8741889db80e0e3c310706.Properties.Sett" +
+    "ings")]
+
+namespace ST_bb16abe88d8741889db80e0e3c310706.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+              <ProjectItem
                 Name="Properties\AssemblyInfo.cs"
                 Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -3224,15 +3233,6 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -11102,20 +11102,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   name="Default Output"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF - Full Update.Outputs[Default Output]" />
                 <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output1]"
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingAccountsSF.Inputs[OLE DB Destination Input]"
                   name="Derived Column Output"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create SyncDateTime.Outputs[Derived Column Output]" />
                 <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output]"
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output1]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Script Component.Inputs[Input 0]"
                   name="Derived Column Output"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Clean Addresses.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Creation Errors.Inputs[Flat File Destination Input]"
-                  name="Error Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create or Update Account.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output1]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Update Errors.Inputs[Flat File Destination Input]"
@@ -11127,6 +11122,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   name="Error Output"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF - Full Update.Outputs[Error Output]" />
                 <path
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Creation Errors.Inputs[Flat File Destination Input]"
+                  name="Error Output"
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create or Update Account.Outputs[Error Output]" />
+                <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Lookup Match Output]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Run Full Update?.Inputs[Conditional Split Input]"
                   name="Lookup Match Output"
@@ -11137,12 +11137,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   name="Lookup No Match Output"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Lookup SyncTable.Outputs[Lookup No Match Output]" />
                 <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No1]"
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create SyncDateTime.Inputs[Derived Column Input]"
                   name="No"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Sage Record Updated?.Outputs[No]" />
                 <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No]"
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No1]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Sage Record Updated?.Inputs[Conditional Split Input]"
                   name="No"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Run Full Update?.Outputs[No]" />
@@ -11210,13 +11210,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       DTS:refId="Package\Sage to SF Contact Sync"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
-      DTS:Disabled="True"
       DTS:DTSID="{DF3BD4FC-BFF1-4A40-9036-79220970E316}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
       DTS:ObjectName="Sage to SF Contact Sync">
       <DTS:Variables />
       <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Sage to SF Contact Sync\Insert DateTime tblSageToContactsSF"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{d54ac3b3-1d11-4d19-9931-1688b615b44a}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Insert DateTime tblSageToContactsSF"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{FAEC7864-4411-4136-AF93-2B6FF6F2830B}"
+              SQLTask:BypassPrepare="False"
+              SQLTask:SqlStatementSource="Use [SAGE_SF]&#xA;&#xA;UPDATE tblSageToContactsSF &#xA;SET LastSyncDateTime = s.LastSyncDateTime,&#xA;SageUpdateTime = s.SageUpdateTime,&#xA;SFAccountID = s.SFAccountID&#xA;from tblSageToContactsSF t inner join tblSageStagingToContactsSF s&#xA;on t.SFContactID = s.SFContactID;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
         <DTS:Executable
           DTS:refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Create for Sync Table"
           DTS:CreationName="Microsoft.Pipeline"
@@ -11532,7 +11549,7 @@ where [refTable].[SFAccountID] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Sage to SF Contact Sync\Retrieve SF ContactNo Create for Sync Table\943:invalid};</property>
+                      name="ParameterMap">#{Package\Sage to SF Contact Sync\Retrieve SF ContactNo Create for Sync Table\945:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -12037,6 +12054,7 @@ where [refTable].[SFAccountID] = ?</property>
         <DTS:Executable
           DTS:refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table"
           DTS:CreationName="Microsoft.Pipeline"
+          DTS:DelayValidation="True"
           DTS:Description="Data Flow Task"
           DTS:DTSID="{163BE294-F08A-44CA-AEEA-4DD61AC0BBFA}"
           DTS:ExecutableType="Microsoft.Pipeline"
@@ -12114,6 +12132,153 @@ where [refTable].[SFAccountID] = ?</property>
                           refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Add SyncTimeDate.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                           dataType="i4"
                           lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Add SyncTimeDate.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="Insert into tblSageStagingToContactsSF"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[tblSageStagingToContactsSF]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
+                      connectionManagerRefId="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SFAccountID]"
+                          cachedDataType="wstr"
+                          cachedLength="18"
+                          cachedName="SFAccountID"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFAccountID]"
+                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Retrieve ContactsUpdated from RAR file.Outputs[Raw File Source Output].Columns[SFAccountID]" />
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SFContactID]"
+                          cachedDataType="wstr"
+                          cachedLength="18"
+                          cachedName="SFContactID"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFContactID]"
+                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Retrieve ContactsUpdated from RAR file.Outputs[Raw File Source Output].Columns[SFContactID]" />
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[cSageUpdatedDT]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="cSageUpdatedDT"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SageUpdateTime]"
+                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Retrieve ContactsUpdated from RAR file.Outputs[Raw File Source Output].Columns[cSageUpdatedDT]" />
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SyncTimeDate]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="SyncTimeDate"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[LastSyncDateTime]"
+                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Add SyncTimeDate.Outputs[Derived Column Output].Columns[SyncTimeDate]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFContactID]"
+                          dataType="wstr"
+                          length="18"
+                          name="SFContactID" />
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFAccountID]"
+                          dataType="wstr"
+                          length="18"
+                          name="SFAccountID" />
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SageUpdateTime]"
+                          dataType="dbTimeStamp"
+                          name="SageUpdateTime" />
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[LastSyncDateTime]"
+                          dataType="dbTimeStamp"
+                          name="LastSyncDateTime" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -12364,163 +12529,11 @@ where [refTable].[SFAccountID] = ?</property>
                     </output>
                   </outputs>
                 </component>
-                <component
-                  refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table"
-                  componentClassID="Microsoft.OLEDBCommand"
-                  contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
-                  description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
-                  name="Update Sync Table"
-                  usesDispositions="true"
-                  version="2">
-                  <properties>
-                    <property
-                      dataType="System.Int32"
-                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                      name="CommandTimeout">0</property>
-                    <property
-                      dataType="System.String"
-                      description="The SQL command to be executed."
-                      expressionType="Notify"
-                      name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE tblSageToContactsSF
-SET SageUpdateTime = ?, LastSyncDateTime =?
-WHERE SFContactID = ? and SFAccountID = ?</property>
-                    <property
-                      dataType="System.Int32"
-                      description="Specifies the column code page to use when code page information is unavailable from the data source."
-                      name="DefaultCodePage">1252</property>
-                  </properties>
-                  <connections>
-                    <connection
-                      refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
-                      connectionManagerRefId="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
-                      description="The OLE DB runtime connection used to access the database."
-                      name="OleDbConnection" />
-                  </connections>
-                  <inputs>
-                    <input
-                      refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input]"
-                      errorOrTruncationOperation="Command Execution"
-                      errorRowDisposition="FailComponent"
-                      hasSideEffects="true"
-                      name="OLE DB Command Input">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].Columns[cSageUpdatedDT]"
-                          cachedDataType="dbTimeStamp"
-                          cachedName="cSageUpdatedDT"
-                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Retrieve ContactsUpdated from RAR file.Outputs[Raw File Source Output].Columns[cSageUpdatedDT]" />
-                        <inputColumn
-                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].Columns[SyncTimeDate]"
-                          cachedDataType="dbTimeStamp"
-                          cachedName="SyncTimeDate"
-                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Add SyncTimeDate.Outputs[Derived Column Output].Columns[SyncTimeDate]" />
-                        <inputColumn
-                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].Columns[SFContactID]"
-                          cachedDataType="wstr"
-                          cachedLength="18"
-                          cachedName="SFContactID"
-                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
-                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Retrieve ContactsUpdated from RAR file.Outputs[Raw File Source Output].Columns[SFContactID]" />
-                        <inputColumn
-                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].Columns[SFAccountID]"
-                          cachedDataType="wstr"
-                          cachedLength="18"
-                          cachedName="SFAccountID"
-                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
-                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Retrieve ContactsUpdated from RAR file.Outputs[Raw File Source Output].Columns[SFAccountID]" />
-                      </inputColumns>
-                      <externalMetadataColumns
-                        isUsed="True">
-                        <externalMetadataColumn
-                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                          dataType="dbTimeStamp"
-                          name="Param_0">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                              name="DBParamInfoFlags">65</property>
-                          </properties>
-                        </externalMetadataColumn>
-                        <externalMetadataColumn
-                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                          dataType="dbTimeStamp"
-                          name="Param_1">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                              name="DBParamInfoFlags">65</property>
-                          </properties>
-                        </externalMetadataColumn>
-                        <externalMetadataColumn
-                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
-                          dataType="wstr"
-                          length="18"
-                          name="Param_2">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                              name="DBParamInfoFlags">65</property>
-                          </properties>
-                        </externalMetadataColumn>
-                        <externalMetadataColumn
-                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
-                          dataType="wstr"
-                          length="18"
-                          name="Param_3">
-                          <properties>
-                            <property
-                              dataType="System.Int32"
-                              description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                              name="DBParamInfoFlags">65</property>
-                          </properties>
-                        </externalMetadataColumn>
-                      </externalMetadataColumns>
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Outputs[OLE DB Command Output]"
-                      exclusionGroup="1"
-                      name="OLE DB Command Output"
-                      synchronousInputId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input]">
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Outputs[OLE DB Command Error Output]"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="OLE DB Command Error Output"
-                      synchronousInputId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
               </components>
               <paths>
                 <path
                   refId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table.Paths[Derived Column Output]"
-                  endId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table.Inputs[OLE DB Command Input]"
+                  endId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input]"
                   name="Derived Column Output"
                   startId="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Add SyncTimeDate.Outputs[Derived Column Output]" />
                 <path
@@ -12535,6 +12548,7 @@ WHERE SFContactID = ? and SFAccountID = ?</property>
         <DTS:Executable
           DTS:refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync"
           DTS:CreationName="Microsoft.Pipeline"
+          DTS:DelayValidation="True"
           DTS:Description="Data Flow Task"
           DTS:DTSID="{0A933465-757A-49D7-9359-D60D80F4C75C}"
           DTS:ExecutableType="Microsoft.Pipeline"
@@ -13949,6 +13963,79 @@ WHERE SFContactID = ? and SFAccountID = ?</property>
                   </outputs>
                 </component>
                 <component
+                  refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="Create SyncDateTime"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Output].Columns[SyncDateTime]"
+                          dataType="dbTimeStamp"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Output].Columns[SyncDateTime]"
+                          name="SyncDateTime"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[GETDATE]()</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">GETDATE()</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
                   refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Get Sage Contacts"
                   componentClassID="Microsoft.OLEDBSource"
                   contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
@@ -14667,6 +14754,153 @@ FROM AR_CustomerContact</property>
                           refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Get Sage Contacts.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                           dataType="i4"
                           lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Get Sage Contacts.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="Insert Into tblSageStagingToContactsSF"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[tblSageStagingToContactsSF]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
+                      connectionManagerRefId="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SageUpdateTime]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="SageUpdateTime"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SageUpdateTime]"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SF AccountNo.Outputs[Lookup Match Output].Columns[SageUpdateTime]" />
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SFContactID]"
+                          cachedDataType="wstr"
+                          cachedLength="18"
+                          cachedName="SFContactID"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFContactID]"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Outputs[Lookup Match Output].Columns[SFContactID]" />
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SyncDateTime]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="SyncDateTime"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[LastSyncDateTime]"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Output].Columns[SyncDateTime]" />
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SFAccountID]"
+                          cachedDataType="wstr"
+                          cachedLength="18"
+                          cachedName="SFAccountID"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFAccountID]"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Outputs[Lookup Match Output].Columns[SFAccountID]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFContactID]"
+                          dataType="wstr"
+                          length="18"
+                          name="SFContactID" />
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SageUpdateTime]"
+                          dataType="dbTimeStamp"
+                          name="SageUpdateTime" />
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[LastSyncDateTime]"
+                          dataType="dbTimeStamp"
+                          name="LastSyncDateTime" />
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFAccountID]"
+                          dataType="wstr"
+                          length="18"
+                          name="SFAccountID" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -16127,13 +16361,13 @@ where [refTable].[SageContactCode] = ? and [refTable].[SageCustomerNo] = ?</prop
                           containsID="true"
                           dataType="System.String"
                           description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                          name="Expression">#{Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Convert strDate to date.Outputs[Data Conversion Output].Columns[cSageUpdatedDT]} &gt; #{Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Outputs[Lookup Match Output].Columns[LastSageUpdateTime]}</property>
+                          name="Expression">#{Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Convert strDate to date.Outputs[Data Conversion Output].Columns[cSageUpdatedDT]} &gt; #{Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Outputs[Lookup Match Output].Columns[LastSageUpdateTime]} || [ISNULL](#{Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Outputs[Lookup Match Output].Columns[LastSageUpdateTime]})</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Specifies the friendly version of the expression. This expression version uses column names."
                           expressionType="Notify"
-                          name="FriendlyExpression">cSageUpdatedDT &gt; LastSageUpdateTime</property>
+                          name="FriendlyExpression">cSageUpdatedDT &gt; LastSageUpdateTime || ISNULL(LastSageUpdateTime)</property>
                         <property
                           dataType="System.Int32"
                           description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
@@ -17537,6 +17771,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           cachedName="StreetAddress"
                           externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Update Contact in SF.Inputs[Input].ExternalColumns[MailingStreet]"
                           lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Split Name.Outputs[Derived Column Output].Columns[StreetAddress]" />
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Update Contact in SF.Inputs[Input].Columns[SFContactID]"
+                          cachedDataType="wstr"
+                          cachedLength="18"
+                          cachedName="SFContactID"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Update Contact in SF.Inputs[Input].ExternalColumns[Id]"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Outputs[Lookup Match Output].Columns[SFContactID]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -18232,15 +18473,20 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   name="Default Output"
                   startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create or Update Contact in SF.Outputs[Default Output]" />
                 <path
-                  refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Derived Column Output]"
-                  endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Sage Updated Date.Inputs[Input 0]"
-                  name="Derived Column Output"
-                  startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Split Name.Outputs[Derived Column Output]" />
-                <path
                   refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Derived Column Output1]"
                   endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Inputs[Lookup Input]"
                   name="Derived Column Output"
                   startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Clean Email and LastName.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Derived Column Output2]"
+                  endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Derived Column Output]"
+                  endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Sage Updated Date.Inputs[Input 0]"
+                  name="Derived Column Output"
+                  startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Split Name.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output]"
                   endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Log Contact Update Errors.Inputs[Flat File Destination Input]"
@@ -18271,6 +18517,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Log No Account Numbers.Inputs[Flat File Destination Input]"
                   name="Lookup No Match Output"
                   startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SF AccountNo.Outputs[Lookup No Match Output]" />
+                <path
+                  refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[No]"
+                  endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Inputs[Derived Column Input]"
+                  name="No"
+                  startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Sage Record Updated.Outputs[No]" />
                 <path
                   refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[OLE DB Source Output]"
                   endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Convert Customer Number.Inputs[Data Conversion Input]"
@@ -18303,6 +18554,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 1"
           DTS:To="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Sage to SF Contact Sync.PrecedenceConstraints[Constraint 2]"
+          DTS:CreationName=""
+          DTS:DTSID="{9C4C7A5A-04BB-4BEC-8054-54C025DA6E46}"
+          DTS:From="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 2"
+          DTS:To="Package\Sage to SF Contact Sync\Insert DateTime tblSageToContactsSF" />
       </DTS:PrecedenceConstraints>
     </DTS:Executable>
     <DTS:Executable
@@ -26726,6 +26985,15 @@ where [refTable].[SageSalesOrderNumber] = ?</property>
               ReadOnlyVariables="User::varProductFullUpdate_FileName_RAW,User::varProductUpdate_FileName_RAW,$Package::FullUpdateRun"
               ReadWriteVariables="User::varProductUpdate_Input_FileName">
               <ProjectItem
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+              <ProjectItem
                 Name="ST_222cc1c285804af6a51bec083a3adbfb.csproj"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -26931,35 +27199,6 @@ where [refTable].[SageSalesOrderNumber] = ?</property>
   </resheader>
 </root>]]></ProjectItem>
               <ProjectItem
-                Name="Properties\Settings.Designer.cs"
-                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_bb16abe88d8741889db80e0e3c310706.Properties.Settings.get_Default():ST_bb16abe88d8741889db80e0e3c310706.Properties.Sett" +
-    "ings")]
-
-namespace ST_bb16abe88d8741889db80e0e3c310706.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-              <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
 /* The Script Task allows you to perform virtually any operation that can be accomplished in
@@ -27105,6 +27344,35 @@ namespace ST_bb16abe88d8741889db80e0e3c310706
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
+                Name="Properties\Settings.Designer.cs"
+                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_bb16abe88d8741889db80e0e3c310706.Properties.Settings.get_Default():ST_bb16abe88d8741889db80e0e3c310706.Properties.Sett" +
+    "ings")]
+
+namespace ST_bb16abe88d8741889db80e0e3c310706.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+              <ProjectItem
                 Name="Properties\AssemblyInfo.cs"
                 Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -27134,15 +27402,6 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -28451,6 +28710,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <DTS:Executable
           DTS:refId="Package\Sage to SF Product Sync\Sales Force Products Sync"
           DTS:CreationName="Microsoft.Pipeline"
+          DTS:DelayValidation="True"
           DTS:Description="Data Flow Task"
           DTS:DTSID="{7B075A45-EDAE-47B4-941A-9465CF1D4F3A}"
           DTS:ExecutableType="Microsoft.Pipeline"
@@ -34922,14 +35182,35 @@ where [refTable].[SageItemCode] = ?</property>
           ReadOnlyVariables="$Package::WorkingDirectory"
           ReadWriteVariables="User::varAccount_U_Error_FileName,User::varAccount_U_F_Error_FileName,User::varAccount_U_F_FileName_RAW,User::varAccount_U_FileName_RAW">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_bdae1ff4ffe748cd845126c4e19d0bbe")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_bdae1ff4ffe748cd845126c4e19d0bbe")]
+[assembly: AssemblyCopyright("Copyright @  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -35307,35 +35588,14 @@ namespace ST_bdae1ff4ffe748cd845126c4e19d0bbe.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_bdae1ff4ffe748cd845126c4e19d0bbe")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_bdae1ff4ffe748cd845126c4e19d0bbe")]
-[assembly: AssemblyCopyright("Copyright @  2021")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -35619,7 +35879,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{FAEC7864-4411-4136-AF93-2B6FF6F2830B}"
               SQLTask:BypassPrepare="False"
-              SQLTask:SqlStatementSource="IF OBJECT_ID('tblSageStagingToProductsSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToProductsSF;&#xA;END;&#xA;&#xA;IF OBJECT_ID('tblSageStagingToAccountsSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToAccountsSF;&#xA;END;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+              SQLTask:SqlStatementSource="IF OBJECT_ID('tblSageStagingToProductsSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToProductsSF;&#xA;END;&#xA;&#xA;IF OBJECT_ID('tblSageStagingToAccountsSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToAccountsSF;&#xA;END;&#xA;&#xA;IF OBJECT_ID('tblSageStagingToContactsSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToContactsSF;&#xA;END;&#xA;&#xA;IF OBJECT_ID('tblSageStagingToOrdersSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToOrdersSF;&#xA;END;&#xA;&#xA;IF OBJECT_ID('tblSageStagingToContactsSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToContactsSF;&#xA;END;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
       </DTS:Executables>
@@ -35640,19 +35900,23 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <NodeLayout
           Size="185.6,41.6"
           Id="Package\Create Staging Tables"
-          TopLeft="608.846176178499,194.161287336022" />
+          TopLeft="809.230798913179,200.87096465217" />
         <NodeLayout
           Size="162,42"
           Id="Package\File System Task"
-          TopLeft="621.923099735081,2.07741932903691" />
+          TopLeft="822.307722469761,0.400000000000006" />
         <NodeLayout
           Size="204,42"
           Id="Package\Refresh Tables from Sage"
-          TopLeft="601.153868204039,122.851611019694" />
+          TopLeft="800.000029343827,132.496772161656" />
         <NodeLayout
           Size="278,42"
           Id="Package\Sage to SF Accounts Sync\FullUpdate?"
           TopLeft="39.4384711316362,199.180637969039" />
+        <NodeLayout
+          Size="265.6,41.6"
+          Id="Package\Sage to SF Accounts Sync\Insert DateTime tblSageToAccountsSF"
+          TopLeft="54.4615596793818,367.103219439857" />
         <NodeLayout
           Size="299.2,42"
           Id="Package\Sage to SF Accounts Sync\Retrieve SF AccountNo Create for Sync Table"
@@ -35731,10 +35995,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="265.6,41.6"
-          Id="Package\Sage to SF Accounts Sync\Insert DateTime tblSageToAccountsSF"
-          TopLeft="54.4615596793818,367.103219439857" />
         <EdgeLayout
           Id="Package\Sage to SF Accounts Sync.PrecedenceConstraints[Constraint 3]"
           TopLeft="177.807701378885,322.380637969038">
@@ -35775,33 +36035,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           PanelSize="450,463.6"
           Size="450,506.8"
           Id="Package\Sage to SF Accounts Sync"
-          TopLeft="524.102583387665,256.636555172758" />
+          TopLeft="638.717972207117,273.410748463127" />
         <NodeLayout
           Size="296.8,42"
           Id="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Create for Sync Table"
-          TopLeft="43.1923090748533,85.5548314593709" />
+          TopLeft="41.6538474799614,90.5870894464815" />
         <NodeLayout
           Size="299.2,42"
           Id="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table"
-          TopLeft="38.0769442806584,171.825794111901" />
+          TopLeft="39.6154058755506,157.148374982828" />
         <NodeLayout
-          Size="208.8,42"
+          Size="208.8,41.6"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync"
-          TopLeft="85.11538753566,18.0064500776954" />
+          TopLeft="86.6538491305521,15.0709662518807" />
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync.PrecedenceConstraints[Constraint]"
-          TopLeft="190.653848305257,60.0064500776954">
+          TopLeft="190.553848305257,56.6709662518807">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,25.5483813816755"
+              EndConnector="0,33.9161231946008"
               Start="0,0"
-              End="0,18.0483813816755">
+              End="0,26.4161231946008">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,18.0483813816755" />
+                    End="0,26.4161231946008" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -35812,18 +36072,44 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync.PrecedenceConstraints[Constraint 1]"
-          TopLeft="189.634626677756,127.554831459371">
+          TopLeft="189.634626677756,132.587089446482">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,44.2709626525301"
+              EndConnector="0,24.5612855363469"
               Start="0,0"
-              End="0,36.7709626525301">
+              End="0,17.0612855363469">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.7709626525301" />
+                    End="0,17.0612855363469" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="264,41.6"
+          Id="Package\Sage to SF Contact Sync\Insert DateTime tblSageToContactsSF"
+          TopLeft="62.1692353824191,237.909670517373" />
+        <EdgeLayout
+          Id="Package\Sage to SF Contact Sync.PrecedenceConstraints[Constraint 2]"
+          TopLeft="191.692320628985,199.148374982828">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38.7612955345444"
+              Start="0,0"
+              End="0,31.2612955345444">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.2612955345444" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -35835,10 +36121,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="372,268.8"
-          Size="372,312"
+          PanelSize="487.6,334.4"
+          Size="487.6,377.6"
           Id="Package\Sage to SF Contact Sync"
-          TopLeft="520.000019073487,776.206439679571" />
+          TopLeft="565.769251521524,858.39998680238" />
         <NodeLayout
           Size="280.8,42"
           Id="Package\Sage to SF Order Sync\Import New SF sync record into sync table"
@@ -35901,7 +36187,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           PanelSize="296.8,252.8"
           Size="296.8,296"
           Id="Package\Sage to SF Order Sync"
-          TopLeft="1658.23080129737,721.236549173839" />
+          TopLeft="1856.69234703843,738.849452128727" />
         <NodeLayout
           Size="323.6,41.6"
           Id="Package\Sage to SF Product Sync\FullUpdate?"
@@ -36028,25 +36314,25 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           PanelSize="558,448"
           Size="558,491.2"
           Id="Package\Sage to SF Product Sync"
-          TopLeft="1022.61538460128,643.129033148227" />
+          TopLeft="1221.07693034234,660.741936103115" />
         <NodeLayout
           Size="172,42"
           Id="Package\Set Files and Paths"
-          TopLeft="618.461561146574,63.3225796711432" />
+          TopLeft="818.461568482531,70.0322569872908" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="702.400022191269,164.851611019694">
+          TopLeft="902.015414128503,174.496772161656">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,29.3096763163279"
+              EndConnector="0,26.3741924905135"
               Start="0,0"
-              End="0,21.8096763163279">
+              End="0,18.8741924905135">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.8096763163279" />
+                    End="0,18.8741924905135" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -36057,24 +36343,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="749.102583387665,763.436555172758">
+          TopLeft="863.717972207117,780.210748463127">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="142.897435685822,118.103217840146"
+              EndConnector="-54.1487206855937,78.1892383392528"
               Start="0,0"
-              End="135.397435685822,118.103217840146">
+              End="-54.1487206855937,70.6892383392528">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,114.103217840146" />
+                    End="0,35.0946191696264" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,114.103217840146"
-                    Point2="0,118.103217840146"
-                    Point3="4,118.103217840146" />
+                    Point1="0,35.0946191696264"
+                    Point2="0,39.0946191696264"
+                    Point3="-4,39.0946191696264" />
                   <mssgle:LineSegment
-                    End="135.397435685822,118.103217840146" />
+                    End="-50.1487206855937,39.0946191696264" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-50.1487206855937,39.0946191696264"
+                    Point2="-54.1487206855937,39.0946191696264"
+                    Point3="-54.1487206855937,43.0946191696264" />
+                  <mssgle:LineSegment
+                    End="-54.1487206855937,70.6892383392528" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -36085,30 +36377,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="621.923099735081,23.0774193290369">
+          TopLeft="903.884645476146,42.4">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-3.46153858850698,61.2451603421063"
+              EndConnector="0,27.6322569872908"
               Start="0,0"
-              End="-10.961538588507,61.2451603421063">
+              End="0,20.1322569872908">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-21.961538588507,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-21.961538588507,0"
-                    Point2="-25.961538588507,0"
-                    Point3="-25.961538588507,4" />
-                  <mssgle:LineSegment
-                    End="-25.961538588507,57.2451603421063" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-25.961538588507,57.2451603421063"
-                    Point2="-25.961538588507,61.2451603421063"
-                    Point3="-21.961538588507,61.2451603421063" />
-                  <mssgle:LineSegment
-                    End="-10.961538588507,61.2451603421063" />
+                    End="0,20.1322569872908" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -36119,30 +36399,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="790.461561146574,84.3225796711432">
+          TopLeft="990.461568482531,91.0322569872908">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="14.6923070574651,59.5290313485509"
+              EndConnector="13.538460861296,62.4645151743654"
               Start="0,0"
-              End="22.1923070574651,59.5290313485509">
+              End="21.038460861296,62.4645151743654">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="33.1923070574651,0" />
+                    End="32.038460861296,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="33.1923070574651,0"
-                    Point2="37.1923070574651,0"
-                    Point3="37.1923070574651,4" />
+                    Point1="32.038460861296,0"
+                    Point2="36.038460861296,0"
+                    Point3="36.038460861296,4" />
                   <mssgle:LineSegment
-                    End="37.1923070574651,55.5290313485509" />
+                    End="36.038460861296,58.4645151743654" />
                   <mssgle:CubicBezierSegment
-                    Point1="37.1923070574651,55.5290313485509"
-                    Point2="37.1923070574651,59.5290313485509"
-                    Point3="33.1923070574651,59.5290313485509" />
+                    Point1="36.038460861296,58.4645151743654"
+                    Point2="36.038460861296,62.4645151743654"
+                    Point3="32.038460861296,62.4645151743654" />
                   <mssgle:LineSegment
-                    End="22.1923070574651,59.5290313485509" />
+                    End="21.038460861296,62.4645151743654" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -36153,30 +36433,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="892.000019073487,932.206439679571">
+          TopLeft="1053.36925152152,1047.19998680238">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="130.615365527793,-43.4774065313435"
+              EndConnector="167.70767882082,-140.858050699264"
               Start="0,0"
-              End="123.115365527793,-43.4774065313435">
+              End="160.20767882082,-140.858050699264">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="61.3076827638964,0" />
+                    End="79.85383941041,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="61.3076827638964,0"
-                    Point2="65.3076827638964,0"
-                    Point3="65.3076827638964,-4" />
+                    Point1="79.85383941041,0"
+                    Point2="83.85383941041,0"
+                    Point3="83.85383941041,-4" />
                   <mssgle:LineSegment
-                    End="65.3076827638964,-39.4774065313435" />
+                    End="83.85383941041,-136.858050699264" />
                   <mssgle:CubicBezierSegment
-                    Point1="65.3076827638964,-39.4774065313435"
-                    Point2="65.3076827638964,-43.4774065313435"
-                    Point3="69.3076827638964,-43.4774065313435" />
+                    Point1="83.85383941041,-136.858050699264"
+                    Point2="83.85383941041,-140.858050699264"
+                    Point3="87.85383941041,-140.858050699264" />
                   <mssgle:LineSegment
-                    End="123.115365527793,-43.4774065313435" />
+                    End="160.20767882082,-140.858050699264" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -36187,7 +36467,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="1580.61538460128,888.729033148227">
+          TopLeft="1779.07693034234,906.341936103115">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -36221,24 +36501,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="608.846176178499,214.961287336022">
+          TopLeft="902.030798913179,242.47096465217">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="140.256407209166,41.675267836736"
+              EndConnector="-38.3128267060615,30.9397838109567"
               Start="0,0"
-              End="140.256407209166,34.175267836736">
+              End="-38.3128267060615,23.4397838109567">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="136.256407209166,0" />
+                    End="0,11.4698919054783" />
                   <mssgle:CubicBezierSegment
-                    Point1="136.256407209166,0"
-                    Point2="140.256407209166,0"
-                    Point3="140.256407209166,4" />
+                    Point1="0,11.4698919054783"
+                    Point2="0,15.4698919054783"
+                    Point3="-4,15.4698919054783" />
                   <mssgle:LineSegment
-                    End="140.256407209166,34.175267836736" />
+                    End="-34.3128267060615,15.4698919054783" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-34.3128267060615,15.4698919054783"
+                    Point2="-38.3128267060615,15.4698919054783"
+                    Point3="-38.3128267060615,19.4698919054783" />
+                  <mssgle:LineSegment
+                    End="-38.3128267060615,23.4397838109567" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -36258,7 +36544,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <NodeLayout
           Size="181.6,41.6"
           Id="Package.EventHandlers[OnPostExecute]\Clean Staging Tables"
-          TopLeft="5.5,5.49999999999995" />
+          TopLeft="56.2692326314352,3.40322583870383" />
       </GraphLayout>
     </LayoutInfo>
   </DtsEventHandler>
@@ -36302,7 +36588,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -36360,7 +36648,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -36383,7 +36673,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     design-time-name="Package\Sage to SF Accounts Sync\Retrieve SF AccountNo Update for Sync Table">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="272.8,41.6"
+          Id="Package\Sage to SF Accounts Sync\Retrieve SF AccountNo Update for Sync Table\Insert into tblSageStagingToAccountsSF"
+          TopLeft="430,213" />
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\Sage to SF Accounts Sync\Retrieve SF AccountNo Update for Sync Table\Add SyncTimeDate"
@@ -36411,13 +36705,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="272.8,41.6"
-          Id="Package\Sage to SF Accounts Sync\Retrieve SF AccountNo Update for Sync Table\Insert into tblSageStagingToAccountsSF"
-          TopLeft="430,213" />
         <EdgeLayout
           Id="Package\Sage to SF Accounts Sync\Retrieve SF AccountNo Update for Sync Table.Paths[Derived Column Output]"
           TopLeft="518.6,141.6">
@@ -36449,53 +36741,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sage to SF Accounts Sync\Retrieve SF AccountNo Update for Sync Table\Insert into tblSageStagingToAccountsSF">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync">
     <LayoutInfo>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="160.8,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Clean Addresses"
-          TopLeft="632.192330532525,80.4354822261033" />
-        <NodeLayout
-          Size="214,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Creation Errors"
-          TopLeft="1576.23078424126,699.758064296814" />
-        <NodeLayout
-          Size="271.2,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Cache Updated SF Accounts in RAR file"
-          TopLeft="5.0769219059917,733.822580670963" />
-        <NodeLayout
-          Size="208.8,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Update Errors"
-          TopLeft="301.153844912377,730.903225838704" />
-        <NodeLayout
-          Size="191.2,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Sage Record Updated?"
-          TopLeft="330.115386802064,552.193548122629" />
-        <NodeLayout
-          Size="254,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF - Full Update"
-          TopLeft="795.038486353746,631.129022550137" />
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Lookup SyncTable"
-          TopLeft="629.61538735226,327.725806909595" />
-        <NodeLayout
-          Size="188.8,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF"
-          TopLeft="119.730767918762,638.241935503222" />
-        <NodeLayout
-          Size="200,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Get Customers from SQL"
-          TopLeft="618.538483602761,15.0645159742214" />
+          Size="184.8,41.6"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create SyncDateTime"
+          TopLeft="469.576921905992,633.967731414799" />
         <NodeLayout
           Size="203.2,42"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create or Update Account"
@@ -36505,13 +36780,29 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Cache Updated SF Accounts in RAR file - Full Update"
           TopLeft="660.38463960738,776.193537924467" />
         <NodeLayout
-          Size="162,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Run Full Update?"
-          TopLeft="508.307711465824,446.032251188336" />
+          Size="188.8,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF"
+          TopLeft="119.730767918762,638.241935503222" />
+        <NodeLayout
+          Size="271.2,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Cache Updated SF Accounts in RAR file"
+          TopLeft="5.0769219059917,733.822580670963" />
         <NodeLayout
           Size="166,42"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Convert DateTime"
           TopLeft="623.838463795678,240.916129193519" />
+        <NodeLayout
+          Size="260.8,41.6"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingAccountsSF"
+          TopLeft="529,701.5" />
+        <NodeLayout
+          Size="160.8,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Clean Addresses"
+          TopLeft="632.192330532525,80.4354822261033" />
+        <NodeLayout
+          Size="254,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF - Full Update"
+          TopLeft="795.038486353746,631.129022550137" />
         <NodeLayout
           Size="272.8,42"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Update Errors - Full Update"
@@ -36521,9 +36812,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Script Component"
           TopLeft="629.807694776523,160.238709864482" />
         <NodeLayout
+          Size="208.8,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Update Errors"
+          TopLeft="301.153844912377,730.903225838704" />
+        <NodeLayout
+          Size="191.2,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Sage Record Updated?"
+          TopLeft="330.115386802064,552.193548122629" />
+        <NodeLayout
+          Size="214,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Creation Errors"
+          TopLeft="1576.23078424126,699.758064296814" />
+        <NodeLayout
+          Size="200,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Get Customers from SQL"
+          TopLeft="618.538483602761,15.0645159742214" />
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Run Full Update?"
+          TopLeft="508.307711465824,446.032251188336" />
+        <NodeLayout
           Size="252,42"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Cache New SF Accounts in RAR file"
           TopLeft="1274.5384764502,696.177419129073" />
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Lookup SyncTable"
+          TopLeft="629.61538735226,327.725806909595" />
         <EdgeLayout
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Yes1]"
           TopLeft="614.974378132491,488.032251188336">
@@ -36592,7 +36907,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-99.1987287124843,22.8386830221821,17.346171875,9.40234375"
+              BoundingBox="-99.1987287124845,22.8386830221821,17.346171875,9.40234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -36641,7 +36956,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No1]"
           TopLeft="563.641044799157,488.032251188336">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -36672,7 +36987,43 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-75.5048602485467,31.0410153816446,13.0840625,9.421875"
+              BoundingBox="-75.5048602485465,31.0410153816446,13.0840625,9.421875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No]"
+          TopLeft="456.248720135397,594.193548122629">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="105.728201770594,39.7741832921701"
+              Start="0,0"
+              End="105.728201770594,32.2741832921701">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.1077190428041" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.1077190428041"
+                    Point2="0,16.1077190428041"
+                    Point3="4,16.1077190428041" />
+                  <mssgle:LineSegment
+                    End="101.728201770594,16.1077190428041" />
+                  <mssgle:CubicBezierSegment
+                    Point1="101.728201770594,16.1077190428041"
+                    Point2="105.728201770594,16.1077190428041"
+                    Point3="105.728201770594,20.1077190428041" />
+                  <mssgle:LineSegment
+                    End="105.728201770594,32.2741832921701" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="46.322069635297,21.1077190428041,13.0840625,9.421875"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -36780,7 +37131,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="72.8623322245541,47.289484958522,56.6727734375,11.43359375"
+              BoundingBox="72.862332224554,47.289484958522,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -36857,7 +37208,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output1]"
           TopLeft="712.400012654524,122.435482226103">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -36870,6 +37221,40 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,30.3032276383787" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output]"
+          TopLeft="561.976921905992,675.567731414799">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="97.4230780940082,25.9322685852012"
+              Start="0,0"
+              End="97.4230780940082,18.4322685852012">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.9661342926006" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.9661342926006"
+                    Point2="0,12.9661342926006"
+                    Point3="4,12.9661342926006" />
+                  <mssgle:LineSegment
+                    End="93.4230780940082,12.9661342926006" />
+                  <mssgle:CubicBezierSegment
+                    Point1="93.4230780940082,12.9661342926006"
+                    Point2="97.4230780940082,12.9661342926006"
+                    Point3="97.4230780940082,16.9661342926006" />
+                  <mssgle:LineSegment
+                    End="97.4230780940082,18.4322685852012" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -37002,87 +37387,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="184.8,41.6"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create SyncDateTime"
-          TopLeft="469.576921905992,633.967731414799" />
-        <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No1]"
-          TopLeft="456.248720135397,594.193548122629">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="105.728201770594,39.7741832921701"
-              Start="0,0"
-              End="105.728201770594,32.2741832921701">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,12.1077190428041" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.1077190428041"
-                    Point2="0,16.1077190428041"
-                    Point3="4,16.1077190428041" />
-                  <mssgle:LineSegment
-                    End="101.728201770594,16.1077190428041" />
-                  <mssgle:CubicBezierSegment
-                    Point1="101.728201770594,16.1077190428041"
-                    Point2="105.728201770594,16.1077190428041"
-                    Point3="105.728201770594,20.1077190428041" />
-                  <mssgle:LineSegment
-                    End="105.728201770594,32.2741832921701" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="46.3220696352972,21.1077190428041,13.0840625,9.421875"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="260.8,41.6"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingAccountsSF"
-          TopLeft="529,701.5" />
-        <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output1]"
-          TopLeft="561.976921905992,675.567731414799">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="97.4230780940082,25.9322685852012"
-              Start="0,0"
-              End="97.4230780940082,18.4322685852012">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,8.9661342926006" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,8.9661342926006"
-                    Point2="0,12.9661342926006"
-                    Point3="4,12.9661342926006" />
-                  <mssgle:LineSegment
-                    End="93.4230780940082,12.9661342926006" />
-                  <mssgle:CubicBezierSegment
-                    Point1="93.4230780940082,12.9661342926006"
-                    Point2="97.4230780940082,12.9661342926006"
-                    Point3="97.4230780940082,16.9661342926006" />
-                  <mssgle:LineSegment
-                    End="97.4230780940082,18.4322685852012" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingAccountsSF">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Get Customers from SQL">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Lookup SyncTable">
     <Properties>
@@ -37101,14 +37429,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <Value
           type="q4:string">0</Value>
       </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Get Customers from SQL">
-    <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -37136,7 +37456,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Create for Sync Table\IsNew?"
           TopLeft="801.153875539996,333.387091646085" />
         <NodeLayout
-          Size="171,42"
+          Size="171.2,42"
           Id="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Create for Sync Table\Add SyncTimeDate"
           TopLeft="769.784615582122,119.582796060151" />
         <EdgeLayout
@@ -37206,9 +37526,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -37231,7 +37549,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,23.7420858614403,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,23.7420858614402,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -37254,9 +37572,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -37308,13 +37624,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Retrieve ContactsUpdated from RAR file"
           TopLeft="746.2,33.2" />
         <NodeLayout
-          Size="171,42"
+          Size="171.2,42"
           Id="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Add SyncTimeDate"
           TopLeft="799.4,113.2" />
-        <NodeLayout
-          Size="170,42"
-          Id="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Update Sync Table"
-          TopLeft="796.4,191.6" />
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table.Paths[Raw File Source Output]"
           TopLeft="883.55,75.2">
@@ -37334,32 +37646,46 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="271.2,41.6"
+          Id="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF"
+          TopLeft="771,213" />
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table.Paths[Derived Column Output]"
-          TopLeft="883.15,155.2">
+          TopLeft="885,155.2">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,36.4"
+              EndConnector="21.6000000000001,57.8"
               Start="0,0"
-              End="0,28.9">
+              End="21.6000000000001,50.3">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.9" />
+                    End="0,24.9" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.9"
+                    Point2="0,28.9"
+                    Point3="4,28.9" />
+                  <mssgle:LineSegment
+                    End="17.6000000000001,28.9" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17.6000000000001,28.9"
+                    Point2="21.6000000000001,28.9"
+                    Point3="21.6000000000001,32.9" />
+                  <mssgle:LineSegment
+                    End="21.6000000000001,50.3" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="2.80000000000007,33.9,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -37370,74 +37696,74 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     design-time-name="Package\Sage to SF Contact Sync\Sales Force Contacts Sync">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="206,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Log Contact Update Errors"
-          TopLeft="367.5,931.5" />
+          TopLeft="367.835165379316,934" />
         <NodeLayout
           Size="204,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Log Contact Create Errors"
-          TopLeft="1085,1025.5" />
+          TopLeft="1099.83516537931,1025.5" />
         <NodeLayout
           Size="182,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Update Contact in SF"
-          TopLeft="171.1,819.3" />
+          TopLeft="192.698900772411,816.325345475603" />
         <NodeLayout
           Size="186,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SF AccountNo"
-          TopLeft="519.083333333333,142.666666666667" />
+          TopLeft="533.918498712649,142.666666666667" />
         <NodeLayout
-          Size="131,42"
+          Size="131.2,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Split Name"
-          TopLeft="505.833333333333,263.583333333333" />
+          TopLeft="520.668498712648,263.583333333333" />
         <NodeLayout
-          Size="207,42"
+          Size="207.2,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Convert Customer Number"
-          TopLeft="503.666666666667,75.3333333333333" />
+          TopLeft="518.501832045983,75.3333333333333" />
         <NodeLayout
-          Size="285,42"
+          Size="284.8,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Cached Updated Contact Records RAR file"
-          TopLeft="20,932" />
+          TopLeft="0.236262406117817,933" />
         <NodeLayout
           Size="210,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Clean Email and LastName"
-          TopLeft="479.5,530" />
+          TopLeft="499.335165379316,498" />
         <NodeLayout
           Size="186,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Sage Record Updated"
-          TopLeft="290.8,725.3" />
+          TopLeft="342.008793087119,711.041935703186" />
         <NodeLayout
           Size="230,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create or Update Contact in SF"
-          TopLeft="911.5,807.5" />
+          TopLeft="926.335165379316,807.5" />
         <NodeLayout
           Size="214,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts"
-          TopLeft="484.8,639.3" />
+          TopLeft="497.135165379315,575.3" />
         <NodeLayout
           Size="170,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Get Sage Contacts"
-          TopLeft="518.3,7.3" />
+          TopLeft="533.135165379315,7.3" />
         <NodeLayout
           Size="174,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Sage Updated Date"
-          TopLeft="493.666666666667,346.433333333333" />
+          TopLeft="508.501832045983,346.433333333333" />
         <NodeLayout
           Size="280,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Cache Created Contact Records RAR File"
-          TopLeft="696,1022.5" />
+          TopLeft="710.835165379316,1022.5" />
         <NodeLayout
           Size="202,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Log No Account Numbers"
-          TopLeft="735,255" />
+          TopLeft="749.835165379316,255" />
         <NodeLayout
           Size="190,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Convert strDate to date"
-          TopLeft="495,423.9" />
+          TopLeft="509.835165379316,423.9" />
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Output 0]"
-          TopLeft="580.466666666667,388.033333333333">
+          TopLeft="595.301832045982,388.033333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -37466,14 +37792,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[OLE DB Source Output]"
-          TopLeft="605.183333333333,48.9">
+          TopLeft="620.018498712648,48.9">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -37490,14 +37814,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Lookup No Match Output1]"
-          TopLeft="642.016666666666,184.266666666667">
+          TopLeft="656.851832045982,184.266666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -37533,79 +37855,79 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Lookup No Match Output]"
-          TopLeft="625.866666666667,680.9">
+          TopLeft="638.468498712649,617.3">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="400.433333333334,126.6"
+              EndConnector="402.866666666667,190.2"
               Start="0,0"
-              End="400.433333333334,119.1">
+              End="402.866666666667,182.7">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,47.2047583643122" />
+                    End="0,72.9269016697589" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,47.2047583643122"
-                    Point2="0,51.2047583643122"
-                    Point3="4,51.2047583643122" />
+                    Point1="0,72.9269016697589"
+                    Point2="0,76.9269016697589"
+                    Point3="4,76.9269016697589" />
                   <mssgle:LineSegment
-                    End="396.433333333334,51.2047583643122" />
+                    End="398.866666666667,76.9269016697589" />
                   <mssgle:CubicBezierSegment
-                    Point1="396.433333333334,51.2047583643122"
-                    Point2="400.433333333334,51.2047583643122"
-                    Point3="400.433333333334,55.2047583643122" />
+                    Point1="398.866666666667,76.9269016697589"
+                    Point2="402.866666666667,76.9269016697589"
+                    Point3="402.866666666667,80.9269016697589" />
                   <mssgle:LineSegment
-                    End="400.433333333334,119.1" />
+                    End="402.866666666667,182.7" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="144.410279947917,56.2047583643122,111.6127734375,11.609375"
+              BoundingBox="145.626946614584,81.9269016697589,111.6127734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Lookup Match Output1]"
-          TopLeft="557.333333333333,680.9">
+          TopLeft="569.801832045982,617.3">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-173.733333333333,44.4000000000002"
+              EndConnector="-134.793038958863,93.7419357031862"
               Start="0,0"
-              End="-173.733333333333,36.9000000000002">
+              End="-134.793038958863,86.2419357031862">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.9580669144982" />
+                    End="0,33.9141780766133" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.9580669144982"
-                    Point2="0,17.9580669144982"
-                    Point3="-4,17.9580669144982" />
+                    Point1="0,33.9141780766133"
+                    Point2="0,37.9141780766133"
+                    Point3="-4,37.9141780766133" />
                   <mssgle:LineSegment
-                    End="-169.733333333333,17.9580669144982" />
+                    End="-130.793038958863,37.9141780766133" />
                   <mssgle:CubicBezierSegment
-                    Point1="-169.733333333333,17.9580669144982"
-                    Point2="-173.733333333333,17.9580669144982"
-                    Point3="-173.733333333333,21.9580669144982" />
+                    Point1="-130.793038958863,37.9141780766133"
+                    Point2="-134.793038958863,37.9141780766133"
+                    Point3="-134.793038958863,41.9141780766133" />
                   <mssgle:LineSegment
-                    End="-173.733333333333,36.9000000000002" />
+                    End="-134.793038958863,86.2419357031862" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-135.058053385417,22.9580669144982,96.3827734375,11.609375"
+              BoundingBox="-115.587906198182,42.9141780766133,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Lookup Match Output]"
-          TopLeft="582.55,184.266666666667">
+          TopLeft="597.385165379315,184.266666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -37641,7 +37963,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output1]"
-          TopLeft="1063.23333333333,849.1">
+          TopLeft="1078.06849871264,849.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -37677,67 +37999,65 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output]"
-          TopLeft="290.833333333333,860.9">
+          TopLeft="312.698900772411,858.325345475603">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="179.866666666667,70.6000000000005"
+              EndConnector="158.136264606905,75.6746545243974"
               Start="0,0"
-              End="179.866666666667,63.1000000000005">
+              End="158.136264606905,68.1746545243974">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.6099563318779" />
+                    End="0,26.6655462778604" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.6099563318779"
-                    Point2="0,28.6099563318779"
-                    Point3="4,28.6099563318779" />
+                    Point1="0,26.6655462778604"
+                    Point2="0,30.6655462778604"
+                    Point3="4,30.6655462778604" />
                   <mssgle:LineSegment
-                    End="175.866666666667,28.6099563318779" />
+                    End="154.136264606905,30.6655462778604" />
                   <mssgle:CubicBezierSegment
-                    Point1="175.866666666667,28.6099563318779"
-                    Point2="179.866666666667,28.6099563318779"
-                    Point3="179.866666666667,32.6099563318779" />
+                    Point1="154.136264606905,30.6655462778604"
+                    Point2="158.136264606905,30.6655462778604"
+                    Point3="158.136264606905,34.6655462778604" />
                   <mssgle:LineSegment
-                    End="179.866666666667,63.1000000000005" />
+                    End="158.136264606905,68.1746545243974" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="61.5969466145835,33.6099563318779,56.6727734375,11.43359375"
+              BoundingBox="50.7317455847024,35.6655462778604,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Derived Column Output1]"
-          TopLeft="587.95,571.6">
+          TopLeft="604.235165379315,540">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,67.7"
+              EndConnector="0,35.3"
               Start="0,0"
-              End="0,60.2">
+              End="0,27.8">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,60.2" />
+                    End="0,27.8" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Derived Column Output]"
-          TopLeft="571.433333333333,305.183333333333">
+          TopLeft="586.268498712648,305.183333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -37766,14 +38086,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Default Output1]"
-          TopLeft="989.366666666667,849.1">
+          TopLeft="1004.20183204598,849.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -37802,74 +38120,68 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Default Output]"
-          TopLeft="232.966666666667,860.9">
+          TopLeft="254.698900772411,858.325345475603">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-70.5666666666667,71.1000000000004"
+              EndConnector="-112.062638366293,74.6746545243974"
               Start="0,0"
-              End="-70.5666666666667,63.6000000000004">
+              End="-112.062638366293,67.1746545243974">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.8125764192141" />
+                    End="0,26.2603175196904" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.8125764192141"
-                    Point2="0,28.8125764192141"
-                    Point3="-4,28.8125764192141" />
+                    Point1="0,26.2603175196904"
+                    Point2="0,30.2603175196904"
+                    Point3="-4,30.2603175196904" />
                   <mssgle:LineSegment
-                    End="-66.5666666666667,28.8125764192141" />
+                    End="-108.062638366293,30.2603175196904" />
                   <mssgle:CubicBezierSegment
-                    Point1="-66.5666666666667,28.8125764192141"
-                    Point2="-70.5666666666667,28.8125764192141"
-                    Point3="-70.5666666666667,32.8125764192141" />
+                    Point1="-108.062638366293,30.2603175196904"
+                    Point2="-112.062638366293,30.2603175196904"
+                    Point3="-112.062638366293,34.2603175196904" />
                   <mssgle:LineSegment
-                    End="-70.5666666666667,63.6000000000004" />
+                    End="-112.062638366293,67.1746545243974" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Data Conversion Output1]"
-          TopLeft="587.05,465.5">
+          TopLeft="604.585165379316,465.9">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,64.5000000000002"
+              EndConnector="0,32.1"
               Start="0,0"
-              End="0,57.0000000000002">
+              End="0,24.6">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,57.0000000000002" />
+                    End="0,24.6" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Data Conversion Output]"
-          TopLeft="609.775,116.933333333333">
+          TopLeft="624.610165379315,116.933333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -37886,45 +38198,121 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Contact Updated?]"
-          TopLeft="383.6,766.9">
+          TopLeft="435.008793087119,753.041935703186">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-121.7,52.3999999999998"
+              EndConnector="-151.309892314708,63.2834097724165"
               Start="0,0"
-              End="-121.7,44.8999999999998">
+              End="-151.309892314708,55.7834097724165">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.1999999999998" />
+                    End="0,27.6417048862082" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22.1999999999998"
-                    Point2="0,26.1999999999998"
-                    Point3="-4,26.1999999999998" />
+                    Point1="0,27.6417048862082"
+                    Point2="0,31.6417048862082"
+                    Point3="-4,31.6417048862082" />
                   <mssgle:LineSegment
-                    End="-117.7,26.1999999999998" />
+                    End="-147.309892314708,31.6417048862082" />
                   <mssgle:CubicBezierSegment
-                    Point1="-117.7,26.1999999999998"
-                    Point2="-121.7,26.1999999999998"
-                    Point3="-121.7,30.1999999999998" />
+                    Point1="-147.309892314708,31.6417048862082"
+                    Point2="-151.309892314708,31.6417048862082"
+                    Point3="-151.309892314708,35.6417048862082" />
                   <mssgle:LineSegment
-                    End="-121.7,44.8999999999998" />
+                    End="-151.309892314708,55.7834097724165" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-69.5230859375,31.1999999999998,17.346171875,9.40234375"
+              BoundingBox="-92.8011766261041,36.6417048862082,34.2924609375,16"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="184.8,41.6"
+          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime"
+          TopLeft="541.44507346633,802.744244644258" />
+        <EdgeLayout
+          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[No]"
+          TopLeft="464.675459753786,753.041935703186">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="169.169613712545,49.7023089410717"
+              Start="0,0"
+              End="169.169613712545,42.2023089410717">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.1352637501143" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.1352637501143"
+                    Point2="0,20.1352637501143"
+                    Point3="4,20.1352637501143" />
+                  <mssgle:LineSegment
+                    End="165.169613712545,20.1352637501143" />
+                  <mssgle:CubicBezierSegment
+                    Point1="165.169613712545,20.1352637501143"
+                    Point2="169.169613712545,20.1352637501143"
+                    Point3="169.169613712545,24.1352637501143" />
+                  <mssgle:LineSegment
+                    End="169.169613712545,42.2023089410717" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="78.0427756062723,25.1352637501143,13.0840625,9.421875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="272,41.6"
+          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF"
+          TopLeft="547.252767325859,879.723494969064" />
+        <EdgeLayout
+          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Derived Column Output2]"
+          TopLeft="633.84507346633,844.344244644258">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="49.4076938595291,35.3792503248059"
+              Start="0,0"
+              End="49.4076938595291,27.8792503248059">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.6896251624029" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.6896251624029"
+                    Point2="0,17.6896251624029"
+                    Point3="4,17.6896251624029" />
+                  <mssgle:LineSegment
+                    End="45.4076938595291,17.6896251624029" />
+                  <mssgle:CubicBezierSegment
+                    Point1="45.4076938595291,17.6896251624029"
+                    Point2="49.4076938595291,17.6896251624029"
+                    Point3="49.4076938595291,21.6896251624029" />
+                  <mssgle:LineSegment
+                    End="49.4076938595291,27.8792503248059" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -38532,7 +38920,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38554,7 +38944,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -38577,7 +38969,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     design-time-name="Package\Sage to SF Product Sync\Retrieve SF  Product  Update for Sync Table">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="272,41.6"
           Id="Package\Sage to SF Product Sync\Retrieve SF  Product  Update for Sync Table\Retrieve ProductsUpdated from RAR file"
@@ -38609,7 +39001,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -38643,7 +39037,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -38674,7 +39070,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <NodeLayout
           Size="334.4,41.6"
           Id="Package\Sage to SF Product Sync\Sales Force Products Sync\Cache Updated SF Products in RAR file - Full Update"
-          TopLeft="694.153870955024,612.241938502682" />
+          TopLeft="788.153870955024,613.241938502682" />
         <NodeLayout
           Size="184.8,41.6"
           Id="Package\Sage to SF Product Sync\Sales Force Products Sync\Create SyncDateTime"
@@ -38690,7 +39086,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <NodeLayout
           Size="202.4,41.6"
           Id="Package\Sage to SF Product Sync\Sales Force Products Sync\SF Products - Full Update"
-          TopLeft="874.615416696087,499.716124994276" />
+          TopLeft="920.615416696087,492.716124994276" />
         <NodeLayout
           Size="148,42"
           Id="Package\Sage to SF Product Sync\Sales Force Products Sync\Sync Record?"
@@ -38706,7 +39102,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <NodeLayout
           Size="271.2,41.6"
           Id="Package\Sage to SF Product Sync\Sales Force Products Sync\Log Product Update Errors - Full Update"
-          TopLeft="1090.38465537969,612.67740993073" />
+          TopLeft="1190.38465537969,609.67740993073" />
         <NodeLayout
           Size="191.2,41.6"
           Id="Package\Sage to SF Product Sync\Sales Force Products Sync\Sage Record Updated?"
@@ -38741,33 +39137,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="268.225651211334,115.248377382397"
+              EndConnector="314.225651211334,108.248377382397"
               Start="0,0"
-              End="268.225651211334,107.748377382397">
+              End="314.225651211334,100.748377382397">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,42.7756250500682" />
+                    End="0,39.9345492554472" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,42.7756250500682"
-                    Point2="0,46.7756250500682"
-                    Point3="4,46.7756250500682" />
+                    Point1="0,39.9345492554472"
+                    Point2="0,43.9345492554472"
+                    Point3="4,43.9345492554472" />
                   <mssgle:LineSegment
-                    End="264.225651211334,46.7756250500682" />
+                    End="310.225651211334,43.9345492554472" />
                   <mssgle:CubicBezierSegment
-                    Point1="264.225651211334,46.7756250500682"
-                    Point2="268.225651211334,46.7756250500682"
-                    Point3="268.225651211334,50.7756250500682" />
+                    Point1="310.225651211334,43.9345492554472"
+                    Point2="314.225651211334,43.9345492554472"
+                    Point3="314.225651211334,47.9345492554472" />
                   <mssgle:LineSegment
-                    End="268.225651211334,107.748377382397" />
+                    End="314.225651211334,100.748377382397" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="125.439739668167,51.7756250500682,17.346171875,9.40234375"
+              BoundingBox="148.439739668167,48.9345492554472,17.346171875,9.40234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -38991,37 +39387,37 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output2]"
-          TopLeft="1008.21541669609,541.316124994276">
+          TopLeft="1054.21541669609,534.316124994276">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="217.769238683599,71.3612849364546"
+              EndConnector="271.769238683603,75.3612849364541"
               Start="0,0"
-              End="217.769238683599,63.8612849364546">
+              End="271.769238683603,67.8612849364541">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.8803317860475" />
+                    End="0,26.4991553154591" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.8803317860475"
-                    Point2="0,28.8803317860475"
-                    Point3="4,28.8803317860475" />
+                    Point1="0,26.4991553154591"
+                    Point2="0,30.4991553154591"
+                    Point3="4,30.4991553154591" />
                   <mssgle:LineSegment
-                    End="213.769238683599,28.8803317860475" />
+                    End="267.769238683603,30.4991553154591" />
                   <mssgle:CubicBezierSegment
-                    Point1="213.769238683599,28.8803317860475"
-                    Point2="217.769238683599,28.8803317860475"
-                    Point3="217.769238683599,32.8803317860475" />
+                    Point1="267.769238683603,30.4991553154591"
+                    Point2="271.769238683603,30.4991553154591"
+                    Point3="271.769238683603,34.4991553154591" />
                   <mssgle:LineSegment
-                    End="217.769238683599,63.8612849364546" />
+                    End="271.769238683603,67.8612849364541" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="80.5482326230493,33.8803317860475,56.6727734375,11.43359375"
+              BoundingBox="107.548232623052,35.4991553154591,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -39121,30 +39517,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Default Output2]"
-          TopLeft="943.415416696087,541.316124994276">
+          TopLeft="989.415416696087,534.316124994276">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-82.0615457410631,70.9258135084059"
+              EndConnector="-34.061545741063,78.9258135084061"
               Start="0,0"
-              End="-82.0615457410631,63.4258135084059">
+              End="-34.061545741063,71.4258135084061">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.7040939375195" />
+                    End="0,27.9417409963432" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.7040939375195"
-                    Point2="0,28.7040939375195"
-                    Point3="-4,28.7040939375195" />
+                    Point1="0,27.9417409963432"
+                    Point2="0,31.9417409963432"
+                    Point3="-4,31.9417409963432" />
                   <mssgle:LineSegment
-                    End="-78.0615457410631,28.7040939375195" />
+                    End="-30.061545741063,31.9417409963432" />
                   <mssgle:CubicBezierSegment
-                    Point1="-78.0615457410631,28.7040939375195"
-                    Point2="-82.0615457410631,28.7040939375195"
-                    Point3="-82.0615457410631,32.7040939375195" />
+                    Point1="-30.061545741063,31.9417409963432"
+                    Point2="-34.061545741063,31.9417409963432"
+                    Point3="-34.061545741063,35.9417409963432" />
                   <mssgle:LineSegment
-                    End="-82.0615457410631,63.4258135084059" />
+                    End="-34.061545741063,71.4258135084061" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -39303,7 +39699,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingAccountsSF">
+    design-time-name="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -39316,7 +39712,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Accounts Sync\Retrieve SF AccountNo Update for Sync Table\Insert into tblSageStagingToAccountsSF">
+    design-time-name="Package\Sage to SF Contact Sync\Retrieve SF ContactNo Update for Sync Table\Insert into tblSageStagingToContactsSF">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
