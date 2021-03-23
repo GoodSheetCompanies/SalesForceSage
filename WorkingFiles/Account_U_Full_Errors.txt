@@ -1,0 +1,1 @@
+ErrorCode,ErrorColumn,ErrorMessage,Name,CustomerType,BillToCity,BillToState,BillToCountry,BillToZipCode,TelephoneNo,URLAddress,PriceLevel,CreditHold,TermsCode,cShipToStreet,cShipToCity,cShipToZipCode,cShipToState,cShipToCountry,cAccountSource,cBillToAddress,cSageCustomerNo,cSageUpdatedDT,SFAccountID

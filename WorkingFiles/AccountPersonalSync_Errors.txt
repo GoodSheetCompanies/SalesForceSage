@@ -1,0 +1,1 @@
+SFAccountID,cSageUpdatedDT,SyncTimeDate,ErrorCode,ErrorColumn

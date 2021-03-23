@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{79C58C66-5DF2-4583-8508-43DAB36DC173}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{41ED14CB-8B5D-4390-B593-49E86B3B77B3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAAXzfbB7WHSlX0rGZZ5So8AAAAAASAAACgAAAAEAAAAEzdBTjcHpH21NKCtoBjUa84AAAAGbR7RCcNWdlZQppeOiBZ/4WenEBY0Q7nhO1B8ENSmPk0d+wPT5L2t2IkPTw60IzT1tUNkbHvtrUUAAAAdVaWHQSj+dd6Erf6m4eTf3GVCIg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABYr9GSRNsVNhn9QuCHbfGWAAAAAASAAACgAAAAEAAAAISKURQFiH972XUdiD/6knA4AAAAa3SrDzphpsCLTiKWE8Zb46RaZA6M64aH0Xu6LTdVmptaE2ta/cHqg8jZ22P/KxTlk2PikQOHeGkUAAAABVxidHDWTJo0uSmeReGmZCFfBsI</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,10 +42,10 @@
           ConnectByProxy="False">
           <Password
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAdFl7ahLSHFRcYrXvhrgX3AAAAAASAAACgAAAAEAAAAANC6ien4I9Bhur5U3wMbwEwAAAAk/x8Cin4GfSebqWqfDFB6MnW5HzWBvfcRB4DzEEALBnRZFRjUGoWjT4Ba50KiqgVFAAAAIebHihaIvuTkLXHFrkYrBpgE3Gx</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABiV4j/MY071pJ7/REpzutMAAAAAASAAACgAAAAEAAAAATsS1PulkFIGoCqrb7l69UwAAAA6NIndCNRsGom3s98liEG1PmfeQb5dYHI6uZbZU/Wk52IqzInhQt9tE+varnjSomuFAAAAL/V1QlUuaGxhKgO1V+3BI2dfO6q</Password>
           <SecurityToken
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAceKyxpVeBMMY2eHIj0bMxAAAAAASAAACgAAAAEAAAAGFo6LyF9yvBvn1d0ePWVJA4AAAAIRUJkjNFosiWpooyzfG5F5Qh8schFSVV6b7YDT6JtNA0sLQprmm+0OsVXaC95w2xVWy+6H+QV28UAAAAwZ477WVuRCqFiph/ieK63KQ0LC4</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADzfv9uiYzriO0bSNNhSg3eAAAAAASAAACgAAAAEAAAABdMxNDSEiThqZcD31ncmQY4AAAACUxCAc7gLcJvh0Ez04RqXBUJcsGzh5+o727m8xrtOIwFoX+klNHUOqyCqKJB6nHRmjA8dsfqv/YUAAAA37vXRlv40ufSMRDP6tgldX2mG4k</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -56,7 +56,6 @@
       DTS:refId="Package\Clean Sync Tables"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:Disabled="True"
       DTS:DTSID="{2BA65052-66CC-4C5F-AEFC-2B486B54987F}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -75,7 +74,6 @@
       DTS:refId="Package\Delete Accounts"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{C8E0D2F7-5D8C-49D0-A24D-730C90AE94EC}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -333,7 +331,6 @@
       DTS:refId="Package\Delete Contacts"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{C52ACEBC-F149-4553-B2CC-DDE94C4DC9A0}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -591,7 +588,6 @@
       DTS:refId="Package\Delete Orders"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{f001d2da-0d9e-4efc-8bf5-a4d9777a3cd8}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1106,7 +1102,6 @@
       DTS:refId="Package\Get Account ID"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{67CD6521-FF96-4656-B434-83AA4EAE88F5}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1467,7 +1462,6 @@
       DTS:refId="Package\Get Contact ID"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{D0A50C78-1D6D-4B21-BE98-E7C98242DCC8}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1824,7 +1818,6 @@
       DTS:refId="Package\Get Order ID"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{dd00512a-6d2f-422c-83a5-a9c47ee7241d}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2751,15 +2744,15 @@
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="169,42"
+          Size="168.8,42"
           Id="Package\Clean Sync Tables"
           TopLeft="851.230800563768,604.161282136959" />
         <NodeLayout
-          Size="157,42"
+          Size="156.8,42"
           Id="Package\Delete Accounts"
           TopLeft="863.846185531843,348.064510775159" />
         <NodeLayout
-          Size="155,42"
+          Size="155.2,42"
           Id="Package\Delete Contacts"
           TopLeft="860.76926234206,407.612896955968" />
         <NodeLayout
@@ -2767,20 +2760,28 @@
           Id="Package\Delete Orders"
           TopLeft="866.153877924181,463.361286536166" />
         <NodeLayout
-          Size="151,42"
+          Size="156.8,42"
+          Id="Package\Delete Products"
+          TopLeft="855,528" />
+        <NodeLayout
+          Size="151.2,42"
           Id="Package\Get Account ID"
-          TopLeft="868.769262525458,57.225804510028" />
+          TopLeft="869.153877924181,56.3870948455095" />
         <NodeLayout
           Size="150,42"
           Id="Package\Get Contact ID"
-          TopLeft="867.769262525458,132.451610019875" />
+          TopLeft="868.153877924181,131.612900355357" />
         <NodeLayout
           Size="140,42"
           Id="Package\Get Order ID"
-          TopLeft="875.615416329289,203.432257787147" />
+          TopLeft="876.000031728012,202.593548122629" />
+        <NodeLayout
+          Size="156.8,42"
+          Id="Package\Get Product IDs"
+          TopLeft="868.230800563768,272.161282136959" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="943.519262525458,99.225804510028">
+          TopLeft="943.903877924181,98.3870948455095">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2802,7 +2803,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="944.192339427374,174.451610019875">
+          TopLeft="944.576954826097,173.612900355357">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2890,24 +2891,42 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Get Product IDs"
-          TopLeft="868.230800563768,272.161282136959" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="946.173108446528,245.432257787147">
+          TopLeft="946.31541614589,244.593548122629">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,26.729024349812"
+              EndConnector="0,27.5677340143305"
               Start="0,0"
-              End="0,19.229024349812">
+              End="0,20.0677340143305">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.229024349812" />
+                    End="0,20.0677340143305" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 5]"
+          TopLeft="936.32693896209,505.361286536166">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,22.638713463834"
+              Start="0,0"
+              End="0,15.138713463834">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.138713463834" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2930,32 +2949,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,26.4032286382" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Delete Products"
-          TopLeft="855,528" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="936.32693896209,505.361286536166">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,22.638713463834"
-              Start="0,0"
-              End="0,15.138713463834">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.138713463834" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3110,6 +3103,56 @@
     </LayoutInfo>
   </TaskHost>
   <TaskHost
+    design-time-name="Package\Delete Products">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Delete Products\Raw File Source"
+          TopLeft="1152.5,20.5" />
+        <NodeLayout
+          Size="186,42"
+          Id="Package\Delete Products\Salesforce Destination"
+          TopLeft="1153.5,175.5" />
+        <EdgeLayout
+          Id="Package\Delete Products.Paths[Raw File Source Output]"
+          TopLeft="1231.5,62.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="15,113"
+              Start="0,0"
+              End="15,105.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,52.5"
+                    Point2="0,56.5"
+                    Point3="4,56.5" />
+                  <mssgle:LineSegment
+                    End="11,56.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="11,56.5"
+                    Point2="15,56.5"
+                    Point3="15,60.5" />
+                  <mssgle:LineSegment
+                    End="15,105.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
     design-time-name="Package\Get Account ID">
     <LayoutInfo>
       <GraphLayout
@@ -3256,56 +3299,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,76.1129013551761" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <TaskHost
-    design-time-name="Package\Delete Products">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="158,42"
-          Id="Package\Delete Products\Raw File Source"
-          TopLeft="1152.5,20.5" />
-        <NodeLayout
-          Size="186,42"
-          Id="Package\Delete Products\Salesforce Destination"
-          TopLeft="1153.5,175.5" />
-        <EdgeLayout
-          Id="Package\Delete Products.Paths[Raw File Source Output]"
-          TopLeft="1231.5,62.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="15,113"
-              Start="0,0"
-              End="15,105.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,52.5"
-                    Point2="0,56.5"
-                    Point3="4,56.5" />
-                  <mssgle:LineSegment
-                    End="11,56.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="11,56.5"
-                    Point2="15,56.5"
-                    Point3="15,60.5" />
-                  <mssgle:LineSegment
-                    End="15,105.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
