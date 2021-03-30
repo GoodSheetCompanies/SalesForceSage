@@ -1,0 +1,1 @@
+SalesforceRecordId,IsNew,SFOrderLineID,QuantityOrderedRevised,SageLineKey,LastUnitPrice,SageUpdateTime,SyncDateTime

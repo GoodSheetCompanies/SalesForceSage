@@ -1,0 +1,1 @@
+Get Standard Pricing for Products.SFProductID,StandardUnitPrice,DateUpdated,TimeUpdated,SageUpdatedDT,cSageUpdatedDT,pricebookID,Active,SFPriceBookEntryID,Sync Record Exists?.SFProductID,LastSyncDateTime,SageUpdateTime,SyncDateTime,ErrorCode,ErrorColumn

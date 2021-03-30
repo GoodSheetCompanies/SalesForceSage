@@ -1,0 +1,1 @@
+ErrorCode,ErrorColumn,ErrorMessage,Name,InactiveItem,Color,BoxInfo,BoxWeight,DIMS,SageItemCode,StandardUnitOfMeasure,cSageUpdatedDT,ScheduleB,Weight,ExtendedDescriptionText,ProductLine,PriceCode

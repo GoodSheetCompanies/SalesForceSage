@@ -1,0 +1,1 @@
+ErrorCode,ErrorColumn,ErrorMessage,Salutation,FirstName,LastName,SFAccountID,SFContactID,City,CountryCode,ZipCode,TelephoneNo1,cSageUpdatedDT,cContactCode,EmailAddress,FaxNo,State,StreetAddress

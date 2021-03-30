@@ -11,11 +11,65 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{41ED14CB-8B5D-4390-B593-49E86B3B77B3}">
+  DTS:VersionBuild="44"
+  DTS:VersionGUID="{463AF253-15B2-45CB-8578-53BA2725D97D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[FF Pricebook log error]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{7E03E3DB-8AFE-4DB6-BBAF-A467F739F205}"
+      DTS:ObjectName="FF Pricebook log error">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\matthew.LOLL-LF\source\repos\GoodSheetCompanies\SalesForceSage\PriceBookDeleteError.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorCode"
+              DTS:DTSID="{61F1F8EE-5FE5-4ED9-9B72-AACCB43A224E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorColumn"
+              DTS:DTSID="{C54C9D6B-793F-4E55-8009-DC0BA1C6FD8A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="2048"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ErrorMessage"
+              DTS:DTSID="{4FE44F82-30DD-4C5C-8B7D-07AA03F612A8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="18"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Id"
+              DTS:DTSID="{419BE3FE-C890-4EB6-81AC-1575F603DBDB}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
       DTS:CreationName="OLEDB"
@@ -27,7 +81,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABYr9GSRNsVNhn9QuCHbfGWAAAAAASAAACgAAAAEAAAAISKURQFiH972XUdiD/6knA4AAAAa3SrDzphpsCLTiKWE8Zb46RaZA6M64aH0Xu6LTdVmptaE2ta/cHqg8jZ22P/KxTlk2PikQOHeGkUAAAABVxidHDWTJo0uSmeReGmZCFfBsI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACpjsBU7+QlZDtA9iU/lJjoAAAAAASAAACgAAAAEAAAAD8NXaKCImSQmPLJle1KWR84AAAAIGaFATh1B7uK5rVIqkVu6O4/yW8mklQWx6tedC2s7vpvHPo+B8VbQRewGgu1ShYiO0I2Z3j9S8YUAAAAI2SywTTQ2LTxis8pm/vAlae6oAY</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,10 +96,10 @@
           ConnectByProxy="False">
           <Password
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABiV4j/MY071pJ7/REpzutMAAAAAASAAACgAAAAEAAAAATsS1PulkFIGoCqrb7l69UwAAAA6NIndCNRsGom3s98liEG1PmfeQb5dYHI6uZbZU/Wk52IqzInhQt9tE+varnjSomuFAAAAL/V1QlUuaGxhKgO1V+3BI2dfO6q</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC8KYJmDu1DtnPyEld6vKaxAAAAAASAAACgAAAAEAAAAFbZ02Ucx0vst83zufCk88cwAAAA/Eje82133KqreAjRIc2dApNPAXiXPkCAxYC5LR83KTePgGg7baPedsa6G6irCAS3FAAAABuSSFz3G4MH6RyxlKSkL5wJpT40</Password>
           <SecurityToken
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADzfv9uiYzriO0bSNNhSg3eAAAAAASAAACgAAAAEAAAABdMxNDSEiThqZcD31ncmQY4AAAACUxCAc7gLcJvh0Ez04RqXBUJcsGzh5+o727m8xrtOIwFoX+klNHUOqyCqKJB6nHRmjA8dsfqv/YUAAAA37vXRlv40ufSMRDP6tgldX2mG4k</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACyLiu5/hI0lkuMpr1thAhQAAAAAASAAACgAAAAEAAAAIFGidsiZw99DESjQMsa/aU4AAAApD68XNg5hmCt0/mvPoApWNu96LNFTHr69IjzpC7MvBG6nslblLnGzGMXXJmuOLnv0hAIACKfIkkUAAAAbToDYDmqdN4ph/O2luc76yNYXFg</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -56,6 +110,7 @@
       DTS:refId="Package\Clean Sync Tables"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
       DTS:DTSID="{2BA65052-66CC-4C5F-AEFC-2B486B54987F}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -67,13 +122,14 @@
         <SQLTask:SqlTaskData
           SQLTask:Connection="{F9CA6243-E749-4096-92B9-FAB7BFD5257E}"
           SQLTask:BypassPrepare="False"
-          SQLTask:SqlStatementSource="Use SAGE_SF;&#xA;DELETE FROM tblSageToAccountsSF&#xA;DELETE FROM tblSageToContactsSF&#xA;DELETE FROM tblSageToOrdersSF&#xA;DELETE FROM tblSageToProductsSF" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Use SAGE_SF;&#xA;DELETE FROM tblSageToAccountsSF&#xA;DELETE FROM tblSageToContactsSF&#xA;DELETE FROM tblSageToOrderSF&#xA;DELETE FROM tblSageToProductsSF&#xA;DELETE FROM tblSageToStandardPriceBkSF&#xA;DELETE FROM tblSageToOrderLinesSF" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Delete Accounts"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{C8E0D2F7-5D8C-49D0-A24D-730C90AE94EC}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -331,6 +387,7 @@
       DTS:refId="Package\Delete Contacts"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{C52ACEBC-F149-4553-B2CC-DDE94C4DC9A0}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -585,9 +642,414 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Delete Order Lines"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{F0944802-1890-49D4-8F8F-F4BB99399048}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete Order Lines"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Delete Order Lines\Salesforce Source"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="KingswaySoft Inc.; http://www.kingswaysoft.com; support@kingswaysoft.com; Copyright (c) 2020 KingswaySoft Inc."
+              description="Extract data from Salesforce."
+              name="Salesforce Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of source data from Salesforce"
+                  expressionType="Notify"
+                  name="SourceType"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Salesforce.SalesforceSourceType">0</property>
+                <property
+                  dataType="System.String"
+                  description="Salesforce object to retrieve data from."
+                  expressionType="Notify"
+                  name="SourceObject">OrderItem</property>
+                <property
+                  dataType="System.String"
+                  description="Salesforce object query statement."
+                  expressionType="Notify"
+                  name="ObjectQuery"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the batch size of the query."
+                  expressionType="Notify"
+                  name="BatchSize">1000</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether deleted or archived records should be returned."
+                  expressionType="Notify"
+                  name="IncludeDeletedArchived">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to use Salesforce Bulk API to read data."
+                  expressionType="Notify"
+                  name="UseBulkApi">false</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the output timezone for Salesforce datetime values."
+                  expressionType="Notify"
+                  name="OutputTimezone"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Common.DescriptiveEnumTypeConverter`1[[KingswaySoft.IntegrationToolkit.Salesforce.SfdcSourceOutputTimezone" />
+                <property
+                  dataType="System.String"
+                  description="Specify the PK Chunking Header that helps with Bulk API data read performance."
+                  expressionType="Notify"
+                  name="PKChunkingHeader"></property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">KingswaySoft.IntegrationToolkit.Salesforce.SalesforceSourceComponent</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Delete Order Lines\Salesforce Source.Connections[Salesforce]"
+                  connectionManagerID="Package.ConnectionManagers[Salesforce Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Salesforce Connection Manager 1]"
+                  description="Salesforce Connection"
+                  name="Salesforce" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output]"
+                  name="Salesforce Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].Columns[Id]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[Id]"
+                      length="18"
+                      lineageId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].Columns[Id]"
+                      name="Id"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[AvailableQuantity]"
+                      dataType="numeric"
+                      name="AvailableQuantity"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[CreatedById]"
+                      dataType="wstr"
+                      length="18"
+                      name="CreatedById" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[CreatedDate]"
+                      dataType="dbTimeStamp"
+                      name="CreatedDate" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[Description]"
+                      dataType="wstr"
+                      length="255"
+                      name="Description" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[EndDate]"
+                      dataType="dbDate"
+                      name="EndDate" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Id" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[IsDeleted]"
+                      dataType="bool"
+                      name="IsDeleted" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[LastModifiedById]"
+                      dataType="wstr"
+                      length="18"
+                      name="LastModifiedById" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[LastModifiedDate]"
+                      dataType="dbTimeStamp"
+                      name="LastModifiedDate" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[ListPrice]"
+                      dataType="numeric"
+                      name="ListPrice"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[OrderId]"
+                      dataType="wstr"
+                      length="18"
+                      name="OrderId" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[OrderItemNumber]"
+                      dataType="wstr"
+                      length="30"
+                      name="OrderItemNumber" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[OriginalOrderItemId]"
+                      dataType="wstr"
+                      length="18"
+                      name="OriginalOrderItemId" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[PricebookEntryId]"
+                      dataType="wstr"
+                      length="18"
+                      name="PricebookEntryId" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[Product2Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Product2Id" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[Quantity]"
+                      dataType="numeric"
+                      name="Quantity"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[SageLastUpdate_ERP__c]"
+                      dataType="dbTimeStamp"
+                      name="SageLastUpdate_ERP__c" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[SAGELineNum_ERP__c]"
+                      dataType="wstr"
+                      length="7"
+                      name="SAGELineNum_ERP__c" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[ServiceDate]"
+                      dataType="dbDate"
+                      name="ServiceDate" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[SystemModstamp]"
+                      dataType="dbTimeStamp"
+                      name="SystemModstamp" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[TotalPrice]"
+                      dataType="numeric"
+                      name="TotalPrice"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].ExternalColumns[UnitPrice]"
+                      dataType="numeric"
+                      name="UnitPrice"
+                      precision="18"
+                      scale="2" />
+                  </externalMetadataColumns>
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Delete Order Lines\SF Destination"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="KingswaySoft Inc.; http://www.kingswaysoft.com; support@kingswaysoft.com; Copyright (c) 2020 KingswaySoft Inc."
+              description="Populate data into Salesforce."
+              name="SF Destination"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how data is written to Salesforce."
+                  expressionType="Notify"
+                  name="ActionType"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Salesforce.SalesforceDestinationActionType">7</property>
+                <property
+                  dataType="System.String"
+                  description="Destination object to write data."
+                  expressionType="Notify"
+                  name="DestinationObject">OrderItem</property>
+                <property
+                  dataType="System.Int32"
+                  description="Batch size"
+                  expressionType="Notify"
+                  name="BatchSize">5000</property>
+                <property
+                  dataType="System.String"
+                  description="Specify the External ID field to be used for Salesforce upsert action."
+                  expressionType="Notify"
+                  name="UpsertExternalIdField"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether you wan to use Salesforce Bulk API to load data."
+                  expressionType="Notify"
+                  name="UseBulkApi">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Bulk data format to use when Salesforce Bulk API is used."
+                  expressionType="Notify"
+                  name="BulkDataFormat"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Common.DescriptiveEnumTypeConverter`1[[KingswaySoft.IntegrationToolkit.Salesforce.BulkDataFormat">2</property>
+                <property
+                  dataType="System.Int32"
+                  description="Concurrency mode when Salesforce Bulk API is used."
+                  expressionType="Notify"
+                  name="ConcurrencyMode"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Salesforce.ConcurrencyMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to remove those invalid characters before writing to Salesforce."
+                  expressionType="Notify"
+                  name="RemoveInvalidCharacters">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="When true, datetime values should be sent to Salesforce in UTC format. The default is false, in which case, datetime values will be posted to Salesforce in local system time. "
+                  expressionType="Notify"
+                  name="SendDateTimeInUtcFormat">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to ignore those NULL-valued fields."
+                  expressionType="Notify"
+                  name="IgnoreNullValuedFields">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to send empty strings as NULLs when writing to Salesforce. When disabled, empty strings will not be converted to NULL value, therefore will not be posted to Salesforce. This can be helpful in the case that you want to retain original values in Salesforce when the incoming value is empty (not NULL though). "
+                  expressionType="Notify"
+                  name="SendEmptyStringsAsNullValues">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to write batch files withUTF-8 encoding when using Bulk API to write to Salesforce."
+                  expressionType="Notify"
+                  name="WriteBatchFilesWithUtf8Encoding">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">KingswaySoft.IntegrationToolkit.Salesforce.SalesforceDestinationComponent</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Delete Order Lines\SF Destination.Connections[Salesforce]"
+                  connectionManagerID="Package.ConnectionManagers[Salesforce Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Salesforce Connection Manager 1]"
+                  description="Salesforce Connection"
+                  name="Salesforce" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Delete Order Lines\SF Destination.Inputs[Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Delete Order Lines\SF Destination.Inputs[Input].Columns[Id]"
+                      cachedDataType="wstr"
+                      cachedLength="18"
+                      cachedName="Id"
+                      externalMetadataColumnId="Package\Delete Order Lines\SF Destination.Inputs[Input].ExternalColumns[Id]"
+                      lineageId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output].Columns[Id]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Delete Order Lines\SF Destination.Inputs[Input].ExternalColumns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Id">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">id</property>
+                        <property
+                          dataType="System.String"
+                          isArray="true"
+                          name="LookupTypes">
+                          <arrayElements
+                            arrayElementCount="1">
+                            <arrayElement
+                              dataType="System.String">OrderItem</arrayElement>
+                          </arrayElements>
+                        </property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Delete Order Lines\SF Destination.Outputs[Error Output]"
+                  isErrorOut="true"
+                  name="Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Delete Order Lines\SF Destination.Outputs[Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Delete Order Lines\SF Destination.Outputs[Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Delete Order Lines\SF Destination.Outputs[Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Delete Order Lines\SF Destination.Outputs[Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Delete Order Lines\SF Destination.Outputs[Error Output].Columns[ErrorMessage]"
+                      dataType="wstr"
+                      length="2048"
+                      lineageId="Package\Delete Order Lines\SF Destination.Outputs[Error Output].Columns[ErrorMessage]"
+                      name="ErrorMessage" />
+                    <outputColumn
+                      refId="Package\Delete Order Lines\SF Destination.Outputs[Error Output].Columns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      lineageId="Package\Delete Order Lines\SF Destination.Outputs[Error Output].Columns[Id]"
+                      name="Id" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Delete Order Lines\SF Destination.Outputs[Default Output]"
+                  name="Default Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Delete Order Lines\SF Destination.Outputs[Default Output].Columns[SalesforceRecordId]"
+                      dataType="wstr"
+                      length="18"
+                      lineageId="Package\Delete Order Lines\SF Destination.Outputs[Default Output].Columns[SalesforceRecordId]"
+                      name="SalesforceRecordId" />
+                    <outputColumn
+                      refId="Package\Delete Order Lines\SF Destination.Outputs[Default Output].Columns[IsNew]"
+                      dataType="bool"
+                      lineageId="Package\Delete Order Lines\SF Destination.Outputs[Default Output].Columns[IsNew]"
+                      name="IsNew" />
+                    <outputColumn
+                      refId="Package\Delete Order Lines\SF Destination.Outputs[Default Output].Columns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      lineageId="Package\Delete Order Lines\SF Destination.Outputs[Default Output].Columns[Id]"
+                      name="Id" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Delete Order Lines.Paths[Salesforce Source Output]"
+              endId="Package\Delete Order Lines\SF Destination.Inputs[Input]"
+              name="Salesforce Source Output"
+              startId="Package\Delete Order Lines\Salesforce Source.Outputs[Salesforce Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Delete Orders"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{f001d2da-0d9e-4efc-8bf5-a4d9777a3cd8}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -688,10 +1150,10 @@
                   typeConverter="KingswaySoft.IntegrationToolkit.Common.DescriptiveEnumTypeConverter`1[[KingswaySoft.IntegrationToolkit.Salesforce.BulkDataFormat">2</property>
                 <property
                   dataType="System.Int32"
-                  description="Concurrency mode when Salesforce Bulk API is used."
+                  description="Bulk data format to use when Salesforce Bulk API is used."
                   expressionType="Notify"
                   name="ConcurrencyMode"
-                  typeConverter="KingswaySoft.IntegrationToolkit.Salesforce.ConcurrencyMode">0</property>
+                  typeConverter="KingswaySoft.IntegrationToolkit.Salesforce.ConcurrencyMode">1</property>
                 <property
                   dataType="System.Boolean"
                   description="Specify whether to remove those invalid characters before writing to Salesforce."
@@ -842,9 +1304,360 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Delete PriceBook Entries"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{5d0f7ec6-0210-4ad9-8b60-33fde3e1e146}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete PriceBook Entries"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Delete PriceBook Entries\Flat File Destination"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Flat File Destination"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Delete PriceBook Entries\Flat File Destination.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[FF Pricebook log error]"
+                  connectionManagerRefId="Package.ConnectionManagers[FF Pricebook log error]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[ErrorColumn]" />
+                    <inputColumn
+                      refId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorMessage]"
+                      cachedDataType="wstr"
+                      cachedLength="2048"
+                      cachedName="ErrorMessage"
+                      externalMetadataColumnId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorMessage]"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[ErrorMessage]" />
+                    <inputColumn
+                      refId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].Columns[Id]"
+                      cachedDataType="wstr"
+                      cachedLength="18"
+                      cachedName="Id"
+                      externalMetadataColumnId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Id]"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[Id]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                    <externalMetadataColumn
+                      refId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorMessage]"
+                      dataType="wstr"
+                      length="2048"
+                      name="ErrorMessage" />
+                    <externalMetadataColumn
+                      refId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Id" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Delete PriceBook Entries\Raw File Source"
+              componentClassID="Microsoft.RawSource"
+              contactInfo="Reads raw data from a flat file that was previously written by the Raw File destination. For example, allow packages to run faster by reading from a local raw file instead of a slow source or manually distribute data for parallel processing on multiple computers.;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Reads raw data from a flat file that was previously written by the Raw File destination. For example, allow packages to run faster by reading from a local raw file instead of a slow source or manually distribute data for parallel processing on multiple computers."
+              name="Raw File Source"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the file."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Output file name"
+                  name="FileName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.NonValidatingFileNameEditor">C:\Users\matthew.LOLL-LF\source\repos\GoodSheetCompanies\SalesForceSage\PriceBookEntryIDs</property>
+                <property
+                  dataType="System.Null"
+                  description="Name of the variable that contains the file name"
+                  name="FileNameVariable" />
+              </properties>
+              <outputs>
+                <output
+                  refId="Package\Delete PriceBook Entries\Raw File Source.Outputs[Raw File Source Output]"
+                  name="Raw File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Delete PriceBook Entries\Raw File Source.Outputs[Raw File Source Output].Columns[Id]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Delete PriceBook Entries\Raw File Source.Outputs[Raw File Source Output].ExternalColumns[Id]"
+                      length="18"
+                      lineageId="Package\Delete PriceBook Entries\Raw File Source.Outputs[Raw File Source Output].Columns[Id]"
+                      name="Id" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Delete PriceBook Entries\Raw File Source.Outputs[Raw File Source Output].ExternalColumns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Id" />
+                  </externalMetadataColumns>
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Delete PriceBook Entries\Salesforce Destination"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="KingswaySoft Inc.; http://www.kingswaysoft.com; support@kingswaysoft.com; Copyright (c) 2020 KingswaySoft Inc."
+              description="Populate data into Salesforce."
+              name="Salesforce Destination"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how data is written to Salesforce."
+                  expressionType="Notify"
+                  name="ActionType"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Salesforce.SalesforceDestinationActionType">7</property>
+                <property
+                  dataType="System.String"
+                  description="Destination object to write data."
+                  expressionType="Notify"
+                  name="DestinationObject">PricebookEntry</property>
+                <property
+                  dataType="System.Int32"
+                  description="Batch size"
+                  expressionType="Notify"
+                  name="BatchSize">5000</property>
+                <property
+                  dataType="System.String"
+                  description="Specify the External ID field to be used for Salesforce upsert action."
+                  expressionType="Notify"
+                  name="UpsertExternalIdField"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether you wan to use Salesforce Bulk API to load data."
+                  expressionType="Notify"
+                  name="UseBulkApi">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Bulk data format to use when Salesforce Bulk API is used."
+                  expressionType="Notify"
+                  name="BulkDataFormat"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Common.DescriptiveEnumTypeConverter`1[[KingswaySoft.IntegrationToolkit.Salesforce.BulkDataFormat">2</property>
+                <property
+                  dataType="System.Int32"
+                  description="Concurrency mode when Salesforce Bulk API is used."
+                  expressionType="Notify"
+                  name="ConcurrencyMode"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Salesforce.ConcurrencyMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to remove those invalid characters before writing to Salesforce."
+                  expressionType="Notify"
+                  name="RemoveInvalidCharacters">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="When true, datetime values should be sent to Salesforce in UTC format. The default is false, in which case, datetime values will be posted to Salesforce in local system time. "
+                  expressionType="Notify"
+                  name="SendDateTimeInUtcFormat">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to ignore those NULL-valued fields."
+                  expressionType="Notify"
+                  name="IgnoreNullValuedFields">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to send empty strings as NULLs when writing to Salesforce. When disabled, empty strings will not be converted to NULL value, therefore will not be posted to Salesforce. This can be helpful in the case that you want to retain original values in Salesforce when the incoming value is empty (not NULL though). "
+                  expressionType="Notify"
+                  name="SendEmptyStringsAsNullValues">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to write batch files withUTF-8 encoding when using Bulk API to write to Salesforce."
+                  expressionType="Notify"
+                  name="WriteBatchFilesWithUtf8Encoding">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">KingswaySoft.IntegrationToolkit.Salesforce.SalesforceDestinationComponent</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Delete PriceBook Entries\Salesforce Destination.Connections[Salesforce]"
+                  connectionManagerID="Package.ConnectionManagers[Salesforce Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Salesforce Connection Manager 1]"
+                  description="Salesforce Connection"
+                  name="Salesforce" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Delete PriceBook Entries\Salesforce Destination.Inputs[Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="RedirectRow"
+                  hasSideEffects="true"
+                  name="Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Delete PriceBook Entries\Salesforce Destination.Inputs[Input].Columns[Id]"
+                      cachedDataType="wstr"
+                      cachedLength="18"
+                      cachedName="Id"
+                      externalMetadataColumnId="Package\Delete PriceBook Entries\Salesforce Destination.Inputs[Input].ExternalColumns[Id]"
+                      lineageId="Package\Delete PriceBook Entries\Raw File Source.Outputs[Raw File Source Output].Columns[Id]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Delete PriceBook Entries\Salesforce Destination.Inputs[Input].ExternalColumns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Id">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">id</property>
+                        <property
+                          dataType="System.String"
+                          isArray="true"
+                          name="LookupTypes">
+                          <arrayElements
+                            arrayElementCount="1">
+                            <arrayElement
+                              dataType="System.String">PricebookEntry</arrayElement>
+                          </arrayElements>
+                        </property>
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output]"
+                  isErrorOut="true"
+                  name="Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[ErrorMessage]"
+                      dataType="wstr"
+                      length="2048"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[ErrorMessage]"
+                      name="ErrorMessage" />
+                    <outputColumn
+                      refId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output].Columns[Id]"
+                      name="Id" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Default Output]"
+                  name="Default Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Default Output].Columns[SalesforceRecordId]"
+                      dataType="wstr"
+                      length="18"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Default Output].Columns[SalesforceRecordId]"
+                      name="SalesforceRecordId" />
+                    <outputColumn
+                      refId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Default Output].Columns[IsNew]"
+                      dataType="bool"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Default Output].Columns[IsNew]"
+                      name="IsNew" />
+                    <outputColumn
+                      refId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Default Output].Columns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      lineageId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Default Output].Columns[Id]"
+                      name="Id" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Delete PriceBook Entries.Paths[Error Output]"
+              endId="Package\Delete PriceBook Entries\Flat File Destination.Inputs[Flat File Destination Input]"
+              name="Error Output"
+              startId="Package\Delete PriceBook Entries\Salesforce Destination.Outputs[Error Output]" />
+            <path
+              refId="Package\Delete PriceBook Entries.Paths[Raw File Source Output]"
+              endId="Package\Delete PriceBook Entries\Salesforce Destination.Inputs[Input]"
+              name="Raw File Source Output"
+              startId="Package\Delete PriceBook Entries\Raw File Source.Outputs[Raw File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Delete Products"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{e36bca9d-6452-476d-b658-0ec424bb72c0}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1102,6 +1915,7 @@
       DTS:refId="Package\Get Account ID"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{67CD6521-FF96-4656-B434-83AA4EAE88F5}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1462,6 +2276,7 @@
       DTS:refId="Package\Get Contact ID"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{D0A50C78-1D6D-4B21-BE98-E7C98242DCC8}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1818,6 +2633,7 @@
       DTS:refId="Package\Get Order ID"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{dd00512a-6d2f-422c-83a5-a9c47ee7241d}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1868,6 +2684,12 @@
                       cachedLength="18"
                       cachedName="Id"
                       lineageId="Package\Get Order ID\Salesforce Orders.Outputs[Salesforce Source Output].Columns[Id]" />
+                    <inputColumn
+                      refId="Package\Get Order ID\Raw File Destination.Inputs[Raw File Destination Input].Columns[Status]"
+                      cachedDataType="wstr"
+                      cachedLength="4000"
+                      cachedName="Status"
+                      lineageId="Package\Get Order ID\Salesforce Orders.Outputs[Salesforce Source Output].Columns[Status]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1907,7 +2729,7 @@
                   dataType="System.Boolean"
                   description="Specifies whether deleted or archived records should be returned."
                   expressionType="Notify"
-                  name="IncludeDeletedArchived">false</property>
+                  name="IncludeDeletedArchived">true</property>
                 <property
                   dataType="System.Boolean"
                   description="Specify whether to use Salesforce Bulk API to read data."
@@ -1950,6 +2772,16 @@
                       length="18"
                       lineageId="Package\Get Order ID\Salesforce Orders.Outputs[Salesforce Source Output].Columns[Id]"
                       name="Id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Get Order ID\Salesforce Orders.Outputs[Salesforce Source Output].Columns[Status]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Get Order ID\Salesforce Orders.Outputs[Salesforce Source Output].ExternalColumns[Status]"
+                      length="4000"
+                      lineageId="Package\Get Order ID\Salesforce Orders.Outputs[Salesforce Source Output].Columns[Status]"
+                      name="Status"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
@@ -2308,9 +3140,239 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Get PriceBook Entries ID"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{f9329dc8-4560-4888-8f37-81b8658eccd3}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Get PriceBook Entries ID"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Get PriceBook Entries ID\Cache PriceBook Entires"
+              componentClassID="Microsoft.RawDestination"
+              contactInfo="Writes raw data that will not require parsing or translation. For example, allow packages to run faster by reading from a local raw file instead of a slow source or manually distribute data for parallel processing on multiple computers.;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Writes raw data that will not require parsing or translation. For example, allow packages to run faster by reading from a local raw file instead of a slow source or manually distribute data for parallel processing on multiple computers."
+              name="Cache PriceBook Entires"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the file."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Output file name"
+                  name="FileName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.NonValidatingFileNameEditor">C:\Users\matthew.LOLL-LF\source\repos\GoodSheetCompanies\SalesForceSage\PriceBookEntryIDs</property>
+                <property
+                  dataType="System.Null"
+                  description="Name of the variable that contains the file name"
+                  name="FileNameVariable" />
+                <property
+                  dataType="System.Int32"
+                  description="Indicates what option is used to write to the file."
+                  name="WriteOption"
+                  typeConverter="WriteOption">0</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Get PriceBook Entries ID\Cache PriceBook Entires.Inputs[Raw File Destination Input]"
+                  hasSideEffects="true"
+                  name="Raw File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Get PriceBook Entries ID\Cache PriceBook Entires.Inputs[Raw File Destination Input].Columns[Id]"
+                      cachedDataType="wstr"
+                      cachedLength="18"
+                      cachedName="Id"
+                      lineageId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].Columns[Id]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="KingswaySoft Inc.; http://www.kingswaysoft.com; support@kingswaysoft.com; Copyright (c) 2020 KingswaySoft Inc."
+              description="Extract data from Salesforce."
+              name="Salesforce PriceBook Entries"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of source data from Salesforce"
+                  expressionType="Notify"
+                  name="SourceType"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Salesforce.SalesforceSourceType">0</property>
+                <property
+                  dataType="System.String"
+                  description="Salesforce object to retrieve data from."
+                  expressionType="Notify"
+                  name="SourceObject">PricebookEntry</property>
+                <property
+                  dataType="System.String"
+                  description="Salesforce object query statement."
+                  expressionType="Notify"
+                  name="ObjectQuery"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the batch size of the query."
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether deleted or archived records should be returned."
+                  expressionType="Notify"
+                  name="IncludeDeletedArchived">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to use Salesforce Bulk API to read data."
+                  expressionType="Notify"
+                  name="UseBulkApi">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the output timezone for Salesforce datetime values."
+                  expressionType="Notify"
+                  name="OutputTimezone"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Common.DescriptiveEnumTypeConverter`1[[KingswaySoft.IntegrationToolkit.Salesforce.SfdcSourceOutputTimezone" />
+                <property
+                  dataType="System.String"
+                  description="Specify the PK Chunking Header that helps with Bulk API data read performance."
+                  expressionType="Notify"
+                  name="PKChunkingHeader"></property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">KingswaySoft.IntegrationToolkit.Salesforce.SalesforceSourceComponent</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Connections[Salesforce]"
+                  connectionManagerID="Package.ConnectionManagers[Salesforce Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Salesforce Connection Manager 1]"
+                  description="Salesforce Connection"
+                  name="Salesforce" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output]"
+                  name="Salesforce Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].Columns[Id]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[Id]"
+                      length="18"
+                      lineageId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].Columns[Id]"
+                      name="Id"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[CreatedById]"
+                      dataType="wstr"
+                      length="18"
+                      name="CreatedById" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[CreatedDate]"
+                      dataType="dbTimeStamp"
+                      name="CreatedDate" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Id" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[IsActive]"
+                      dataType="bool"
+                      name="IsActive" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[IsArchived]"
+                      dataType="bool"
+                      name="IsArchived" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[IsDeleted]"
+                      dataType="bool"
+                      name="IsDeleted" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[LastModifiedById]"
+                      dataType="wstr"
+                      length="18"
+                      name="LastModifiedById" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[LastModifiedDate]"
+                      dataType="dbTimeStamp"
+                      name="LastModifiedDate" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Name" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[Pricebook2Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Pricebook2Id" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[Product2Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Product2Id" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[ProductCode]"
+                      dataType="wstr"
+                      length="255"
+                      name="ProductCode" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[SageLastUpdate_ERP__c]"
+                      dataType="dbTimeStamp"
+                      name="SageLastUpdate_ERP__c" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[SystemModstamp]"
+                      dataType="dbTimeStamp"
+                      name="SystemModstamp" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[UnitPrice]"
+                      dataType="numeric"
+                      name="UnitPrice"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output].ExternalColumns[UseStandardPrice]"
+                      dataType="bool"
+                      name="UseStandardPrice" />
+                  </externalMetadataColumns>
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Get PriceBook Entries ID.Paths[Salesforce Source Output]"
+              endId="Package\Get PriceBook Entries ID\Cache PriceBook Entires.Inputs[Raw File Destination Input]"
+              name="Salesforce Source Output"
+              startId="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries.Outputs[Salesforce Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Get Product IDs"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{8a205fc5-4b91-4669-a54f-96e9eed9712c}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2664,6 +3726,1107 @@
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Set Order Status To Draft"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{B5D1F3BE-9469-4FD6-BB61-32D29434D89F}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Set Order Status To Draft"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Set Order Status To Draft\Orders With Status"
+              componentClassID="Microsoft.RawSource"
+              contactInfo="Reads raw data from a flat file that was previously written by the Raw File destination. For example, allow packages to run faster by reading from a local raw file instead of a slow source or manually distribute data for parallel processing on multiple computers.;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Reads raw data from a flat file that was previously written by the Raw File destination. For example, allow packages to run faster by reading from a local raw file instead of a slow source or manually distribute data for parallel processing on multiple computers."
+              name="Orders With Status"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the file."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Output file name"
+                  name="FileName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.NonValidatingFileNameEditor">C:\Users\matthew.LOLL-LF\source\repos\GoodSheetCompanies\SalesForceSage\Orders.rar</property>
+                <property
+                  dataType="System.Null"
+                  description="Name of the variable that contains the file name"
+                  name="FileNameVariable" />
+              </properties>
+              <outputs>
+                <output
+                  refId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output]"
+                  name="Raw File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output].Columns[Id]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output].ExternalColumns[Id]"
+                      length="18"
+                      lineageId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output].Columns[Id]"
+                      name="Id" />
+                    <outputColumn
+                      refId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output].Columns[Status]"
+                      dataType="wstr"
+                      externalMetadataColumnId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output].ExternalColumns[Status]"
+                      length="4000"
+                      lineageId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output].Columns[Status]"
+                      name="Status" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output].ExternalColumns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Id" />
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output].ExternalColumns[Status]"
+                      dataType="wstr"
+                      length="4000"
+                      name="Status" />
+                  </externalMetadataColumns>
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Set Order Status To Draft\Salesforce Destination"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="KingswaySoft Inc.; http://www.kingswaysoft.com; support@kingswaysoft.com; Copyright (c) 2020 KingswaySoft Inc."
+              description="Populate data into Salesforce."
+              name="Salesforce Destination"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how data is written to Salesforce."
+                  expressionType="Notify"
+                  name="ActionType"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Salesforce.SalesforceDestinationActionType">3</property>
+                <property
+                  dataType="System.String"
+                  description="Destination object to write data."
+                  expressionType="Notify"
+                  name="DestinationObject">Order</property>
+                <property
+                  dataType="System.Int32"
+                  description="Batch size"
+                  expressionType="Notify"
+                  name="BatchSize">200</property>
+                <property
+                  dataType="System.String"
+                  description="Specify the External ID field to be used for Salesforce upsert action."
+                  expressionType="Notify"
+                  name="UpsertExternalIdField"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether you wan to use Salesforce Bulk API to load data."
+                  expressionType="Notify"
+                  name="UseBulkApi">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Bulk data format to use when Salesforce Bulk API is used."
+                  expressionType="Notify"
+                  name="BulkDataFormat"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Common.DescriptiveEnumTypeConverter`1[[KingswaySoft.IntegrationToolkit.Salesforce.BulkDataFormat">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Concurrency mode when Salesforce Bulk API is used."
+                  expressionType="Notify"
+                  name="ConcurrencyMode"
+                  typeConverter="KingswaySoft.IntegrationToolkit.Salesforce.ConcurrencyMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to remove those invalid characters before writing to Salesforce."
+                  expressionType="Notify"
+                  name="RemoveInvalidCharacters">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="When true, datetime values should be sent to Salesforce in UTC format. The default is false, in which case, datetime values will be posted to Salesforce in local system time. "
+                  expressionType="Notify"
+                  name="SendDateTimeInUtcFormat">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to ignore those NULL-valued fields."
+                  expressionType="Notify"
+                  name="IgnoreNullValuedFields">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to send empty strings as NULLs when writing to Salesforce. When disabled, empty strings will not be converted to NULL value, therefore will not be posted to Salesforce. This can be helpful in the case that you want to retain original values in Salesforce when the incoming value is empty (not NULL though). "
+                  expressionType="Notify"
+                  name="SendEmptyStringsAsNullValues">true</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specify whether to write batch files withUTF-8 encoding when using Bulk API to write to Salesforce."
+                  expressionType="Notify"
+                  name="WriteBatchFilesWithUtf8Encoding">false</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">KingswaySoft.IntegrationToolkit.Salesforce.SalesforceDestinationComponent</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Set Order Status To Draft\Salesforce Destination.Connections[Salesforce]"
+                  connectionManagerID="Package.ConnectionManagers[Salesforce Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Salesforce Connection Manager 1]"
+                  description="Salesforce Connection"
+                  name="Salesforce" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].Columns[Id]"
+                      cachedDataType="wstr"
+                      cachedLength="18"
+                      cachedName="Id"
+                      externalMetadataColumnId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[Id]"
+                      lineageId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output].Columns[Id]" />
+                    <inputColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].Columns[Status]"
+                      cachedDataType="wstr"
+                      cachedLength="4000"
+                      cachedName="Status"
+                      externalMetadataColumnId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[Status]"
+                      lineageId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output].Columns[Status]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[AccountId]"
+                      dataType="wstr"
+                      length="18"
+                      name="AccountId">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">reference</property>
+                        <property
+                          dataType="System.String"
+                          isArray="true"
+                          name="LookupTypes">
+                          <arrayElements
+                            arrayElementCount="1">
+                            <arrayElement
+                              dataType="System.String">Account</arrayElement>
+                          </arrayElements>
+                        </property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ActivatedById]"
+                      dataType="wstr"
+                      length="18"
+                      name="ActivatedById">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">reference</property>
+                        <property
+                          dataType="System.String"
+                          isArray="true"
+                          name="LookupTypes">
+                          <arrayElements
+                            arrayElementCount="1">
+                            <arrayElement
+                              dataType="System.String">User</arrayElement>
+                          </arrayElements>
+                        </property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ActivatedDate]"
+                      dataType="dbTimeStamp"
+                      name="ActivatedDate">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">datetime</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[BillingCity]"
+                      dataType="wstr"
+                      length="40"
+                      name="BillingCity">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[BillingCountry]"
+                      dataType="wstr"
+                      length="80"
+                      name="BillingCountry">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[BillingGeocodeAccuracy]"
+                      dataType="wstr"
+                      length="4000"
+                      name="BillingGeocodeAccuracy">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">picklist</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[BillingLatitude]"
+                      dataType="numeric"
+                      name="BillingLatitude"
+                      precision="18"
+                      scale="15">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">double</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[BillingLongitude]"
+                      dataType="numeric"
+                      name="BillingLongitude"
+                      precision="18"
+                      scale="15">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">double</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[BillingPostalCode]"
+                      dataType="wstr"
+                      length="20"
+                      name="BillingPostalCode">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[BillingState]"
+                      dataType="wstr"
+                      length="80"
+                      name="BillingState">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[BillingStreet]"
+                      dataType="wstr"
+                      length="255"
+                      name="BillingStreet">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">textarea</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[CompanyAuthorizedById]"
+                      dataType="wstr"
+                      length="18"
+                      name="CompanyAuthorizedById">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">reference</property>
+                        <property
+                          dataType="System.String"
+                          isArray="true"
+                          name="LookupTypes">
+                          <arrayElements
+                            arrayElementCount="1">
+                            <arrayElement
+                              dataType="System.String">User</arrayElement>
+                          </arrayElements>
+                        </property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ContractId]"
+                      dataType="wstr"
+                      length="18"
+                      name="ContractId">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">reference</property>
+                        <property
+                          dataType="System.String"
+                          isArray="true"
+                          name="LookupTypes">
+                          <arrayElements
+                            arrayElementCount="1">
+                            <arrayElement
+                              dataType="System.String">Contract</arrayElement>
+                          </arrayElements>
+                        </property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[CustomerAuthorizedById]"
+                      dataType="wstr"
+                      length="18"
+                      name="CustomerAuthorizedById">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">reference</property>
+                        <property
+                          dataType="System.String"
+                          isArray="true"
+                          name="LookupTypes">
+                          <arrayElements
+                            arrayElementCount="1">
+                            <arrayElement
+                              dataType="System.String">Contact</arrayElement>
+                          </arrayElements>
+                        </property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[Description]"
+                      dataType="nText"
+                      name="Description">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">textarea</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[EffectiveDate]"
+                      dataType="dbDate"
+                      name="EffectiveDate">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">date</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[EndDate]"
+                      dataType="dbDate"
+                      name="EndDate">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">date</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Id">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">id</property>
+                        <property
+                          dataType="System.String"
+                          isArray="true"
+                          name="LookupTypes">
+                          <arrayElements
+                            arrayElementCount="1">
+                            <arrayElement
+                              dataType="System.String">Order</arrayElement>
+                          </arrayElements>
+                        </property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[OwnerId]"
+                      dataType="wstr"
+                      length="18"
+                      name="OwnerId">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">reference</property>
+                        <property
+                          dataType="System.String"
+                          isArray="true"
+                          name="LookupTypes">
+                          <arrayElements
+                            arrayElementCount="2">
+                            <arrayElement
+                              dataType="System.String">Group</arrayElement>
+                            <arrayElement
+                              dataType="System.String">User</arrayElement>
+                          </arrayElements>
+                        </property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[Pricebook2Id]"
+                      dataType="wstr"
+                      length="18"
+                      name="Pricebook2Id">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">reference</property>
+                        <property
+                          dataType="System.String"
+                          isArray="true"
+                          name="LookupTypes">
+                          <arrayElements
+                            arrayElementCount="1">
+                            <arrayElement
+                              dataType="System.String">Pricebook2</arrayElement>
+                          </arrayElements>
+                        </property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[PRIORITY_ERP__c]"
+                      dataType="wstr"
+                      length="4000"
+                      name="PRIORITY_ERP__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">picklist</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGE_ASAP__c]"
+                      dataType="bool"
+                      name="SAGE_ASAP__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">boolean</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGE_UDF_ORD_REF_1__c]"
+                      dataType="wstr"
+                      length="30"
+                      name="SAGE_UDF_ORD_REF_1__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageAdjustedShipDate__c]"
+                      dataType="dbDate"
+                      name="SageAdjustedShipDate__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">date</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGEAmount_Subject_to_Discount_ERP__c]"
+                      dataType="numeric"
+                      name="SAGEAmount_Subject_to_Discount_ERP__c"
+                      precision="18"
+                      scale="2">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">currency</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageCustomerPO_ERP__c]"
+                      dataType="wstr"
+                      length="30"
+                      name="SageCustomerPO_ERP__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageDate_Shipped_ERP__c]"
+                      dataType="dbDate"
+                      name="SageDate_Shipped_ERP__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">date</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageDelivery_Notes_ERP__c]"
+                      dataType="wstr"
+                      length="255"
+                      name="SageDelivery_Notes_ERP__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">textarea</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageDeliveryContact__c]"
+                      dataType="wstr"
+                      length="30"
+                      name="SageDeliveryContact__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageDeliveryPhone__c]"
+                      dataType="wstr"
+                      length="40"
+                      name="SageDeliveryPhone__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">phone</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageDeposit_Amount__c]"
+                      dataType="numeric"
+                      name="SageDeposit_Amount__c"
+                      precision="18"
+                      scale="2">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">currency</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGEDiscount_Amount_ERP__c]"
+                      dataType="numeric"
+                      name="SAGEDiscount_Amount_ERP__c"
+                      precision="18"
+                      scale="2">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">currency</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGEDiscount_Rate_ERP__c]"
+                      dataType="numeric"
+                      name="SAGEDiscount_Rate_ERP__c"
+                      precision="4"
+                      scale="2">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">percent</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGEDontShipEarly__c]"
+                      dataType="bool"
+                      name="SAGEDontShipEarly__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">boolean</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGEFreight_Amount_ERP__c]"
+                      dataType="numeric"
+                      name="SAGEFreight_Amount_ERP__c"
+                      precision="18"
+                      scale="2">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">currency</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageLastUpdate__c]"
+                      dataType="dbTimeStamp"
+                      name="SageLastUpdate__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">datetime</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGENon_Taxable_Amount__c]"
+                      dataType="numeric"
+                      name="SAGENon_Taxable_Amount__c"
+                      precision="18"
+                      scale="2">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">currency</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageOrderNumber__c]"
+                      dataType="wstr"
+                      length="7"
+                      name="SageOrderNumber__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGEPayment_Type_ERP__c]"
+                      dataType="wstr"
+                      length="5"
+                      name="SAGEPayment_Type_ERP__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageShipExpireDate__c]"
+                      dataType="dbDate"
+                      name="SageShipExpireDate__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">date</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGETax__c]"
+                      dataType="numeric"
+                      name="SAGETax__c"
+                      precision="18"
+                      scale="2">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">currency</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGETaxable_Amount_ERP__c]"
+                      dataType="numeric"
+                      name="SAGETaxable_Amount_ERP__c"
+                      precision="18"
+                      scale="2">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">currency</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SageTerms_ERP__c]"
+                      dataType="wstr"
+                      length="4000"
+                      name="SageTerms_ERP__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">picklist</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[SAGETotal_Pieces_ERP__c]"
+                      dataType="numeric"
+                      name="SAGETotal_Pieces_ERP__c"
+                      precision="18">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">double</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ShippingCity]"
+                      dataType="wstr"
+                      length="40"
+                      name="ShippingCity">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ShippingCountry]"
+                      dataType="wstr"
+                      length="80"
+                      name="ShippingCountry">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ShippingGeocodeAccuracy]"
+                      dataType="wstr"
+                      length="4000"
+                      name="ShippingGeocodeAccuracy">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">picklist</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ShippingLatitude]"
+                      dataType="numeric"
+                      name="ShippingLatitude"
+                      precision="18"
+                      scale="15">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">double</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ShippingLongitude]"
+                      dataType="numeric"
+                      name="ShippingLongitude"
+                      precision="18"
+                      scale="15">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">double</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ShippingPostalCode]"
+                      dataType="wstr"
+                      length="20"
+                      name="ShippingPostalCode">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ShippingState]"
+                      dataType="wstr"
+                      length="80"
+                      name="ShippingState">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">string</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ShippingStreet]"
+                      dataType="wstr"
+                      length="255"
+                      name="ShippingStreet">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">textarea</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[ShipVia__c]"
+                      dataType="wstr"
+                      length="4000"
+                      name="ShipVia__c">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">picklist</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[Status]"
+                      dataType="wstr"
+                      length="4000"
+                      name="Status">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">picklist</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                        <property
+                          dataType="System.String"
+                          name="PicklistValueMappingSettings">{
+  "ValueMapping": {
+    "Closed": "Draft"
+  },
+  "HandlingOfNonMatchingPicklistValues": "None",
+  "ReplaceAsIfNoMatch": ""
+}</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[StatusCode]"
+                      dataType="wstr"
+                      length="4000"
+                      name="StatusCode">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">picklist</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input].ExternalColumns[Type]"
+                      dataType="wstr"
+                      length="4000"
+                      name="Type">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="FieldType">picklist</property>
+                        <property
+                          dataType="System.Null"
+                          name="LookupTypes" />
+                      </properties>
+                    </externalMetadataColumn>
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Error Output"
+                  synchronousInputId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                    <outputColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Error Output].Columns[ErrorMessage]"
+                      dataType="wstr"
+                      length="2048"
+                      lineageId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Error Output].Columns[ErrorMessage]"
+                      name="ErrorMessage" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Default Output]"
+                  exclusionGroup="1"
+                  name="Default Output"
+                  synchronousInputId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Default Output].Columns[SalesforceRecordId]"
+                      dataType="wstr"
+                      length="18"
+                      lineageId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Default Output].Columns[SalesforceRecordId]"
+                      name="SalesforceRecordId" />
+                    <outputColumn
+                      refId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Default Output].Columns[IsNew]"
+                      dataType="bool"
+                      lineageId="Package\Set Order Status To Draft\Salesforce Destination.Outputs[Default Output].Columns[IsNew]"
+                      name="IsNew" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Set Order Status To Draft.Paths[Raw File Source Output]"
+              endId="Package\Set Order Status To Draft\Salesforce Destination.Inputs[Input]"
+              name="Raw File Source Output"
+              startId="Package\Set Order Status To Draft\Orders With Status.Outputs[Raw File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
@@ -2683,53 +4846,85 @@
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\Get Order ID" />
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 10]"
+      DTS:CreationName=""
+      DTS:DTSID="{73F9C28D-CA02-4971-995F-AD4E15F2FD93}"
+      DTS:From="Package\Delete Order Lines"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 10"
+      DTS:To="Package\Delete Orders" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 11]"
+      DTS:CreationName=""
+      DTS:DTSID="{C484A79D-91EB-402F-B7E6-EDC6ED38A6FC}"
+      DTS:From="Package\Set Order Status To Draft"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 11"
+      DTS:To="Package\Delete Order Lines" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
-      DTS:DTSID="{359F2C97-7DCF-4E40-81C0-94906ECE80C4}"
-      DTS:From="Package\Delete Accounts"
+      DTS:DTSID="{651EA80B-A09E-448E-955D-667CF2239267}"
+      DTS:From="Package\Get Product IDs"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
-      DTS:To="Package\Delete Contacts" />
+      DTS:To="Package\Set Order Status To Draft" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
-      DTS:DTSID="{2132E0A2-437B-4FED-8B28-4CB2AA796DED}"
-      DTS:From="Package\Delete Contacts"
+      DTS:DTSID="{FD162566-F10F-4A30-A069-FF6D85728156}"
+      DTS:From="Package\Delete Orders"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
-      DTS:To="Package\Delete Orders" />
+      DTS:To="Package\Delete PriceBook Entries" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
       DTS:CreationName=""
-      DTS:DTSID="{8D3824C8-CADF-441C-BFAA-AC68167F6E6C}"
+      DTS:DTSID="{E8873BE4-DC99-4D5E-BBAE-DDC7BD11D060}"
       DTS:From="Package\Get Order ID"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 4"
-      DTS:To="Package\Get Product IDs" />
+      DTS:To="Package\Get PriceBook Entries ID" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
       DTS:CreationName=""
-      DTS:DTSID="{1848E471-BA70-4002-BA91-FC80B3199D5C}"
-      DTS:From="Package\Delete Orders"
+      DTS:DTSID="{8D9E1012-3884-48F0-86EF-5CB3C66A156D}"
+      DTS:From="Package\Delete PriceBook Entries"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 5"
       DTS:To="Package\Delete Products" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
       DTS:CreationName=""
-      DTS:DTSID="{3704A958-5768-4126-BF92-453BA6DF93AD}"
-      DTS:From="Package\Get Product IDs"
+      DTS:DTSID="{6AE5E5AA-B406-4AD8-8B37-E61B31D4DFF2}"
+      DTS:From="Package\Delete Products"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 6"
-      DTS:To="Package\Delete Accounts" />
+      DTS:To="Package\Delete Contacts" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
       DTS:CreationName=""
-      DTS:DTSID="{31D550AB-DD63-4CA4-A47A-130325D2F2B3}"
-      DTS:From="Package\Delete Products"
+      DTS:DTSID="{DF54FFDB-FDDC-4A4E-B381-A7D25E2E7330}"
+      DTS:From="Package\Delete Contacts"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 7"
+      DTS:To="Package\Delete Accounts" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 8]"
+      DTS:CreationName=""
+      DTS:DTSID="{856C54D6-7486-449E-B967-11648CCECF04}"
+      DTS:From="Package\Delete Accounts"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 8"
       DTS:To="Package\Clean Sync Tables" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 9]"
+      DTS:CreationName=""
+      DTS:DTSID="{9450D009-5EF3-428D-8849-8E12F8545848}"
+      DTS:From="Package\Get PriceBook Entries ID"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 9"
+      DTS:To="Package\Get Product IDs" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -2746,53 +4941,69 @@
         <NodeLayout
           Size="168.8,42"
           Id="Package\Clean Sync Tables"
-          TopLeft="851.230800563768,604.161282136959" />
+          TopLeft="920.461572333907,963.967728215376" />
         <NodeLayout
           Size="156.8,42"
           Id="Package\Delete Accounts"
-          TopLeft="863.846185531843,348.064510775159" />
+          TopLeft="929.230803314752,874.774180092749" />
         <NodeLayout
           Size="155.2,42"
           Id="Package\Delete Contacts"
-          TopLeft="860.76926234206,407.612896955968" />
+          TopLeft="918.076956751786,790.903213640902" />
         <NodeLayout
-          Size="146,42"
+          Size="168.8,41.6"
+          Id="Package\Delete Order Lines"
+          TopLeft="886.923109455223,475.129024949704" />
+        <NodeLayout
+          Size="145.6,41.6"
           Id="Package\Delete Orders"
-          TopLeft="866.153877924181,463.361286536166" />
+          TopLeft="907.692340986264,552.264510975122" />
+        <NodeLayout
+          Size="198.4,41.6"
+          Id="Package\Delete PriceBook Entries"
+          TopLeft="886.923109455224,630.290312885619" />
         <NodeLayout
           Size="156.8,42"
           Id="Package\Delete Products"
-          TopLeft="855,528" />
+          TopLeft="918.846156188016,709.999997200504" />
         <NodeLayout
           Size="151.2,42"
           Id="Package\Get Account ID"
-          TopLeft="869.153877924181,56.3870948455095" />
+          TopLeft="873.000031911411,12.7741922905499" />
         <NodeLayout
           Size="150,42"
           Id="Package\Get Contact ID"
-          TopLeft="868.153877924181,131.612900355357" />
+          TopLeft="869.30772412035,77.5161269939163" />
         <NodeLayout
-          Size="140,42"
+          Size="140,41.6"
           Id="Package\Get Order ID"
-          TopLeft="876.000031728012,202.593548122629" />
+          TopLeft="874.846185531843,146.400000599893" />
+        <NodeLayout
+          Size="198.4,41.6"
+          Id="Package\Get PriceBook Entries ID"
+          TopLeft="853.461569766322,218.903222439316" />
         <NodeLayout
           Size="156.8,42"
           Id="Package\Get Product IDs"
-          TopLeft="868.230800563768,272.161282136959" />
+          TopLeft="871.692339152275,291.451604420884" />
+        <NodeLayout
+          Size="200.8,41.6"
+          Id="Package\Set Order Status To Draft"
+          TopLeft="859.61541614589,370.709671717156" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="943.903877924181,98.3870948455095">
+          TopLeft="946.45387801588,54.7741922905499">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,33.225805509847"
+              EndConnector="0,22.7419347033664"
               Start="0,0"
-              End="0,25.725805509847">
+              End="0,15.2419347033664">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.725805509847" />
+                    End="0,15.2419347033664" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2803,18 +5014,86 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="944.576954826097,173.612900355357">
+          TopLeft="944.576954826097,119.516126993916">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,28.980647767272"
+              EndConnector="0,26.8838736059765"
               Start="0,0"
-              End="0,21.480647767272">
+              End="0,19.3838736059765">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.480647767272" />
+                    End="0,19.3838736059765" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 10]"
+          TopLeft="971.323109455223,516.729024949704">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="9.16923153104119,35.5354860254182"
+              Start="0,0"
+              End="9.16923153104119,28.0354860254182">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.7677430127091" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.7677430127091"
+                    Point2="0,17.7677430127091"
+                    Point3="4,17.7677430127091" />
+                  <mssgle:LineSegment
+                    End="5.16923153104119,17.7677430127091" />
+                  <mssgle:CubicBezierSegment
+                    Point1="5.16923153104119,17.7677430127091"
+                    Point2="9.16923153104119,17.7677430127091"
+                    Point3="9.16923153104119,21.7677430127091" />
+                  <mssgle:LineSegment
+                    End="9.16923153104119,28.0354860254182" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 11]"
+          TopLeft="960.01541614589,412.309671717157">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="11.3076933093325,62.8193532325475"
+              Start="0,0"
+              End="11.3076933093325,55.3193532325475">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.4096766162737" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.4096766162737"
+                    Point2="0,31.4096766162737"
+                    Point3="4,31.4096766162737" />
+                  <mssgle:LineSegment
+                    End="7.30769330933254,31.4096766162737" />
+                  <mssgle:CubicBezierSegment
+                    Point1="7.30769330933254,31.4096766162737"
+                    Point2="11.3076933093325,31.4096766162737"
+                    Point3="11.3076933093325,35.4096766162737" />
+                  <mssgle:LineSegment
+                    End="11.3076933093325,55.3193532325475" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2825,30 +5104,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="1020.64618553184,368.864510775159">
+          TopLeft="950.092339152275,333.451604420884">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-4.67692318978311,59.548386180809"
+              EndConnector="9.92307699361527,37.2580672962728"
               Start="0,0"
-              End="2.82307681021689,59.548386180809">
+              End="9.92307699361527,29.7580672962728">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="18.5,0" />
+                    End="0,14.6290336481364" />
                   <mssgle:CubicBezierSegment
-                    Point1="18.5,0"
-                    Point2="22.5,0"
-                    Point3="22.5,4" />
+                    Point1="0,14.6290336481364"
+                    Point2="0,18.6290336481364"
+                    Point3="4,18.6290336481364" />
                   <mssgle:LineSegment
-                    End="22.5,55.548386180809" />
+                    End="5.92307699361527,18.6290336481364" />
                   <mssgle:CubicBezierSegment
-                    Point1="22.5,55.548386180809"
-                    Point2="22.5,59.548386180809"
-                    Point3="18.5,59.548386180809" />
+                    Point1="5.92307699361527,18.6290336481364"
+                    Point2="9.92307699361527,18.6290336481364"
+                    Point3="9.92307699361527,22.6290336481364" />
                   <mssgle:LineSegment
-                    End="2.82307681021689,59.548386180809" />
+                    End="9.92307699361527,29.7580672962728" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2859,30 +5138,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="860.76926234206,428.412896955968">
+          TopLeft="983.307725220744,593.864510975122">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="5.38461558212123,55.7483895801982"
+              EndConnector="0,36.4258019104971"
               Start="0,0"
-              End="-2.11538441787877,55.7483895801982">
+              End="0,28.9258019104971">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-18.5,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-18.5,0"
-                    Point2="-22.5,0"
-                    Point3="-22.5,4" />
-                  <mssgle:LineSegment
-                    End="-22.5,51.7483895801982" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-22.5,51.7483895801982"
-                    Point2="-22.5,55.7483895801982"
-                    Point3="-18.5,55.7483895801982" />
-                  <mssgle:LineSegment
-                    End="-2.11538441787877,55.7483895801982" />
+                    End="0,28.9258019104971" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2893,18 +5160,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="946.31541614589,244.593548122629">
+          TopLeft="948.753877649083,188.000000599893">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,27.5677340143305"
+              EndConnector="0,30.9032218394235"
               Start="0,0"
-              End="0,20.0677340143305">
+              End="0,23.4032218394235">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.0677340143305" />
+                    End="0,23.4032218394235" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2915,18 +5182,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="936.32693896209,505.361286536166">
+          TopLeft="986.123109455224,671.890312885619">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,22.638713463834"
+              EndConnector="11.1230467327923,38.1096843148845"
               Start="0,0"
-              End="0,15.138713463834">
+              End="11.1230467327923,30.6096843148845">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.138713463834" />
+                    End="0,15.0548421574422" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.0548421574422"
+                    Point2="0,19.0548421574422"
+                    Point3="4,19.0548421574422" />
+                  <mssgle:LineSegment
+                    End="7.12304673279232,19.0548421574422" />
+                  <mssgle:CubicBezierSegment
+                    Point1="7.12304673279232,19.0548421574422"
+                    Point2="11.1230467327923,19.0548421574422"
+                    Point3="11.1230467327923,23.0548421574422" />
+                  <mssgle:LineSegment
+                    End="11.1230467327923,30.6096843148845" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2937,18 +5216,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="944.538493047805,314.161282136959">
+          TopLeft="996.461556469901,751.999997200504">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,33.9032286382"
+              EndConnector="0,38.9032164403978"
               Start="0,0"
-              End="0,26.4032286382">
+              End="0,31.4032164403978">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.4032286382" />
+                    End="0,31.4032164403978" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2959,18 +5238,74 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="934.615400281884,570">
+          TopLeft="995.676956751786,832.903213640902">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,34.161282136959"
+              EndConnector="11.9538465629659,41.8709664518474"
               Start="0,0"
-              End="0,26.661282136959">
+              End="11.9538465629659,34.3709664518474">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.661282136959" />
+                    End="0,16.9354832259237" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.9354832259237"
+                    Point2="0,20.9354832259237"
+                    Point3="4,20.9354832259237" />
+                  <mssgle:LineSegment
+                    End="7.95384656296585,20.9354832259237" />
+                  <mssgle:CubicBezierSegment
+                    Point1="7.95384656296585,20.9354832259237"
+                    Point2="11.9538465629659,20.9354832259237"
+                    Point3="11.9538465629659,24.9354832259237" />
+                  <mssgle:LineSegment
+                    End="11.9538465629659,34.3709664518474" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 8]"
+          TopLeft="1006.24618782433,916.774180092749">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,47.1935481226266"
+              Start="0,0"
+              End="0,39.6935481226266">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.6935481226266" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 9]"
+          TopLeft="951.376954459299,260.503222439316">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,30.9483819815674"
+              Start="0,0"
+              End="0,23.4483819815674">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.4483819815674" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3063,10 +5398,48 @@
     </LayoutInfo>
   </TaskHost>
   <TaskHost
+    design-time-name="Package\Delete Order Lines">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="149.6,41.6"
+          Id="Package\Delete Order Lines\SF Destination"
+          TopLeft="1306.66666666667,164" />
+        <NodeLayout
+          Size="166.4,41.6"
+          Id="Package\Delete Order Lines\Salesforce Source"
+          TopLeft="1304.66666666667,49.0000000000001" />
+        <EdgeLayout
+          Id="Package\Delete Order Lines.Paths[Salesforce Source Output]"
+          TopLeft="1384.66666666667,90.6000000000001">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,73.3999999999999"
+              Start="0,0"
+              End="0,65.8999999999999">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,65.8999999999999" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
     design-time-name="Package\Delete Orders">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="186.4,41.6"
           Id="Package\Delete Orders\Salesforce Destination"
@@ -3094,8 +5467,86 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
+    design-time-name="Package\Delete PriceBook Entries">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="186.4,41.6"
+          Id="Package\Delete PriceBook Entries\Salesforce Destination"
+          TopLeft="1784.5,136.5" />
+        <NodeLayout
+          Size="157.6,41.6"
+          Id="Package\Delete PriceBook Entries\Raw File Source"
+          TopLeft="1800.5,27.5" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\Delete PriceBook Entries\Flat File Destination"
+          TopLeft="1813,290" />
+        <EdgeLayout
+          Id="Package\Delete PriceBook Entries.Paths[Raw File Source Output]"
+          TopLeft="1878.5,69.1">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,67.4"
+              Start="0,0"
+              End="0,59.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,59.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Delete PriceBook Entries.Paths[Error Output]"
+          TopLeft="1877.7,178.1">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="22.5,111.9"
+              Start="0,0"
+              End="22.5,104.4">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,51.9500000000001" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,51.9500000000001"
+                    Point2="0,55.9500000000001"
+                    Point3="4,55.9500000000001" />
+                  <mssgle:LineSegment
+                    End="18.5,55.9500000000001" />
+                  <mssgle:CubicBezierSegment
+                    Point1="18.5,55.9500000000001"
+                    Point2="22.5,55.9500000000001"
+                    Point3="22.5,59.9500000000001" />
+                  <mssgle:LineSegment
+                    End="22.5,104.4" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-17.08638671875,60.9500000000001,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -3106,15 +5557,15 @@
     design-time-name="Package\Delete Products">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="158,42"
-          Id="Package\Delete Products\Raw File Source"
-          TopLeft="1152.5,20.5" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="186,42"
           Id="Package\Delete Products\Salesforce Destination"
           TopLeft="1153.5,175.5" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Delete Products\Raw File Source"
+          TopLeft="1152.5,20.5" />
         <EdgeLayout
           Id="Package\Delete Products.Paths[Raw File Source Output]"
           TopLeft="1231.5,62.5">
@@ -3146,7 +5597,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -3236,29 +5689,91 @@
     design-time-name="Package\Get Order ID">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="165.6,41.6"
           Id="Package\Get Order ID\Salesforce Orders"
-          TopLeft="914.230802764555,23.9032254387759" />
+          TopLeft="990.230802764555,28.9032254387759" />
         <NodeLayout
           Size="177.6,41.6"
           Id="Package\Get Order ID\Raw File Destination"
-          TopLeft="916.076956568386,149.516126793952" />
+          TopLeft="1007,247" />
         <EdgeLayout
           Id="Package\Get Order ID.Paths[Salesforce Source Output]"
-          TopLeft="1000.95387966647,65.5032254387759">
+          TopLeft="1073.03080276456,70.5032254387759">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,84.0129013551761"
+              EndConnector="22.7691972354448,176.496774561224"
               Start="0,0"
-              End="0,76.5129013551761">
+              End="22.7691972354448,168.996774561224">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,76.5129013551761" />
+                    End="0,84.2483872806121" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,84.2483872806121"
+                    Point2="0,88.2483872806121"
+                    Point3="4,88.2483872806121" />
+                  <mssgle:LineSegment
+                    End="18.7691972354448,88.2483872806121" />
+                  <mssgle:CubicBezierSegment
+                    Point1="18.7691972354448,88.2483872806121"
+                    Point2="22.7691972354448,88.2483872806121"
+                    Point3="22.7691972354448,92.2483872806121" />
+                  <mssgle:LineSegment
+                    End="22.7691972354448,168.996774561224" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
+    design-time-name="Package\Get PriceBook Entries ID">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="218.4,41.6"
+          Id="Package\Get PriceBook Entries ID\Salesforce PriceBook Entries"
+          TopLeft="914.230802764555,23.9032254387759" />
+        <NodeLayout
+          Size="198.4,41.6"
+          Id="Package\Get PriceBook Entries ID\Cache PriceBook Entires"
+          TopLeft="916.076956568386,149.516126793952" />
+        <EdgeLayout
+          Id="Package\Get PriceBook Entries ID.Paths[Salesforce Source Output]"
+          TopLeft="1023.43080276456,65.5032254387759">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-8.15384619616907,84.0129013551761"
+              Start="0,0"
+              End="-8.15384619616907,76.5129013551761">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.006450677588" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38.006450677588"
+                    Point2="0,42.006450677588"
+                    Point3="-4,42.006450677588" />
+                  <mssgle:LineSegment
+                    End="-4.15384619616907,42.006450677588" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-4.15384619616907,42.006450677588"
+                    Point2="-8.15384619616907,42.006450677588"
+                    Point3="-8.15384619616907,46.006450677588" />
+                  <mssgle:LineSegment
+                    End="-8.15384619616907,76.5129013551761" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3278,13 +5793,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="171,42"
-          Id="Package\Get Product IDs\Cache Product IDs"
-          TopLeft="916.076956568386,149.516126793952" />
-        <NodeLayout
           Size="166,42"
           Id="Package\Get Product IDs\Salesforce Orders"
           TopLeft="914.230802764555,23.9032254387759" />
+        <NodeLayout
+          Size="171.2,42"
+          Id="Package\Get Product IDs\Cache Product IDs"
+          TopLeft="916.076956568386,149.516126793952" />
         <EdgeLayout
           Id="Package\Get Product IDs.Paths[Salesforce Source Output]"
           TopLeft="999.403879666471,65.9032254387759">
@@ -3299,6 +5814,44 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,76.1129013551761" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
+    design-time-name="Package\Set Order Status To Draft">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="169.6,41.6"
+          Id="Package\Set Order Status To Draft\Orders With Status"
+          TopLeft="2304,47" />
+        <NodeLayout
+          Size="186.4,41.6"
+          Id="Package\Set Order Status To Draft\Salesforce Destination"
+          TopLeft="2303,273" />
+        <EdgeLayout
+          Id="Package\Set Order Status To Draft.Paths[Raw File Source Output]"
+          TopLeft="2392.5,88.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,184.4"
+              Start="0,0"
+              End="0,176.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,176.9" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
