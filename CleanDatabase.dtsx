@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="44"
-  DTS:VersionGUID="{463AF253-15B2-45CB-8578-53BA2725D97D}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{950C791C-3706-434A-9DFA-9A33FA2FF4F6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -81,7 +81,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACpjsBU7+QlZDtA9iU/lJjoAAAAAASAAACgAAAAEAAAAD8NXaKCImSQmPLJle1KWR84AAAAIGaFATh1B7uK5rVIqkVu6O4/yW8mklQWx6tedC2s7vpvHPo+B8VbQRewGgu1ShYiO0I2Z3j9S8YUAAAAI2SywTTQ2LTxis8pm/vAlae6oAY</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABRQYN5ec9AnYsrMGUwuMRqAAAAAASAAACgAAAAEAAAAABYL9TvKz+pDa9fAgskISI4AAAAmsMEEYQAQr/1GVBbhYF/ujyFOXBaXCBjoGV5K/eMhOWJA1vXHk7bk1oNFVbfqxWIZhGDHmWqyhYUAAAAKmWQGNgEIY/9/ops4QM9/4QYv98</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -96,10 +96,10 @@
           ConnectByProxy="False">
           <Password
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC8KYJmDu1DtnPyEld6vKaxAAAAAASAAACgAAAAEAAAAFbZ02Ucx0vst83zufCk88cwAAAA/Eje82133KqreAjRIc2dApNPAXiXPkCAxYC5LR83KTePgGg7baPedsa6G6irCAS3FAAAABuSSFz3G4MH6RyxlKSkL5wJpT40</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACS9iXYOXxzM0Dhdys7mS/kAAAAAASAAACgAAAAEAAAAFaopUdHVXwp+uW2BmYX/qcwAAAAzEv9iYEuJlr89Ro1O7f64LJ/txodglESkekgIyUBKgam/cBDuUkdu1/KU2ZyFtOWFAAAABG2k0DLFWmd7qO2hVdZy22/nPZM</Password>
           <SecurityToken
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACyLiu5/hI0lkuMpr1thAhQAAAAAASAAACgAAAAEAAAAIFGidsiZw99DESjQMsa/aU4AAAApD68XNg5hmCt0/mvPoApWNu96LNFTHr69IjzpC7MvBG6nslblLnGzGMXXJmuOLnv0hAIACKfIkkUAAAAbToDYDmqdN4ph/O2luc76yNYXFg</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC8zaCB5ZuA01GDsqab4upHAAAAAASAAACgAAAAEAAAAG9svNbjoj3SJL/etsgQdPY4AAAAOvM2eHnSX63tSYVDkq8nLvIOadBpXLZxzG8pf/JmeRPoimjOin4IdUZMKXaLXmk8Ax2vJxd3K/gUAAAAV14ntb0NhkwFRiIT6zN1bCkK3Ew</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -4953,7 +4953,7 @@
         <NodeLayout
           Size="168.8,41.6"
           Id="Package\Delete Order Lines"
-          TopLeft="886.923109455223,475.129024949704" />
+          TopLeft="888.461571050115,475.129024949704" />
         <NodeLayout
           Size="145.6,41.6"
           Id="Package\Delete Orders"
@@ -5036,30 +5036,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="971.323109455223,516.729024949704">
+          TopLeft="976.676956018189,516.729024949704">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="9.16923153104119,35.5354860254182"
+              EndConnector="0,35.535486025418"
               Start="0,0"
-              End="9.16923153104119,28.0354860254182">
+              End="0,28.035486025418">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.7677430127091" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13.7677430127091"
-                    Point2="0,17.7677430127091"
-                    Point3="4,17.7677430127091" />
-                  <mssgle:LineSegment
-                    End="5.16923153104119,17.7677430127091" />
-                  <mssgle:CubicBezierSegment
-                    Point1="5.16923153104119,17.7677430127091"
-                    Point2="9.16923153104119,17.7677430127091"
-                    Point3="9.16923153104119,21.7677430127091" />
-                  <mssgle:LineSegment
-                    End="9.16923153104119,28.0354860254182" />
+                    End="0,28.035486025418" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5070,30 +5058,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 11]"
-          TopLeft="960.01541614589,412.309671717157">
+          TopLeft="960.01541614589,412.309671717156">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="11.3076933093325,62.8193532325475"
+              EndConnector="12.8461549042248,62.8193532325479"
               Start="0,0"
-              End="11.3076933093325,55.3193532325475">
+              End="12.8461549042248,55.3193532325479">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,27.4096766162737" />
+                    End="0,27.409676616274" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,27.4096766162737"
-                    Point2="0,31.4096766162737"
-                    Point3="4,31.4096766162737" />
+                    Point1="0,27.409676616274"
+                    Point2="0,31.409676616274"
+                    Point3="4,31.409676616274" />
                   <mssgle:LineSegment
-                    End="7.30769330933254,31.4096766162737" />
+                    End="8.84615490422482,31.409676616274" />
                   <mssgle:CubicBezierSegment
-                    Point1="7.30769330933254,31.4096766162737"
-                    Point2="11.3076933093325,31.4096766162737"
-                    Point3="11.3076933093325,35.4096766162737" />
+                    Point1="8.84615490422482,31.409676616274"
+                    Point2="12.8461549042248,31.409676616274"
+                    Point3="12.8461549042248,35.409676616274" />
                   <mssgle:LineSegment
-                    End="11.3076933093325,55.3193532325475" />
+                    End="12.8461549042248,55.3193532325479" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5401,7 +5389,7 @@
     design-time-name="Package\Delete Order Lines">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="149.6,41.6"
           Id="Package\Delete Order Lines\SF Destination"
@@ -5429,7 +5417,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -5439,7 +5429,7 @@
     design-time-name="Package\Delete Orders">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="186.4,41.6"
           Id="Package\Delete Orders\Salesforce Destination"
@@ -5467,7 +5457,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -5689,7 +5681,7 @@
     design-time-name="Package\Get Order ID">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="165.6,41.6"
           Id="Package\Get Order ID\Salesforce Orders"
@@ -5729,7 +5721,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -5791,7 +5785,7 @@
     design-time-name="Package\Get Product IDs">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="166,42"
           Id="Package\Get Product IDs\Salesforce Orders"
@@ -5819,7 +5813,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -5829,15 +5825,15 @@
     design-time-name="Package\Set Order Status To Draft">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="169.6,41.6"
-          Id="Package\Set Order Status To Draft\Orders With Status"
-          TopLeft="2304,47" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="186.4,41.6"
           Id="Package\Set Order Status To Draft\Salesforce Destination"
           TopLeft="2303,273" />
+        <NodeLayout
+          Size="169.6,41.6"
+          Id="Package\Set Order Status To Draft\Orders With Status"
+          TopLeft="2304,47" />
         <EdgeLayout
           Id="Package\Set Order Status To Draft.Paths[Raw File Source Output]"
           TopLeft="2392.5,88.6">
@@ -5857,7 +5853,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
