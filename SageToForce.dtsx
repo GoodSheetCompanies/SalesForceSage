@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="532"
-  DTS:VersionGUID="{3CF462FB-1795-466B-987D-77A8AB055756}">
+  DTS:VersionBuild="536"
+  DTS:VersionGUID="{5DCA0665-22CC-4D98-95AD-B9B19E100029}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -5323,10 +5323,25 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:refId="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{FAEC7864-4411-4136-AF93-2B6FF6F2830B}"
+      DTS:ObjectName="mars.MAS_LOL.LOL_DATA">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=mars;User ID=LOL_DATA;Initial Catalog=SAGE_SF_PROD;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADW9wwDejtdxXAopTZ3Oz0rAAAAAASAAACgAAAAEAAAAO17Gao4spqfpctZFayUJPk4AAAAFt/lDmXwaKD+2lleTV+qKmBxvd2v5WdEGtAsIAVeZhAhuf5qvsQ/fxipgJm3haOdYtNsJpuTDx0UAAAAucNw5gqG0tf1lrRiPH8Jxgn02Ds</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Product Sync Errors]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{6ED09B15-CBA4-4D1E-94E0-EFC45D39ADE6}"
-      DTS:ObjectName="Flat File Connection Manager">
+      DTS:ObjectName="Product Sync Errors">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -5345,7 +5360,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SalesforceRecordId"
-              DTS:DTSID="{787F6F70-C338-47C0-BA3A-ACF405E85A01}"
+              DTS:DTSID="{2F0BD412-3976-42FD-8D5E-DF836654C53E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5353,7 +5368,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="IsNew"
-              DTS:DTSID="{F5E0DAA8-47CB-4E3A-A607-AF9C392B9A8B}"
+              DTS:DTSID="{1677E5CB-747C-45F8-9A9B-FA0B8CD4830A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5362,7 +5377,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ItemCode"
-              DTS:DTSID="{181D0C51-B915-44D1-86AE-5BC64DF85A73}"
+              DTS:DTSID="{CF7B29C3-8B42-4E49-AC42-488BD614599C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5371,7 +5386,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ExtendedDescriptionText"
-              DTS:DTSID="{3E1A6E9D-0610-45D8-AD7C-46BEF131F728}"
+              DTS:DTSID="{11EAC0F1-A1F9-4329-832A-4EFCD8E7D26E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5380,7 +5395,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductLine"
-              DTS:DTSID="{6DD662DD-8F58-4340-802B-1CE708E95666}"
+              DTS:DTSID="{480BB6F1-53FB-475F-BDA3-338D61F706D0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5389,7 +5404,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PriceCode"
-              DTS:DTSID="{788FAD25-7AED-4AE0-9FF4-FFB88DC9FECC}"
+              DTS:DTSID="{A486FFCC-8CE4-469F-8278-9DEAFCCDCD9A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5398,7 +5413,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Color"
-              DTS:DTSID="{EB967FEA-203E-49AA-BC0C-E65210012C64}"
+              DTS:DTSID="{F4C0F1B0-C1B6-48AD-B46C-110FD678127C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5407,7 +5422,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DIMS"
-              DTS:DTSID="{BC0E2E3F-970B-4B66-9A8A-BA216A1965B6}"
+              DTS:DTSID="{58303D6E-DE43-47B5-8817-845D1DDEB369}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5416,7 +5431,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BoxInfo"
-              DTS:DTSID="{5FC35583-8D90-4203-9067-6842AE43A8C4}"
+              DTS:DTSID="{71FC46B4-0625-4078-9CB3-781A20FF6780}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5426,7 +5441,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Weight"
-              DTS:DTSID="{5BDF0CC9-CEA4-47E5-80ED-D30AEB216783}"
+              DTS:DTSID="{42C40E80-6739-4970-B0A1-2C93B6F45F9B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5436,7 +5451,7 @@
               DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="BoxWeight"
-              DTS:DTSID="{D2A40C98-279F-4C52-A045-8CF46D29C19E}"
+              DTS:DTSID="{D95E4D20-6A7C-4FA0-9D55-F8EA415C1241}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5445,7 +5460,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ScheduleB"
-              DTS:DTSID="{D48405D7-928B-4AE1-BE25-5F4F28334831}"
+              DTS:DTSID="{CCB4A0DB-A555-4E40-9E34-AB9B5B98E52E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5454,7 +5469,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="InactiveItem"
-              DTS:DTSID="{EC7B1E1B-B8E9-49CA-997C-83B7E4C54ABC}"
+              DTS:DTSID="{BC5FDABC-43EE-47FD-8101-15C449E1B881}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5463,7 +5478,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Name"
-              DTS:DTSID="{B26850D6-538A-4C5C-82CB-20C927144AFF}"
+              DTS:DTSID="{FC40E702-238C-424B-BB26-9E28DA26616A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5472,7 +5487,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="StandardUnitOfMeasure"
-              DTS:DTSID="{90038530-0D3C-4C23-869E-1ADE8C032358}"
+              DTS:DTSID="{066BC94F-60AE-448F-BA6E-6E9009B2870F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5481,7 +5496,7 @@
               DTS:DataScale="7"
               DTS:TextQualified="True"
               DTS:ObjectName="cSageUpdatedDT"
-              DTS:DTSID="{2499D9DE-A226-42ED-95FE-B8263F8638C6}"
+              DTS:DTSID="{FD19B497-905F-4DD4-B21A-66F93F8D64FD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5489,7 +5504,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SyncTimeDate"
-              DTS:DTSID="{E7C1C84D-8BB7-4D47-BE18-FC352B70DBA7}"
+              DTS:DTSID="{7527AB72-5DAE-455C-A700-EBF647207588}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5497,7 +5512,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{D2DE552C-3005-4D26-85D0-EF7F3735DD4E}"
+              DTS:DTSID="{D0399577-3AE8-4CCC-B682-440295C98C17}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5505,17 +5520,56 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{CB586CCF-9A7B-41C8-8AB7-DB47559A128F}"
+              DTS:DTSID="{C92D15A3-9873-4583-9D45-D26CC10C34A3}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:refId="Package.ConnectionManagers[Salesforce REST Conn]"
+      DTS:CreationName="Salesforce (KingswaySoft)"
+      DTS:DTSID="{D5EFC8EB-13AB-4733-A5C4-B4364CF01BFC}"
+      DTS:ObjectName="Salesforce REST Conn">
+      <DTS:ObjectData>
+        <SalesforceConnectionManager
+          ConnectionString="InstanceType=Sandbox;AuthenticationType=AuthorizationCode;ServiceEndpoint=REST;ServiceUrl=https://test.salesforce.com;TokenPath=C:\Users\matthew.LOLL-LF\source\repos\GoodSheetCompanies\SalesForceSage\OAuthTokens3.tok;ClientId=3MVG9aFryxgomHTav3obvOwdtEZU0eUxPVecYvl8ihf0G0QE9PvexZYha0uIefVrYLoYINl5Jm6XLBObugneX;RedirectUri=;CertificateThumbprint=;UserName=;ServiceTimeout=120;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;ProxyUsername=;RetryOnIntermittentErrors=True"
+          ConnectByProxy="False">
+          <TokenPassword
+            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADVJMZG5S0Qarm/zsOOSAp8AAAAAASAAACgAAAAEAAAAKb5rjQVYO8PWqPzL+Woi00wAAAAsPdjCVcsTY1I2hD6hv7hzFuvAToQy0cl9O8hxcKDM5DLmMuWNylQIrJZd5PUXePYFAAAAOxq3GuYYJW6W4ko1MLo0r3CHUrJ</TokenPassword>
+          <Password
+            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADZasfqclDtkel3XTVOQ805AAAAAASAAACgAAAAEAAAAC0igTeprxwuRjIuCFAxExAwAAAAG2Fx8UKZv9YYMan5Xd6IdbI3xKUptbkPaVoWvWqUCFeAdBTVXk3XeYcLxI1ChzyHFAAAACDZYP+6Sl36MrVObO7h16jwP2Jl</Password>
+          <ClientSecret
+            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABsMMDXijjqIRgEYtsm+J7FAAAAAASAAACgAAAAEAAAAFJ1OSXBCcj7HOizTfQNfaqIAAAACk8ONvSSyXXin5/QjaZqD5j1IKo67CWOdkgCim09kGDhCjibrUl0d1ujqKEyQfyn17Zg1LT4PxIX9lJX6a7cKB0nyBp0teZqi2X4hToexaLfDWkmg9xujG9DyNCUt0U/004SEMRZXQqWQLa15slPMVMGYKkWDNTSnUzaD0qFdX7v8JgdH7uJsBQAAACL69qW+VDWzj2gMRxgZWSlV2mzLA</ClientSecret>
+        </SalesforceConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Salesforce SOAP Conn]"
+      DTS:CreationName="Salesforce (KingswaySoft)"
+      DTS:DTSID="{D54A5D31-D0D7-4867-A7E2-6F80D8038ED8}"
+      DTS:ObjectName="Salesforce SOAP Conn">
+      <DTS:ObjectData>
+        <SalesforceConnectionManager
+          ConnectionString="InstanceType=Production;AuthenticationType=AuthorizationCode;ServiceEndpoint=SOAP;ServiceUrl=https://login.salesforce.com/services/Soap/u/50.0;RedirectUri=;UserName=it@lolldesigns.com;ServiceTimeout=120;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;ProxyUsername=;RetryOnIntermittentErrors=True"
+          ConnectByProxy="False">
+          <Password
+            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACzBhv5fH0Ni54KTcl0+u/WAAAAAASAAACgAAAAEAAAAHV0xPWPB5yuKSeLqYjSSlEwAAAAQYeTsJTP1m2b6H7r3XnI2izMjbHJqHbUBqEw0PeeZuhDVXwKWV8vO2C3x7S5VRARFAAAAKmikXCwbg+j8s4kWCH7kgvzlqOs</Password>
+          <SecurityToken
+            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABl0Mp3uk5KJwHx1bbAwnSZAAAAAASAAACgAAAAEAAAAN7CAuxi4RsIDtdIZPlBlJ04AAAAwjMh5iGLuyDN/dpUgdNjbLBDpegaoaUzQlNUbVcrDWEBXO0JSjgNAxo168oAju7kmCp428QyFT0UAAAAB4t81cgRQb+4y13/98tdLEOj5y8</SecurityToken>
+        </SalesforceConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Staging eRrors]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{BA57E2A3-86D0-49D5-A33A-874C8A872ADD}"
-      DTS:ObjectName="Flat File Connection Manager 1">
+      DTS:ObjectName="Staging eRrors">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -5534,7 +5588,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Get Standard Pricing for Products.SFProductID"
-              DTS:DTSID="{0CDA1C15-7DBF-4CDD-A34D-DF0DC29C74D0}"
+              DTS:DTSID="{C89BCE2E-1376-437C-A69B-EF4F0A44DED1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5544,7 +5598,7 @@
               DTS:DataScale="6"
               DTS:TextQualified="True"
               DTS:ObjectName="StandardUnitPrice"
-              DTS:DTSID="{EE4A5F76-A957-491C-853D-450AD89442CF}"
+              DTS:DTSID="{BB5FA82E-0747-4244-B8CD-E4B200DD7F6D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5552,7 +5606,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="DateUpdated"
-              DTS:DTSID="{5BE29BC4-D6F0-42D1-B4D9-D04A4F66C962}"
+              DTS:DTSID="{35A3374B-1710-468D-A9AC-400240C6A7EB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5561,7 +5615,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TimeUpdated"
-              DTS:DTSID="{283B5387-3D8A-40F4-9383-BE067BC1E7D4}"
+              DTS:DTSID="{90F777A1-9D9B-4076-BF26-B624C74BBB00}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5569,7 +5623,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SageUpdatedDT"
-              DTS:DTSID="{D2AC85A6-E179-4A14-A81C-C8D9980CC4A0}"
+              DTS:DTSID="{42FB5E7F-5D04-4E00-B20F-13D412EC43C7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5578,7 +5632,7 @@
               DTS:DataScale="7"
               DTS:TextQualified="True"
               DTS:ObjectName="cSageUpdatedDT"
-              DTS:DTSID="{927813D8-64E2-488B-9B5E-2D7339DD3FBB}"
+              DTS:DTSID="{1C75D4B0-6EDE-4D04-BC3D-8AC6BCAEA42D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5587,7 +5641,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="pricebookID"
-              DTS:DTSID="{68FA9CED-F4C2-43A8-9EDC-D268752B3859}"
+              DTS:DTSID="{6F7A8BF8-88D4-4739-ADD3-9E7CF4704D61}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5595,7 +5649,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="Active"
-              DTS:DTSID="{50A72092-7850-472A-AF24-B1AF5E9C9223}"
+              DTS:DTSID="{EB5F2ABE-62EF-4381-8DA3-6FEFCC3CD58D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5604,7 +5658,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="SFPriceBookEntryID"
-              DTS:DTSID="{076799AE-A565-4D41-8EF1-E9BFFD0DF0DC}"
+              DTS:DTSID="{F3AB3FF5-1335-450B-BB49-579701B689D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5613,7 +5667,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Sync Record Exists?.SFProductID"
-              DTS:DTSID="{69A35BA5-F1D9-4645-9CFB-DB5552090B7B}"
+              DTS:DTSID="{82A317C1-6E65-4537-832E-F6B6C1958A3B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5621,7 +5675,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="LastSyncDateTime"
-              DTS:DTSID="{EA85BDA9-7546-4899-B888-15294E172643}"
+              DTS:DTSID="{BF2FB824-1381-4760-811C-A8B3810966AB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5629,7 +5683,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SageUpdateTime"
-              DTS:DTSID="{9DF89D86-1C78-488B-8858-E241ADE6B21A}"
+              DTS:DTSID="{67BA2B65-E3AC-46AF-9063-E49981BE6674}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5637,7 +5691,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="SyncDateTime"
-              DTS:DTSID="{63B2A487-4CFF-488B-8081-6F41013A4C37}"
+              DTS:DTSID="{98FB7210-F269-4E3F-9ED2-AF1CC507C7E1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5645,7 +5699,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{1B768423-FA74-40B0-92CF-CCEF233B0616}"
+              DTS:DTSID="{43E59988-5508-4DF1-979B-88EAC2E67139}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5653,64 +5707,10 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{DCCB2CB0-FD82-430F-8232-09FC8E09FF2A}"
+              DTS:DTSID="{9C2655E2-94E3-4359-BEE6-0BE1E1A9E5AA}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{FAEC7864-4411-4136-AF93-2B6FF6F2830B}"
-      DTS:ObjectName="mars.MAS_LOL.LOL_DATA">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=mars;User ID=LOL_DATA;Initial Catalog=SAGE_SF_PROD;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACzGKfGbHnPpVh6KhDnmbnoAAAAAASAAACgAAAAEAAAAD0djU5StTO65OF8wviy4nQ4AAAAjm451ZBMe86qo2g19DN8V43yASnlV/NMEti4ioKJde6FoYS3J9McisGB5CXqIx7MS0wp7fNpY24UAAAAijXZo2L8FAqWVW1bCuNBqEsmfb8</DTS:Password>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Salesforce REST Conn]"
-      DTS:CreationName="Salesforce (KingswaySoft)"
-      DTS:DTSID="{D5EFC8EB-13AB-4733-A5C4-B4364CF01BFC}"
-      DTS:ObjectName="Salesforce REST Conn">
-      <DTS:ObjectData>
-        <SalesforceConnectionManager
-          ConnectionString="InstanceType=Sandbox;AuthenticationType=AuthorizationCode;ServiceEndpoint=REST;ServiceUrl=https://test.salesforce.com;TokenPath=C:\Users\matthew.LOLL-LF\source\repos\GoodSheetCompanies\SalesForceSage\OAuthTokens3.tok;ClientId=3MVG9aFryxgomHTav3obvOwdtEZU0eUxPVecYvl8ihf0G0QE9PvexZYha0uIefVrYLoYINl5Jm6XLBObugneX;RedirectUri=;CertificateThumbprint=;UserName=;ServiceTimeout=120;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;ProxyUsername=;RetryOnIntermittentErrors=True"
-          ConnectByProxy="False">
-          <TokenPassword
-            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADk2Uhpl0OqY53yybOB5nyGAAAAAASAAACgAAAAEAAAAM2RYzoRYJRoOZl5tixzo8QwAAAAgrpIYNGS2il0N1L4jiypLTm4QsFWA1wRsO55Rz5H+ghKDXqqTodYqEnDtF1uhkpxFAAAAOm86k0fXb/ovsPGNTQiCMthQKov</TokenPassword>
-          <Password
-            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB7g97EkU8Nx1gm0uAlb02aAAAAAASAAACgAAAAEAAAAOPh6tR4u30G5vP8bkCNPSUwAAAAUFs9ssw3qN89QQvcPcmJ1QqnICiDjaYObocTMscwedgBWJ/tBfhhWcMpWBqCiK8yFAAAAN6/pRM6hXOD6UUBVzFQZxZGOKkm</Password>
-          <ClientSecret
-            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACuomX/zaIvUidaGKfner2QAAAAAASAAACgAAAAEAAAAFPKJiNaIMaizckJP88H/hOIAAAApLnHDTsZn3UgjEPiQ7rbcRathUxleNgISmJRwMiwC1SV8khip9eKYC51fn+H/mK5CWcmiAluT33xbgiPILxFlqN3JSHleuCa3ZS2F6odCwuB832nbmr5FUxT0W66XUsv85lVHcQ5HADx/FklIxhJdaSCEYPB1aIieREZ08QbOLmHS2P1oYmtJBQAAACupSiZM1jU/KGGRrOy6zWxAxAvZg</ClientSecret>
-        </SalesforceConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Salesforce SOAP Conn]"
-      DTS:CreationName="Salesforce (KingswaySoft)"
-      DTS:DTSID="{D54A5D31-D0D7-4867-A7E2-6F80D8038ED8}"
-      DTS:ObjectName="Salesforce SOAP Conn">
-      <DTS:ObjectData>
-        <SalesforceConnectionManager
-          ConnectionString="InstanceType=Sandbox;AuthenticationType=AuthorizationCode;ServiceEndpoint=SOAP;ServiceUrl=https://test.salesforce.com/services/Soap/u/50.0;TokenPath=;ClientId=;RedirectUri=;CertificateThumbprint=;UserName=it@lolldesigns.com;ServiceTimeout=120;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;ProxyUsername=;RetryOnIntermittentErrors=True"
-          ConnectByProxy="False">
-          <Password
-            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACVwOQmfcQODS7q/bkf/JYxAAAAAASAAACgAAAAEAAAALZavfhp69fU5t94yXkrV/0wAAAAy5yCpkjOz3dXHRF/KRhZpmAGZ+bvyA7fe1FT5kvQ6WN00z2QNX+x7Zuimep9L7kGFAAAAHbZQUt/wpOtfRkbNhBB0PsHH3Z3</Password>
-          <SecurityToken
-            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABdFAznegbRc4vJ85ipukxIAAAAAASAAACgAAAAEAAAAIX+6fWebEKzXVKCK7KNMtU4AAAAtndg3I0wrkbFmPegK9h0R8SJCxMP3W1rfu9SnnvlCWiVF48WPVZ5IHhd6kxZy3nLKQekoiZ5EAIUAAAAW5MX4q6GqZjmP1spe0+imF6ccnY</SecurityToken>
-        </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -7573,7 +7573,7 @@ where [refTable].[SFOrderID] = ?</property>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FAEC7864-4411-4136-AF93-2B6FF6F2830B}"
           SQLTask:BypassPrepare="False"
-          SQLTask:SqlStatementSource="Use [SAGE_SF]&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToProductsSF','U') IS  NULL&#xA;BEGIN&#xA;&#x9;CREATE TABLE [dbo].[tblSageStagingToProductsSF](&#xA;&#x9;[SFProductID] [nvarchar](18) NOT NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA;[SageUpdateTime] [datetime] NULL&#xA; CONSTRAINT [PK_tblSageStagingToProductsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFProductID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToAccountsSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToAccountsSF](&#xA;&#x9;[SFAccountID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL&#xA; CONSTRAINT [PK_tblSageStagingToAccountsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFAccountID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToOrdersSF','U') IS  NULL&#xA;BEGIN&#xA;&#xA;CREATE TABLE [dbo].[tblSageStagingToOrdersSF](&#xA;&#x9;[SFOrderID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SFAccountID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA;&#x9;[Update?] [bit] NOT NULL,&#xA;&#x9;[Status] [nvarchar](1)&#xA; CONSTRAINT [PK_tblSageStagingToOrdersSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFOrderID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;&#xA;&#xA;ALTER TABLE [dbo].[tblSageStagingToOrdersSF] ADD  CONSTRAINT [DF_tblSageStagingToOrdersSF_Update?]  DEFAULT ((0)) FOR [Update?]&#xA;&#xA;&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToContactsSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToContactsSF](&#xA;&#x9;[SFContactID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SFAccountID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA; CONSTRAINT [PK_tblSageStagingToContactsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFContactID] ASC,&#xA;&#x9;[SFAccountID] ASC&#xA;&#x9;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToStandardPriceBkSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToStandardPriceBkSF](&#xA;&#x9;[SFPriceBookEntryID] [nvarchar](18) NOT NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA; CONSTRAINT [PK_tblSageStagingToStandardPriceBkSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFPriceBookEntryID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToOrderLinesSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToOrderLinesSF](&#xA;&#x9;[SFOrderLineID] [nvarchar] (18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA; CONSTRAINT [PK_tblSageStagingToOrderLinesSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFOrderLineID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="Use [SAGE_SF_PROD]&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToProductsSF','U') IS  NULL&#xA;BEGIN&#xA;&#x9;CREATE TABLE [dbo].[tblSageStagingToProductsSF](&#xA;&#x9;[SFProductID] [nvarchar](18) NOT NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA;[SageUpdateTime] [datetime] NULL&#xA; CONSTRAINT [PK_tblSageStagingToProductsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFProductID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToAccountsSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToAccountsSF](&#xA;&#x9;[SFAccountID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL&#xA; CONSTRAINT [PK_tblSageStagingToAccountsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFAccountID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToOrdersSF','U') IS  NULL&#xA;BEGIN&#xA;&#xA;CREATE TABLE [dbo].[tblSageStagingToOrdersSF](&#xA;&#x9;[SFOrderID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SFAccountID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA;&#x9;[Update?] [bit] NOT NULL,&#xA;&#x9;[Status] [nvarchar](1)&#xA; CONSTRAINT [PK_tblSageStagingToOrdersSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFOrderID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;&#xA;&#xA;ALTER TABLE [dbo].[tblSageStagingToOrdersSF] ADD  CONSTRAINT [DF_tblSageStagingToOrdersSF_Update?]  DEFAULT ((0)) FOR [Update?]&#xA;&#xA;&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToContactsSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToContactsSF](&#xA;&#x9;[SFContactID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SFAccountID] [nvarchar](18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA; CONSTRAINT [PK_tblSageStagingToContactsSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFContactID] ASC,&#xA;&#x9;[SFAccountID] ASC&#xA;&#x9;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToStandardPriceBkSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToStandardPriceBkSF](&#xA;&#x9;[SFPriceBookEntryID] [nvarchar](18) NOT NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA; CONSTRAINT [PK_tblSageStagingToStandardPriceBkSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFPriceBookEntryID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToOrderLinesSF','U') IS  NULL&#xA;BEGIN&#xA;CREATE TABLE [dbo].[tblSageStagingToOrderLinesSF](&#xA;&#x9;[SFOrderLineID] [nvarchar] (18) NOT NULL,&#xA;&#x9;[SageUpdateTime] [datetime] NULL,&#xA;&#x9;[LastSyncDateTime] [datetime] NULL,&#xA; CONSTRAINT [PK_tblSageStagingToOrderLinesSF] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[SFOrderLineID] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;END;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -7610,7 +7610,7 @@ where [refTable].[SFOrderID] = ?</property>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FAEC7864-4411-4136-AF93-2B6FF6F2830B}"
           SQLTask:BypassPrepare="False"
-          SQLTask:SqlStatementSource="&#xA;Use MAS_LOL;&#xA;&#xA;IF OBJECT_ID('dbo.AR_CustomerContact','U') IS NOT NULL&#xA;&#x9;BEGIN&#xA;&#x9;&#x9;DROP TABLE dbo.AR_CustomerContact;&#xA;&#x9;END;&#xA;&#x9;SELECT * INTO dbo.AR_CustomerContact FROM OPENQUERY(MAS200_LOL,'SELECT * FROM AR_CustomerContact')&#xA;&#xA;IF OBJECT_ID('dbo.AR_Customer','U') IS NOT NULL&#xA;&#x9;BEGIN&#xA;&#x9;&#x9;DROP TABLE dbo.AR_Customer;&#xA;&#x9;END;&#xA;&#x9;SELECT * INTO dbo.AR_Customer FROM OPENQUERY(MAS200_LOL,'SELECT * FROM AR_Customer')&#xA;&#xA;&#xA;USE SAGE_SF;&#xA;IF OBJECT_ID('dbo.tblSageStagingToAccountsSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToAccountsSF&#xA;END&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToContactsSF','U') IS NOT NULL&#xA;Begin&#xA;&#x9;DELETE FROM tblSageStagingToContactsSF&#xA;END&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToOrderLinesSF','U') IS NOT NULL&#xA;Begin&#xA;&#x9;DELETE FROM tblSageStagingToOrderLinesSF&#xA;END&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToOrdersSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToOrdersSF&#xA;END&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToProductsSF','U') IS NOT NULL&#xA;Begin&#xA;&#x9;DELETE FROM tblSageStagingToProductsSF&#xA;END&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToStandardPriceBkSF','U') IS NOT NULL&#xA;BEgin&#xA;&#x9;DELETE FROM tblSageStagingToStandardPriceBkSF&#xA;END" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="&#xA;Use MAS_LOL;&#xA;&#xA;IF OBJECT_ID('dbo.AR_CustomerContact','U') IS NOT NULL&#xA;&#x9;BEGIN&#xA;&#x9;&#x9;DROP TABLE dbo.AR_CustomerContact;&#xA;&#x9;END;&#xA;&#x9;SELECT * INTO dbo.AR_CustomerContact FROM OPENQUERY(MAS200_LOL,'SELECT * FROM AR_CustomerContact')&#xA;&#xA;IF OBJECT_ID('dbo.AR_Customer','U') IS NOT NULL&#xA;&#x9;BEGIN&#xA;&#x9;&#x9;DROP TABLE dbo.AR_Customer;&#xA;&#x9;END;&#xA;&#x9;SELECT * INTO dbo.AR_Customer FROM OPENQUERY(MAS200_LOL,'SELECT * FROM AR_Customer')&#xA;&#xA;&#xA;USE SAGE_SF_PROD;&#xA;IF OBJECT_ID('dbo.tblSageStagingToAccountsSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToAccountsSF&#xA;END&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToContactsSF','U') IS NOT NULL&#xA;Begin&#xA;&#x9;DELETE FROM tblSageStagingToContactsSF&#xA;END&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToOrderLinesSF','U') IS NOT NULL&#xA;Begin&#xA;&#x9;DELETE FROM tblSageStagingToOrderLinesSF&#xA;END&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToOrdersSF','U') IS NOT NULL&#xA;BEGIN&#xA;&#x9;DELETE FROM tblSageStagingToOrdersSF&#xA;END&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToProductsSF','U') IS NOT NULL&#xA;Begin&#xA;&#x9;DELETE FROM tblSageStagingToProductsSF&#xA;END&#xA;&#xA;IF OBJECT_ID('dbo.tblSageStagingToStandardPriceBkSF','U') IS NOT NULL&#xA;BEgin&#xA;&#x9;DELETE FROM tblSageStagingToStandardPriceBkSF&#xA;END" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -48251,8 +48251,8 @@ ORDER BY ItemCode</property>
                   <connections>
                     <connection
                       refId="Package\Sage to SF Product Sync\Sales Force Products Sync\Log Errors from inserts.Connections[FlatFileConnection]"
-                      connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
-                      connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                      connectionManagerID="Package.ConnectionManagers[Product Sync Errors]"
+                      connectionManagerRefId="Package.ConnectionManagers[Product Sync Errors]"
                       name="FlatFileConnection" />
                   </connections>
                   <inputs>
@@ -57892,7 +57892,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           PanelSize="493,209"
           Size="493,252"
           Id="Package\Sage to SF Accounts Sync"
-          TopLeft="289.404774690286,623.578298681126" />
+          TopLeft="333.404774690286,625.578298681126" />
         <NodeLayout
           Size="264,42"
           Id="Package\Sage to SF Contact Sync\Insert DateTime tblSageToContactsSF"
@@ -58173,30 +58173,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="535.804774690286,875.578298681126">
+          TopLeft="579.904774690286,877.578298681126">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="20.028203787984,100.021995144017"
+              EndConnector="-23.871796212016,98.0219951440172"
               Start="0,0"
-              End="20.028203787984,92.5219951440172">
+              End="-23.871796212016,90.5219951440172">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,46.0109975720086" />
+                    End="0,45.0109975720086" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,46.0109975720086"
-                    Point2="0,50.0109975720086"
-                    Point3="4,50.0109975720086" />
+                    Point1="0,45.0109975720086"
+                    Point2="0,49.0109975720086"
+                    Point3="-4,49.0109975720086" />
                   <mssgle:LineSegment
-                    End="16.028203787984,50.0109975720086" />
+                    End="-19.871796212016,49.0109975720086" />
                   <mssgle:CubicBezierSegment
-                    Point1="16.028203787984,50.0109975720086"
-                    Point2="20.028203787984,50.0109975720086"
-                    Point3="20.028203787984,54.0109975720086" />
+                    Point1="-19.871796212016,49.0109975720086"
+                    Point2="-23.871796212016,49.0109975720086"
+                    Point3="-23.871796212016,53.0109975720086" />
                   <mssgle:LineSegment
-                    End="20.028203787984,92.5219951440172" />
+                    End="-23.871796212016,90.5219951440172" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -58319,30 +58319,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="631.151668098271,454.644540497613">
+          TopLeft="631.351668098271,455.044540497613">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-95.346893407985,168.933758183513"
+              EndConnector="-51.446893407985,170.533758183513"
               Start="0,0"
-              End="-95.346893407985,161.433758183513">
+              End="-51.446893407985,163.033758183513">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,80.4668790917564" />
+                    End="0,81.2668790917565" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,80.4668790917564"
-                    Point2="0,84.4668790917564"
-                    Point3="-4,84.4668790917564" />
+                    Point1="0,81.2668790917565"
+                    Point2="0,85.2668790917565"
+                    Point3="-4,85.2668790917565" />
                   <mssgle:LineSegment
-                    End="-91.346893407985,84.4668790917564" />
+                    End="-47.446893407985,85.2668790917565" />
                   <mssgle:CubicBezierSegment
-                    Point1="-91.346893407985,84.4668790917564"
-                    Point2="-95.346893407985,84.4668790917564"
-                    Point3="-95.346893407985,88.4668790917564" />
+                    Point1="-47.446893407985,85.2668790917565"
+                    Point2="-51.446893407985,85.2668790917565"
+                    Point3="-51.446893407985,89.2668790917565" />
                   <mssgle:LineSegment
-                    End="-95.346893407985,161.433758183513" />
+                    End="-51.446893407985,163.033758183513" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -58447,13 +58447,45 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="246.666666666667,42"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Get Current OrderLineIDs from SF"
-          TopLeft="602,22" />
+          Size="222.666666666667,42.6666666666667"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Convert Primary Key Columns"
+          TopLeft="608,202" />
+        <NodeLayout
+          Size="206.666666666667,42.6666666666667"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Cache OrderLines from SF"
+          TopLeft="620,313" />
         <NodeLayout
           Size="177.333333333334,42"
           Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\LkUp SalesOrderNo"
           TopLeft="632,109" />
+        <NodeLayout
+          Size="246.666666666667,42"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Get Current OrderLineIDs from SF"
+          TopLeft="602,22" />
+        <EdgeLayout
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines.Paths[Data Conversion Output]"
+          TopLeft="721.333333333333,244.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68.3333333333334"
+              Start="0,0"
+              End="0,60.8333333333334">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.8333333333334" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines.Paths[Salesforce Source Output]"
           TopLeft="723,64">
@@ -58473,13 +58505,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="222.666666666667,42.6666666666667"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Convert Primary Key Columns"
-          TopLeft="608,202" />
         <EdgeLayout
           Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines.Paths[Lookup Match Output]"
           TopLeft="720,151">
@@ -58502,32 +58532,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             <mssgm:EdgeLabel
               BoundingBox="-48.19138671875,15.9453125,96.3827734375,11.609375"
               RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="206.666666666667,42.6666666666667"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Cache OrderLines from SF"
-          TopLeft="620,313" />
-        <EdgeLayout
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines.Paths[Data Conversion Output]"
-          TopLeft="721.333333333333,244.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68.3333333333334"
-              Start="0,0"
-              End="0,60.8333333333334">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.8333333333334" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -58560,7 +58564,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     design-time-name="Package\Cache Current Orders in SF\DFT Cache Current SF Orders">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="226.666666666667,42"
           Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders\Convert SalesOrderNo to STR"
@@ -58604,7 +58608,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -58626,7 +58632,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -58638,127 +58646,127 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       <GraphLayout
         Capacity="128" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="225.333333333334,41.3333333333334"
+          Size="225,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert Into Account Sync Table"
           TopLeft="3317,1240" />
         <NodeLayout
-          Size="188.666666666667,41.3333333333334"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF"
-          TopLeft="176.542853553479,893.736403094448" />
-        <NodeLayout
-          Size="180.666666666667,41.3333333333334"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is Personal Account?"
-          TopLeft="499.703292914396,658.11566795949" />
-        <NodeLayout
-          Size="265.333333333334,41.3333333333334"
+          Size="265,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Account Personal - Full Update"
           TopLeft="1987.32313586467,809.838701066068" />
         <NodeLayout
-          Size="160.666666666667,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Clean Addresses"
-          TopLeft="1023.37364733148,96.370965851954" />
+          Size="181,41"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is Personal Account?"
+          TopLeft="499.703292914396,658.11566795949" />
         <NodeLayout
-          Size="272.666666666667,41.3333333333334"
+          Size="254,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF - Full Update"
+          TopLeft="1389.42749957982,904.922414861794" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Clean Addresses"
+          TopLeft="1039.37364733148,87.370965851954" />
+        <NodeLayout
+          Size="273,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF 1"
           TopLeft="1309.07692190599,1157.6" />
         <NodeLayout
-          Size="329.333333333334,41.3333333333334"
+          Size="329,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Personal Update Errors  - Delta Update"
           TopLeft="901.945060628409,1010.3755639948" />
         <NodeLayout
-          Size="117.333333333334,41.3333333333334"
+          Size="117,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is New? 1"
           TopLeft="2722,1076.83333333333" />
         <NodeLayout
-          Size="171.333333333334,41.3333333333334"
+          Size="189,41"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF"
+          TopLeft="176.542853553479,893.736403094448" />
+        <NodeLayout
+          Size="171,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 5"
           TopLeft="27.142853553479,1082.2" />
         <NodeLayout
-          Size="276.666666666667,41.3333333333334"
+          Size="277,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert Business Accounts into Sync Table"
           TopLeft="2745.16666666667,1202.66666666667" />
         <NodeLayout
-          Size="200,41.3333333333334"
+          Size="200,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Get Customers from SQL"
           TopLeft="729.719790131376,30.999999600072" />
         <NodeLayout
-          Size="171.333333333334,41.3333333333334"
+          Size="165,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Script Component"
+          TopLeft="1243.45055621615,140.98064516774" />
+        <NodeLayout
+          Size="171,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 4"
           TopLeft="631.076921905992,1007.2" />
         <NodeLayout
-          Size="235.333333333334,41.3333333333334"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Account Personal - Delta"
-          TopLeft="707.723088914544,791.348378782144" />
-        <NodeLayout
-          Size="117.333333333334,41.3333333333334"
+          Size="117,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is New?"
           TopLeft="3331.07692190599,1086.06696942354" />
         <NodeLayout
-          Size="272.666666666667,41.3333333333334"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF"
-          TopLeft="1924,1065" />
-        <NodeLayout
-          Size="171.333333333334,41.3333333333334"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 3"
-          TopLeft="1314.07692190599,1041.6" />
-        <NodeLayout
-          Size="186.666666666667,41.3333333333334"
+          Size="187,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Salesforce Destination"
           TopLeft="2841.15390048225,817.625797511288" />
         <NodeLayout
-          Size="318.666666666667,41.3333333333334"
+          Size="273,41"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF"
+          TopLeft="1924,1065" />
+        <NodeLayout
+          Size="171,41"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 3"
+          TopLeft="1314.07692190599,1041.6" />
+        <NodeLayout
+          Size="319,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Personal Update Errors - Full Update"
           TopLeft="2303.17582689657,1102.14284277402" />
         <NodeLayout
-          Size="272.666666666667,41.3333333333334"
+          Size="273,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Update Errors - Full Update"
           TopLeft="1574.39566214409,1106.03132072172" />
         <NodeLayout
-          Size="191.333333333334,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Sage Record Updated?"
-          TopLeft="806.269234098627,562.479262265512" />
-        <NodeLayout
-          Size="171.333333333334,41.3333333333334"
+          Size="171,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 2"
           TopLeft="1929,949" />
         <NodeLayout
-          Size="260,41.3333333333334"
+          Size="260,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Personal Account Creation Errors"
           TopLeft="3529.38473900959,1012.94353197554" />
         <NodeLayout
-          Size="198.666666666667,41.3333333333334"
+          Size="199,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create Personal Account"
           TopLeft="3413.54499212454,776.46772791543" />
         <NodeLayout
-          Size="189.333333333334,41.3333333333334"
+          Size="191,42"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Sage Record Updated?"
+          TopLeft="806.269234098627,562.479262265512" />
+        <NodeLayout
+          Size="189,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Exsists in  Sync Tables"
           TopLeft="1495.02749077666,388.112902754923" />
         <NodeLayout
-          Size="171.333333333334,41.3333333333334"
+          Size="171,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 1"
           TopLeft="2701,980" />
         <NodeLayout
-          Size="272.666666666667,41.3333333333334"
+          Size="273,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF 3"
           TopLeft="22.142853553479,1198.2" />
         <NodeLayout
-          Size="164.666666666667,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Script Component"
-          TopLeft="1189.45055621615,171.98064516774" />
-        <NodeLayout
-          Size="260.666666666667,41.3333333333334"
+          Size="261,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingAccountsSF"
           TopLeft="1096.52747702175,780.020736134776" />
         <NodeLayout
           Size="166,42"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Convert DateTime"
-          TopLeft="1462.71210415801,178.980645567668" />
+          TopLeft="1500.71210415801,151.980645567668" />
         <NodeLayout
-          Size="184.666666666667,41.3333333333334"
+          Size="185,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create SyncDateTime"
           TopLeft="964.027473170377,668.755749328256" />
         <NodeLayout
-          Size="171.333333333334,41.3333333333334"
+          Size="171,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate"
           TopLeft="3310.07692190599,989.23363609021" />
         <NodeLayout
@@ -58766,31 +58774,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Creation Errors"
           TopLeft="2944.20698793963,1045.26343529563" />
         <NodeLayout
-          Size="280.666666666667,41.3333333333334"
+          Size="281,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Update Errors - Delta Update"
           TopLeft="273.241756159879,1119.63363609021" />
         <NodeLayout
-          Size="254,42"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF - Full Update"
-          TopLeft="1389.42749957982,904.922414861794" />
+          Size="201,43"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Remove Blank LastName"
+          TopLeft="1495,293" />
         <NodeLayout
           Size="162,42"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Run Full Update?"
           TopLeft="1122.95057492284,469.935476627112" />
         <NodeLayout
-          Size="177.333333333334,41.3333333333334"
+          Size="177,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\IsPersonal Account?"
           TopLeft="3210.13655759102,549.726335501009" />
         <NodeLayout
-          Size="272.666666666667,41.3333333333334"
+          Size="273,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF 2"
           TopLeft="626.076921905992,1123.2" />
         <NodeLayout
-          Size="236,41.3333333333334"
+          Size="236,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add RecordType and Split Name"
-          TopLeft="1485.35261821817,229.655909138507" />
+          TopLeft="1485.35261821817,219.655909138507" />
         <NodeLayout
-          Size="168.666666666667,41.3333333333334"
+          Size="235,41"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Account Personal - Delta"
+          TopLeft="707.723088914544,791.348378782144" />
+        <NodeLayout
+          Size="169,41"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Personal Account?"
           TopLeft="1562.15384344518,559.684792474681" />
         <EdgeLayout
@@ -59011,18 +59023,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Output 0]"
-          TopLeft="1354.11722288282,196.480645367704">
+          TopLeft="1408.45055621615,161.98064516774">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="108.594881275193,0"
+              EndConnector="92.26154794186,11.000000399928"
               Start="0,0"
-              End="101.094881275193,0">
+              End="84.76154794186,11.000000399928">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="101.094881275193,0" />
+                    End="42.13077397093,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="42.13077397093,0"
+                    Point2="46.13077397093,0"
+                    Point3="46.13077397093,4" />
+                  <mssgle:LineSegment
+                    End="46.13077397093,7.00000039992801" />
+                  <mssgle:CubicBezierSegment
+                    Point1="46.13077397093,7.00000039992801"
+                    Point2="46.13077397093,11.000000399928"
+                    Point3="50.13077397093,11.000000399928" />
+                  <mssgle:LineSegment
+                    End="84.76154794186,11.000000399928" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -59033,36 +59057,144 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[OLE DB Source Output]"
-          TopLeft="829.719790131376,72.599999600072">
+          TopLeft="929.719790131376,51.499999600072">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="274.053857200099,23.7709662518819"
+              EndConnector="109.653857200104,56.870966251882"
               Start="0,0"
-              End="274.053857200099,16.2709662518819">
+              End="102.153857200104,56.870966251882">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,7.88548312594099" />
+                    End="50.826928600052,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,7.88548312594099"
-                    Point2="0,11.885483125941"
-                    Point3="4,11.885483125941" />
+                    Point1="50.826928600052,0"
+                    Point2="54.826928600052,0"
+                    Point3="54.826928600052,4" />
                   <mssgle:LineSegment
-                    End="270.053857200099,11.885483125941" />
+                    End="54.826928600052,52.870966251882" />
                   <mssgle:CubicBezierSegment
-                    Point1="270.053857200099,11.885483125941"
-                    Point2="274.053857200099,11.885483125941"
-                    Point3="274.053857200099,15.885483125941" />
+                    Point1="54.826928600052,52.870966251882"
+                    Point2="54.826928600052,56.870966251882"
+                    Point3="58.826928600052,56.870966251882" />
                   <mssgle:LineSegment
-                    End="274.053857200099,16.2709662518819" />
+                    End="102.153857200104,56.870966251882" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No4]"
+          TopLeft="901.869234098627,604.479262265512">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="154.55823907175,64.2764870627443"
+              Start="0,0"
+              End="154.55823907175,56.7764870627443">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.1382435313722" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.1382435313722"
+                    Point2="0,32.1382435313722"
+                    Point3="4,32.1382435313722" />
+                  <mssgle:LineSegment
+                    End="150.55823907175,32.1382435313722" />
+                  <mssgle:CubicBezierSegment
+                    Point1="150.55823907175,32.1382435313722"
+                    Point2="154.55823907175,32.1382435313722"
+                    Point3="154.55823907175,36.1382435313722" />
+                  <mssgle:LineSegment
+                    End="154.55823907175,56.7764870627443" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="70.737088285875,37.1382435313722,13.0840625,9.421875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No3]"
+          TopLeft="1619.75384344518,601.284792474681">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-103.32634386536,303.637622387113"
+              Start="0,0"
+              End="-103.32634386536,296.137622387113">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,119.165683447167" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,119.165683447167"
+                    Point2="0,123.165683447167"
+                    Point3="-4,123.165683447167" />
+                  <mssgle:LineSegment
+                    End="-99.3263438653598,123.165683447167" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-99.3263438653598,123.165683447167"
+                    Point2="-103.32634386536,123.165683447167"
+                    Point3="-103.32634386536,127.165683447167" />
+                  <mssgle:LineSegment
+                    End="-103.32634386536,296.137622387113" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-58.2052031826799,128.165683447167,13.0840625,9.421875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No2]"
+          TopLeft="3270.66989092435,591.326335501009">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-336.315990442104,226.299462010279"
+              Start="0,0"
+              End="-336.315990442104,218.799462010279">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,87.7321033505951" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,87.7321033505951"
+                    Point2="0,91.7321033505951"
+                    Point3="-4,91.7321033505951" />
+                  <mssgle:LineSegment
+                    End="-332.315990442104,91.7321033505951" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-332.315990442104,91.7321033505951"
+                    Point2="-336.315990442104,91.7321033505951"
+                    Point3="-336.315990442104,95.7321033505951" />
+                  <mssgle:LineSegment
+                    End="-336.315990442104,218.799462010279" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-174.700026471052,96.7321033505951,13.0840625,9.421875"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -59134,114 +59266,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-144.749368328774,25.5141037065389,13.0840625,9.421875"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No3]"
-          TopLeft="1619.75384344518,601.284792474681">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-103.32634386536,303.637622387113"
-              Start="0,0"
-              End="-103.32634386536,296.137622387113">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,119.165683447167" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,119.165683447167"
-                    Point2="0,123.165683447167"
-                    Point3="-4,123.165683447167" />
-                  <mssgle:LineSegment
-                    End="-99.3263438653598,123.165683447167" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-99.3263438653598,123.165683447167"
-                    Point2="-103.32634386536,123.165683447167"
-                    Point3="-103.32634386536,127.165683447167" />
-                  <mssgle:LineSegment
-                    End="-103.32634386536,296.137622387113" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-58.2052031826799,128.165683447167,13.0840625,9.421875"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No4]"
-          TopLeft="901.869234098627,604.479262265512">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="154.55823907175,64.2764870627443"
-              Start="0,0"
-              End="154.55823907175,56.7764870627443">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28.1382435313722" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,28.1382435313722"
-                    Point2="0,32.1382435313722"
-                    Point3="4,32.1382435313722" />
-                  <mssgle:LineSegment
-                    End="150.55823907175,32.1382435313722" />
-                  <mssgle:CubicBezierSegment
-                    Point1="150.55823907175,32.1382435313722"
-                    Point2="154.55823907175,32.1382435313722"
-                    Point3="154.55823907175,36.1382435313722" />
-                  <mssgle:LineSegment
-                    End="154.55823907175,56.7764870627443" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="70.737088285875,37.1382435313722,13.0840625,9.421875"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No2]"
-          TopLeft="3270.66989092435,591.326335501009">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-336.315990442104,226.299462010279"
-              Start="0,0"
-              End="-336.315990442104,218.799462010279">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,87.7321033505951" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,87.7321033505951"
-                    Point2="0,91.7321033505951"
-                    Point3="-4,91.7321033505951" />
-                  <mssgle:LineSegment
-                    End="-332.315990442104,91.7321033505951" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-332.315990442104,91.7321033505951"
-                    Point2="-336.315990442104,91.7321033505951"
-                    Point3="-336.315990442104,95.7321033505951" />
-                  <mssgle:LineSegment
-                    End="-336.315990442104,218.799462010279" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-174.700026471052,96.7321033505951,13.0840625,9.421875"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -59354,74 +59378,38 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output]"
-          TopLeft="1557.42749957982,946.922414861794">
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output5]"
+          TopLeft="2964.08723381558,859.225797511288">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="153.36816256427,159.108905859926"
+              EndConnector="87.1197541240485,186.037637784342"
               Start="0,0"
-              End="153.36816256427,151.608905859926">
+              End="87.1197541240485,178.537637784342">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,60.2411544786556" />
+                    End="0,71.3650345407203" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,60.2411544786556"
-                    Point2="0,64.2411544786556"
-                    Point3="4,64.2411544786556" />
+                    Point1="0,71.3650345407203"
+                    Point2="0,75.3650345407203"
+                    Point3="4,75.3650345407203" />
                   <mssgle:LineSegment
-                    End="149.36816256427,64.2411544786556" />
+                    End="83.1197541240485,75.3650345407203" />
                   <mssgle:CubicBezierSegment
-                    Point1="149.36816256427,64.2411544786556"
-                    Point2="153.36816256427,64.2411544786556"
-                    Point3="153.36816256427,68.2411544786556" />
+                    Point1="83.1197541240485,75.3650345407203"
+                    Point2="87.1197541240485,75.3650345407203"
+                    Point3="87.1197541240485,79.3650345407203" />
                   <mssgle:LineSegment
-                    End="153.36816256427,151.608905859926" />
+                    End="87.1197541240485,178.537637784342" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="48.347694563385,69.2411544786556,56.6727734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output1]"
-          TopLeft="3512.74499212454,818.06772791543">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="146.639746885049,194.87580406011"
-              Start="0,0"
-              End="146.639746885049,187.37580406011">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,93.437902030055" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,93.437902030055"
-                    Point2="0,97.437902030055"
-                    Point3="4,97.437902030055" />
-                  <mssgle:LineSegment
-                    End="142.639746885049,97.437902030055" />
-                  <mssgle:CubicBezierSegment
-                    Point1="142.639746885049,97.437902030055"
-                    Point2="146.639746885049,97.437902030055"
-                    Point3="146.639746885049,101.437902030055" />
-                  <mssgle:LineSegment
-                    End="146.639746885049,187.37580406011" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="44.9834867237745,102.437902030055,56.6727734375,11.43359375"
+              BoundingBox="15.2234903432742,80.3650345407203,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -59462,42 +59450,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output2]"
-          TopLeft="863.189755581211,832.948378782144">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="203.555305047198,177.427185212656"
-              Start="0,0"
-              End="203.555305047198,169.927185212656">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,67.6901734845732" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,67.6901734845732"
-                    Point2="0,71.6901734845732"
-                    Point3="4,71.6901734845732" />
-                  <mssgle:LineSegment
-                    End="199.555305047198,71.6901734845732" />
-                  <mssgle:CubicBezierSegment
-                    Point1="199.555305047198,71.6901734845732"
-                    Point2="203.555305047198,71.6901734845732"
-                    Point3="203.555305047198,75.6901734845732" />
-                  <mssgle:LineSegment
-                    End="203.555305047198,169.927185212656" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="73.441265804849,76.6901734845732,56.6727734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output3]"
           TopLeft="301.076186886812,935.336403094448">
           <EdgeLayout.Curve>
@@ -59534,123 +59486,139 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output5]"
-          TopLeft="2964.08723381558,859.225797511288">
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output2]"
+          TopLeft="863.189755581211,832.948378782144">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="87.1197541240485,186.037637784342"
+              EndConnector="203.555305047198,177.427185212656"
               Start="0,0"
-              End="87.1197541240485,178.537637784342">
+              End="203.555305047198,169.927185212656">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,71.3650345407203" />
+                    End="0,67.6901734845732" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,71.3650345407203"
-                    Point2="0,75.3650345407203"
-                    Point3="4,75.3650345407203" />
+                    Point1="0,67.6901734845732"
+                    Point2="0,71.6901734845732"
+                    Point3="4,71.6901734845732" />
                   <mssgle:LineSegment
-                    End="83.1197541240485,75.3650345407203" />
+                    End="199.555305047198,71.6901734845732" />
                   <mssgle:CubicBezierSegment
-                    Point1="83.1197541240485,75.3650345407203"
-                    Point2="87.1197541240485,75.3650345407203"
-                    Point3="87.1197541240485,79.3650345407203" />
+                    Point1="199.555305047198,71.6901734845732"
+                    Point2="203.555305047198,71.6901734845732"
+                    Point3="203.555305047198,75.6901734845732" />
                   <mssgle:LineSegment
-                    End="87.1197541240485,178.537637784342" />
+                    End="203.555305047198,169.927185212656" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="15.2234903432742,80.3650345407203,56.6727734375,11.43359375"
+              BoundingBox="73.441265804849,76.6901734845732,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output1]"
-          TopLeft="2783.7,1021.6">
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output1]"
+          TopLeft="3512.74499212454,818.06772791543">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,55.2333333333329"
+              EndConnector="146.639746885049,194.87580406011"
               Start="0,0"
-              End="0,47.7333333333329">
+              End="146.639746885049,187.37580406011">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,47.7333333333329" />
+                    End="0,93.437902030055" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,93.437902030055"
+                    Point2="0,97.437902030055"
+                    Point3="4,97.437902030055" />
+                  <mssgle:LineSegment
+                    End="142.639746885049,97.437902030055" />
+                  <mssgle:CubicBezierSegment
+                    Point1="142.639746885049,97.437902030055"
+                    Point2="146.639746885049,97.437902030055"
+                    Point3="146.639746885049,101.437902030055" />
+                  <mssgle:LineSegment
+                    End="146.639746885049,187.37580406011" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="44.9834867237745,102.437902030055,56.6727734375,11.43359375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output2]"
-          TopLeft="1056.42747317037,710.355749328256">
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output]"
+          TopLeft="1557.42749957982,946.922414861794">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="170.500003851376,69.6649868065205"
+              EndConnector="153.36816256427,159.108905859926"
               Start="0,0"
-              End="170.500003851376,62.1649868065205">
+              End="153.36816256427,151.608905859926">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.8324934032602" />
+                    End="0,60.2411544786556" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,30.8324934032602"
-                    Point2="0,34.8324934032602"
-                    Point3="4,34.8324934032602" />
+                    Point1="0,60.2411544786556"
+                    Point2="0,64.2411544786556"
+                    Point3="4,64.2411544786556" />
                   <mssgle:LineSegment
-                    End="166.500003851376,34.8324934032602" />
+                    End="149.36816256427,64.2411544786556" />
                   <mssgle:CubicBezierSegment
-                    Point1="166.500003851376,34.8324934032602"
-                    Point2="170.500003851376,34.8324934032602"
-                    Point3="170.500003851376,38.8324934032602" />
+                    Point1="149.36816256427,64.2411544786556"
+                    Point2="153.36816256427,64.2411544786556"
+                    Point3="153.36816256427,68.2411544786556" />
                   <mssgle:LineSegment
-                    End="170.500003851376,62.1649868065205" />
+                    End="153.36816256427,151.608905859926" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="48.347694563385,69.2411544786556,56.6727734375,11.43359375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output3]"
-          TopLeft="2014.6,990.6">
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output9]"
+          TopLeft="1200.37364733148,108.370965851954">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="45.8000000000002,74.4000000000001"
+              EndConnector="43.07690888467,53.609679315786"
               Start="0,0"
-              End="45.8000000000002,66.9000000000001">
+              End="35.57690888467,53.609679315786">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.2" />
+                    End="17.538454442335,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,33.2"
-                    Point2="0,37.2"
-                    Point3="4,37.2" />
+                    Point1="17.538454442335,0"
+                    Point2="21.538454442335,0"
+                    Point3="21.538454442335,4" />
                   <mssgle:LineSegment
-                    End="41.8000000000002,37.2" />
+                    End="21.538454442335,49.609679315786" />
                   <mssgle:CubicBezierSegment
-                    Point1="41.8000000000002,37.2"
-                    Point2="45.8000000000002,37.2"
-                    Point3="45.8000000000002,41.2" />
+                    Point1="21.538454442335,49.609679315786"
+                    Point2="21.538454442335,53.609679315786"
+                    Point3="25.538454442335,53.609679315786" />
                   <mssgle:LineSegment
-                    End="45.8000000000002,66.9000000000001" />
+                    End="35.57690888467,53.609679315786" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -59694,8 +59662,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output5]"
-          TopLeft="1399.67692190599,1083.2">
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output7]"
+          TopLeft="112.742853553479,1123.8">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -59750,8 +59718,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output7]"
-          TopLeft="112.742853553479,1123.8">
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output5]"
+          TopLeft="1399.67692190599,1083.2">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -59784,31 +59752,131 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output9]"
-          TopLeft="1103.77364733148,138.370965851954">
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output4]"
+          TopLeft="1592.51374538833,336">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="168.076908884672,33.6096793157865"
+              EndConnector="0,52.112902754923"
               Start="0,0"
-              End="168.076908884672,26.1096793157865">
+              End="0,44.612902754923">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,12.8048396578932" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.8048396578932"
-                    Point2="0,16.8048396578932"
-                    Point3="4,16.8048396578932" />
+                    End="0,44.612902754923" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output3]"
+          TopLeft="2014.6,990.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="45.8000000000002,74.4000000000001"
+              Start="0,0"
+              End="45.8000000000002,66.9000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="164.076908884672,16.8048396578932" />
+                    End="0,33.2" />
                   <mssgle:CubicBezierSegment
-                    Point1="164.076908884672,16.8048396578932"
-                    Point2="168.076908884672,16.8048396578932"
-                    Point3="168.076908884672,20.8048396578932" />
+                    Point1="0,33.2"
+                    Point2="0,37.2"
+                    Point3="4,37.2" />
                   <mssgle:LineSegment
-                    End="168.076908884672,26.1096793157865" />
+                    End="41.8000000000002,37.2" />
+                  <mssgle:CubicBezierSegment
+                    Point1="41.8000000000002,37.2"
+                    Point2="45.8000000000002,37.2"
+                    Point3="45.8000000000002,41.2" />
+                  <mssgle:LineSegment
+                    End="45.8000000000002,66.9000000000001" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output2]"
+          TopLeft="1056.42747317037,710.355749328256">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="170.500003851376,69.6649868065205"
+              Start="0,0"
+              End="170.500003851376,62.1649868065205">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.8324934032602" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,30.8324934032602"
+                    Point2="0,34.8324934032602"
+                    Point3="4,34.8324934032602" />
+                  <mssgle:LineSegment
+                    End="166.500003851376,34.8324934032602" />
+                  <mssgle:CubicBezierSegment
+                    Point1="166.500003851376,34.8324934032602"
+                    Point2="170.500003851376,34.8324934032602"
+                    Point3="170.500003851376,38.8324934032602" />
+                  <mssgle:LineSegment
+                    End="170.500003851376,62.1649868065205" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output1]"
+          TopLeft="2783.7,1021.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,55.2333333333329"
+              Start="0,0"
+              End="0,47.7333333333329">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.7333333333329" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output]"
+          TopLeft="1599.42630910908,260.655909138507">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32.344090861493"
+              Start="0,0"
+              End="0,24.844090861493">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.844090861493" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -60023,96 +60091,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Data Conversion Output]"
-          TopLeft="1628.71210415801,199.980645567668">
+          TopLeft="1583.71210415801,193.980645567668">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-25.3594859398402,29.675263570839"
+              EndConnector="19.6405140601598,25.675263570839"
               Start="0,0"
-              End="-25.3594859398402,22.175263570839">
+              End="19.6405140601598,18.175263570839">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-21.3594859398402,0" />
+                    End="0,8.8376317854195" />
                   <mssgle:CubicBezierSegment
-                    Point1="-21.3594859398402,0"
-                    Point2="-25.3594859398402,0"
-                    Point3="-25.3594859398402,4" />
+                    Point1="0,8.8376317854195"
+                    Point2="0,12.8376317854195"
+                    Point3="4,12.8376317854195" />
                   <mssgle:LineSegment
-                    End="-25.3594859398402,22.175263570839" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="200.666666666667,42.6666666666667"
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Remove Blank LastName"
-          TopLeft="1562,304" />
-        <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output]"
-          TopLeft="1603.35261821817,270.98924247184">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="58.9807151151631,33.0107575281597"
-              Start="0,0"
-              End="58.9807151151631,25.5107575281597">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,12.5053787640798" />
+                    End="15.6405140601598,12.8376317854195" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,12.5053787640798"
-                    Point2="0,16.5053787640798"
-                    Point3="4,16.5053787640798" />
+                    Point1="15.6405140601598,12.8376317854195"
+                    Point2="19.6405140601598,12.8376317854195"
+                    Point3="19.6405140601598,16.8376317854195" />
                   <mssgle:LineSegment
-                    End="54.9807151151631,16.5053787640798" />
-                  <mssgle:CubicBezierSegment
-                    Point1="54.9807151151631,16.5053787640798"
-                    Point2="58.9807151151631,16.5053787640798"
-                    Point3="58.9807151151631,20.5053787640798" />
-                  <mssgle:LineSegment
-                    End="58.9807151151631,25.5107575281597" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output4]"
-          TopLeft="1662.33333333333,346.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-72.6391758900063,41.4462360882563"
-              Start="0,0"
-              End="-72.6391758900063,33.9462360882563">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.7231180441282" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.7231180441282"
-                    Point2="0,20.7231180441282"
-                    Point3="-4,20.7231180441282" />
-                  <mssgle:LineSegment
-                    End="-68.6391758900063,20.7231180441282" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-68.6391758900063,20.7231180441282"
-                    Point2="-72.6391758900063,20.7231180441282"
-                    Point3="-72.6391758900063,24.7231180441282" />
-                  <mssgle:LineSegment
-                    End="-72.6391758900063,33.9462360882563" />
+                    End="19.6405140601598,18.175263570839" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -60208,9 +60210,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Convert Customer Number"
           TopLeft="764.174917980296,75.3333333333333" />
         <NodeLayout
-          Size="272,41.6"
-          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF"
-          TopLeft="788.118160776135,883.917043291656" />
+          Size="271.2,41.6"
+          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert into tblSageStagingToContactsSF"
+          TopLeft="145.673082266333,1044.67095445401" />
         <NodeLayout
           Size="206,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Log Contact Update Errors"
@@ -60268,9 +60270,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Add SyncTimeDate 1"
           TopLeft="168.303851285489,971.080631470209" />
         <NodeLayout
-          Size="271.2,41.6"
-          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert into tblSageStagingToContactsSF"
-          TopLeft="145.673082266333,1044.67095445401" />
+          Size="272,41.6"
+          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF"
+          TopLeft="788.118160776135,883.917043291656" />
         <NodeLayout
           Size="174,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Sage Updated Date"
@@ -60588,42 +60590,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output]"
-          TopLeft="558.105320040056,857.925345475603">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="38.6913884210406,78.6956222260171"
-              Start="0,0"
-              End="38.6913884210406,71.1956222260171">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.8906276968314" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,27.8906276968314"
-                    Point2="0,31.8906276968314"
-                    Point3="4,31.8906276968314" />
-                  <mssgle:LineSegment
-                    End="34.6913884210406,31.8906276968314" />
-                  <mssgle:CubicBezierSegment
-                    Point1="34.6913884210406,31.8906276968314"
-                    Point2="38.6913884210406,31.8906276968314"
-                    Point3="38.6913884210406,35.8906276968314" />
-                  <mssgle:LineSegment
-                    End="38.6913884210406,71.1956222260171" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8.9906925082297,36.8906276968314,56.6727734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output1]"
           TopLeft="1324.00825131362,849.5">
           <EdgeLayout.Curve>
@@ -60656,6 +60622,42 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="33.4136132812465,76.553234156946,56.6727734375,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output]"
+          TopLeft="558.105320040056,857.925345475603">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="38.6913884210406,78.6956222260171"
+              Start="0,0"
+              End="38.6913884210406,71.1956222260171">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.8906276968314" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.8906276968314"
+                    Point2="0,31.8906276968314"
+                    Point3="4,31.8906276968314" />
+                  <mssgle:LineSegment
+                    End="34.6913884210406,31.8906276968314" />
+                  <mssgle:CubicBezierSegment
+                    Point1="34.6913884210406,31.8906276968314"
+                    Point2="38.6913884210406,31.8906276968314"
+                    Point3="38.6913884210406,35.8906276968314" />
+                  <mssgle:LineSegment
+                    End="38.6913884210406,71.1956222260171" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8.9906925082297,36.8906276968314,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -61064,13 +61066,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Create SyncDateTime - Full Update"
           TopLeft="952,520" />
         <NodeLayout
-          Size="220,42"
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items"
-          TopLeft="1944.78333333333,534.783333333333" />
-        <NodeLayout
-          Size="228,42"
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update Order LInes in SF - Full"
-          TopLeft="1032.78888888889,371.322222222222" />
+          Size="198,42"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Remove Null Lines Delta"
+          TopLeft="103.5,656" />
         <NodeLayout
           Size="248,42"
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Log Order LIne Update Errors - Full"
@@ -61079,10 +61077,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Size="240,42"
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Insert Staging Table - Full Update"
           TopLeft="876,738.200000000001" />
-        <NodeLayout
-          Size="198,42"
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Remove Null Lines Delta"
-          TopLeft="103.5,656" />
         <NodeLayout
           Size="218.666666666667,42"
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Create SyncDateTime - Delta"
@@ -61100,6 +61094,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Insert into Staging Table"
           TopLeft="601.2,540.4" />
         <NodeLayout
+          Size="169.333333333334,42"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Remove Null Lines"
+          TopLeft="1025.25,620.75" />
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Run Full Update?"
+          TopLeft="651.184615398721,261.555555555556" />
+        <NodeLayout
           Size="190.666666666667,42"
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Sage Record Updated?"
           TopLeft="366.5,351.621935503222" />
@@ -61116,13 +61118,17 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Log Null Order Lines - Delta"
           TopLeft="307,770.5" />
         <NodeLayout
-          Size="169.333333333334,42"
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Remove Null Lines"
-          TopLeft="1025.25,620.75" />
+          Size="148,42.6666666666667"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Missing Sync?"
+          TopLeft="1652,203" />
         <NodeLayout
-          Size="236,42"
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update Order LInes in SF - Delta"
-          TopLeft="179.6,455.9" />
+          Size="228,42"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update Order LInes in SF - Full"
+          TopLeft="1032.78888888889,371.322222222222" />
+        <NodeLayout
+          Size="169.333333333334,42.6666666666667"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Sync DateTime Fix"
+          TopLeft="1549,349" />
         <NodeLayout
           Size="176,42"
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Get Lines for Orders"
@@ -61136,247 +61142,25 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Insert Staging Table - Delta"
           TopLeft="39,776.8" />
         <NodeLayout
-          Size="162,42"
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Run Full Update?"
-          TopLeft="651.184615398721,261.555555555556" />
+          Size="242.666666666667,42.6666666666667"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items - Fix"
+          TopLeft="1529,459" />
+        <NodeLayout
+          Size="236,42"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update Order LInes in SF - Delta"
+          TopLeft="179.6,455.9" />
         <NodeLayout
           Size="220,42"
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Create OrderItem SalesForce"
           TopLeft="2123.45,246.583333333333" />
         <NodeLayout
+          Size="220,42"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items"
+          TopLeft="1944.78333333333,534.783333333333" />
+        <NodeLayout
           Size="204,42"
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Log Null Order Lines - Full"
           TopLeft="1277.5,747" />
-        <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Error Output1]"
-          TopLeft="335.6,497.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="128,123.7"
-              Start="0,0"
-              End="128,116.2">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.979797979798" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,45.979797979798"
-                    Point2="0,49.979797979798"
-                    Point3="4,49.979797979798" />
-                  <mssgle:LineSegment
-                    End="124,49.979797979798" />
-                  <mssgle:CubicBezierSegment
-                    Point1="124,49.979797979798"
-                    Point2="128,49.979797979798"
-                    Point3="128,53.979797979798" />
-                  <mssgle:LineSegment
-                    End="128,116.2" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="35.66361328125,54.979797979798,56.6727734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Error Output]"
-          TopLeft="2268.78333333333,288.583333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="194.6,174.966666666667"
-              Start="0,0"
-              End="194.6,167.466666666667">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,66.7446450060169" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,66.7446450060169"
-                    Point2="0,70.7446450060169"
-                    Point3="4,70.7446450060169" />
-                  <mssgle:LineSegment
-                    End="190.6,70.7446450060169" />
-                  <mssgle:CubicBezierSegment
-                    Point1="190.6,70.7446450060169"
-                    Point2="194.6,70.7446450060169"
-                    Point3="194.6,74.7446450060169" />
-                  <mssgle:LineSegment
-                    End="194.6,167.466666666667" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="68.9636132812499,75.7446450060169,56.6727734375,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output]"
-          TopLeft="1077,562">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="32.75,58.75"
-              Start="0,0"
-              End="32.75,51.25">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.375" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.375"
-                    Point2="0,29.375"
-                    Point3="4,29.375" />
-                  <mssgle:LineSegment
-                    End="28.75,29.375" />
-                  <mssgle:CubicBezierSegment
-                    Point1="28.75,29.375"
-                    Point2="32.75,29.375"
-                    Point3="32.75,33.375" />
-                  <mssgle:LineSegment
-                    End="32.75,51.25" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output1]"
-          TopLeft="191.6,593.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="10.7000000000002,62.4"
-              Start="0,0"
-              End="10.7000000000002,54.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.2" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,27.2"
-                    Point2="0,31.2"
-                    Point3="4,31.2" />
-                  <mssgle:LineSegment
-                    End="6.70000000000022,31.2" />
-                  <mssgle:CubicBezierSegment
-                    Point1="6.70000000000022,31.2"
-                    Point2="10.7000000000002,31.2"
-                    Point3="10.7000000000002,35.2" />
-                  <mssgle:LineSegment
-                    End="10.7000000000002,54.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output4]"
-          TopLeft="642.799999999999,484.821935503222">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="56.0000000000014,55.578064496778"
-              Start="0,0"
-              End="56.0000000000014,48.078064496778">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.789032248389" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.789032248389"
-                    Point2="0,27.789032248389"
-                    Point3="4,27.789032248389" />
-                  <mssgle:LineSegment
-                    End="52.0000000000014,27.789032248389" />
-                  <mssgle:CubicBezierSegment
-                    Point1="52.0000000000014,27.789032248389"
-                    Point2="56.0000000000014,27.789032248389"
-                    Point3="56.0000000000014,31.789032248389" />
-                  <mssgle:LineSegment
-                    End="56.0000000000014,48.078064496778" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output3]"
-          TopLeft="2056.56666666666,431.7">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,103.083333333333"
-              Start="0,0"
-              End="0,95.5833333333331">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,95.5833333333331" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Default Output2]"
-          TopLeft="259.6,497.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-68.0000000000001,54.1"
-              Start="0,0"
-              End="-68.0000000000001,46.6">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.8585858585859" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.8585858585859"
-                    Point2="0,21.8585858585859"
-                    Point3="-4,21.8585858585859" />
-                  <mssgle:LineSegment
-                    End="-64.0000000000001,21.8585858585859" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-64.0000000000001,21.8585858585859"
-                    Point2="-68.0000000000001,21.8585858585859"
-                    Point3="-68.0000000000001,25.8585858585859" />
-                  <mssgle:LineSegment
-                    End="-68.0000000000001,46.6" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Default Output1]"
           TopLeft="1110.12222222222,413.322222222222">
@@ -61408,7 +61192,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -61442,7 +61228,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -61548,42 +61336,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Null Lines]"
-          TopLeft="202.3,697.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-58.3000000000002,79.2000000000003"
-              Start="0,0"
-              End="-58.3000000000002,71.7000000000003">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,35.6000000000001" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,35.6000000000001"
-                    Point2="0,39.6000000000001"
-                    Point3="-4,39.6000000000001" />
-                  <mssgle:LineSegment
-                    End="-54.3000000000002,39.6000000000001" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-54.3000000000002,39.6000000000001"
-                    Point2="-58.3000000000002,39.6000000000001"
-                    Point3="-58.3000000000002,43.6000000000001" />
-                  <mssgle:LineSegment
-                    End="-58.3000000000002,71.7000000000003" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-50.9525781250001,44.6000000000001,43.60515625,9.7490234375"
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -61620,6 +61374,42 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="99.6557552083334,39.1740914419695,43.60515625,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Null Lines]"
+          TopLeft="202.3,697.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-58.3000000000002,79.2000000000003"
+              Start="0,0"
+              End="-58.3000000000002,71.7000000000003">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.6000000000001" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,35.6000000000001"
+                    Point2="0,39.6000000000001"
+                    Point3="-4,39.6000000000001" />
+                  <mssgle:LineSegment
+                    End="-54.3000000000002,39.6000000000001" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-54.3000000000002,39.6000000000001"
+                    Point2="-58.3000000000002,39.6000000000001"
+                    Point3="-58.3000000000002,43.6000000000001" />
+                  <mssgle:LineSegment
+                    End="-58.3000000000002,71.7000000000003" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-50.9525781250001,44.6000000000001,43.60515625,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -61768,6 +61558,114 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output1]"
+          TopLeft="1281.83333333333,171.366666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="444.166666666667,31.6333333333329"
+              Start="0,0"
+              End="444.166666666667,24.1333333333329">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.87403100775179" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.87403100775179"
+                    Point2="0,12.8740310077518"
+                    Point3="4,12.8740310077518" />
+                  <mssgle:LineSegment
+                    End="440.166666666667,12.8740310077518" />
+                  <mssgle:CubicBezierSegment
+                    Point1="440.166666666667,12.8740310077518"
+                    Point2="444.166666666667,12.8740310077518"
+                    Point3="444.166666666667,16.8740310077518" />
+                  <mssgle:LineSegment
+                    End="444.166666666667,24.1333333333329" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="166.276946614583,17.8740310077518,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output]"
+          TopLeft="1800,224.333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="323.45,43.2499999999997"
+              Start="0,0"
+              End="315.95,43.2499999999997">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="157.725,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="157.725,0"
+                    Point2="161.725,0"
+                    Point3="161.725,4" />
+                  <mssgle:LineSegment
+                    End="161.725,39.2499999999997" />
+                  <mssgle:CubicBezierSegment
+                    Point1="161.725,39.2499999999997"
+                    Point2="161.725,43.2499999999997"
+                    Point3="165.725,43.2499999999997" />
+                  <mssgle:LineSegment
+                    End="315.95,43.2499999999997" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="105.91861328125,-17.609375,111.6127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup Match Output1]"
+          TopLeft="1726,245.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-92.3333333333333,103.333333333333"
+              Start="0,0"
+              End="-92.3333333333333,95.8333333333335">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47.6666666666667" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,47.6666666666667"
+                    Point2="0,51.6666666666667"
+                    Point3="-4,51.6666666666667" />
+                  <mssgle:LineSegment
+                    End="-88.3333333333333,51.6666666666667" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-88.3333333333333,51.6666666666667"
+                    Point2="-92.3333333333333,51.6666666666667"
+                    Point3="-92.3333333333333,55.6666666666667" />
+                  <mssgle:LineSegment
+                    End="-92.3333333333333,95.8333333333335" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-94.3580533854166,56.6666666666667,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup Match Output]"
           TopLeft="1260.5,171.366666666667">
           <EdgeLayout.Curve>
@@ -61839,126 +61737,138 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="148,42.6666666666667"
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Missing Sync?"
-          TopLeft="1652,203" />
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output1]"
-          TopLeft="1281.83333333333,171.366666666667">
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Error Output1]"
+          TopLeft="335.6,497.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="444.166666666667,31.6333333333329"
+              EndConnector="128,123.7"
               Start="0,0"
-              End="444.166666666667,24.1333333333329">
+              End="128,116.2">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,8.87403100775179" />
+                    End="0,45.979797979798" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,8.87403100775179"
-                    Point2="0,12.8740310077518"
-                    Point3="4,12.8740310077518" />
+                    Point1="0,45.979797979798"
+                    Point2="0,49.979797979798"
+                    Point3="4,49.979797979798" />
                   <mssgle:LineSegment
-                    End="440.166666666667,12.8740310077518" />
+                    End="124,49.979797979798" />
                   <mssgle:CubicBezierSegment
-                    Point1="440.166666666667,12.8740310077518"
-                    Point2="444.166666666667,12.8740310077518"
-                    Point3="444.166666666667,16.8740310077518" />
+                    Point1="124,49.979797979798"
+                    Point2="128,49.979797979798"
+                    Point3="128,53.979797979798" />
                   <mssgle:LineSegment
-                    End="444.166666666667,24.1333333333329" />
+                    End="128,116.2" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="166.276946614583,17.8740310077518,111.6127734375,11.609375"
+              BoundingBox="35.66361328125,54.979797979798,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="169.333333333334,42.6666666666667"
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Sync DateTime Fix"
-          TopLeft="1549,349" />
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup Match Output1]"
-          TopLeft="1726,245.666666666667">
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Error Output]"
+          TopLeft="2268.78333333333,288.583333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-92.3333333333333,103.333333333333"
+              EndConnector="194.6,174.966666666667"
               Start="0,0"
-              End="-92.3333333333333,95.8333333333335">
+              End="194.6,167.466666666667">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,47.6666666666667" />
+                    End="0,66.7446450060169" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,47.6666666666667"
-                    Point2="0,51.6666666666667"
-                    Point3="-4,51.6666666666667" />
+                    Point1="0,66.7446450060169"
+                    Point2="0,70.7446450060169"
+                    Point3="4,70.7446450060169" />
                   <mssgle:LineSegment
-                    End="-88.3333333333333,51.6666666666667" />
+                    End="190.6,70.7446450060169" />
                   <mssgle:CubicBezierSegment
-                    Point1="-88.3333333333333,51.6666666666667"
-                    Point2="-92.3333333333333,51.6666666666667"
-                    Point3="-92.3333333333333,55.6666666666667" />
+                    Point1="190.6,70.7446450060169"
+                    Point2="194.6,70.7446450060169"
+                    Point3="194.6,74.7446450060169" />
                   <mssgle:LineSegment
-                    End="-92.3333333333333,95.8333333333335" />
+                    End="194.6,167.466666666667" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-94.3580533854166,56.6666666666667,96.3827734375,11.609375"
+              BoundingBox="68.9636132812499,75.7446450060169,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output]"
-          TopLeft="1800,224.333333333333">
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output4]"
+          TopLeft="642.799999999999,484.821935503222">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="323.45,43.2499999999997"
+              EndConnector="56.0000000000014,55.578064496778"
               Start="0,0"
-              End="315.95,43.2499999999997">
+              End="56.0000000000014,48.078064496778">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="157.725,0" />
+                    End="0,23.789032248389" />
                   <mssgle:CubicBezierSegment
-                    Point1="157.725,0"
-                    Point2="161.725,0"
-                    Point3="161.725,4" />
+                    Point1="0,23.789032248389"
+                    Point2="0,27.789032248389"
+                    Point3="4,27.789032248389" />
                   <mssgle:LineSegment
-                    End="161.725,39.2499999999997" />
+                    End="52.0000000000014,27.789032248389" />
                   <mssgle:CubicBezierSegment
-                    Point1="161.725,39.2499999999997"
-                    Point2="161.725,43.2499999999997"
-                    Point3="165.725,43.2499999999997" />
+                    Point1="52.0000000000014,27.789032248389"
+                    Point2="56.0000000000014,27.789032248389"
+                    Point3="56.0000000000014,31.789032248389" />
                   <mssgle:LineSegment
-                    End="315.95,43.2499999999997" />
+                    End="56.0000000000014,48.078064496778" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="105.91861328125,-17.609375,111.6127734375,11.609375"
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="242.666666666667,42.6666666666667"
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items - Fix"
-          TopLeft="1529,459" />
+        <EdgeLayout
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output3]"
+          TopLeft="2056.56666666666,431.7">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,103.083333333333"
+              Start="0,0"
+              End="0,95.5833333333331">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,95.5833333333331" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output2]"
           TopLeft="1633.66666666667,391.666666666667">
@@ -61990,7 +61900,117 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output1]"
+          TopLeft="191.6,593.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="10.7000000000002,62.4"
+              Start="0,0"
+              End="10.7000000000002,54.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.2" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.2"
+                    Point2="0,31.2"
+                    Point3="4,31.2" />
+                  <mssgle:LineSegment
+                    End="6.70000000000022,31.2" />
+                  <mssgle:CubicBezierSegment
+                    Point1="6.70000000000022,31.2"
+                    Point2="10.7000000000002,31.2"
+                    Point3="10.7000000000002,35.2" />
+                  <mssgle:LineSegment
+                    End="10.7000000000002,54.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output]"
+          TopLeft="1077,562">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="32.75,58.75"
+              Start="0,0"
+              End="32.75,51.25">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.375" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.375"
+                    Point2="0,29.375"
+                    Point3="4,29.375" />
+                  <mssgle:LineSegment
+                    End="28.75,29.375" />
+                  <mssgle:CubicBezierSegment
+                    Point1="28.75,29.375"
+                    Point2="32.75,29.375"
+                    Point3="32.75,33.375" />
+                  <mssgle:LineSegment
+                    End="32.75,51.25" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Default Output2]"
+          TopLeft="259.6,497.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-68.0000000000001,54.1"
+              Start="0,0"
+              End="-68.0000000000001,46.6">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.8585858585859" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.8585858585859"
+                    Point2="0,21.8585858585859"
+                    Point3="-4,21.8585858585859" />
+                  <mssgle:LineSegment
+                    End="-64.0000000000001,21.8585858585859" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-64.0000000000001,21.8585858585859"
+                    Point2="-68.0000000000001,21.8585858585859"
+                    Point3="-68.0000000000001,25.8585858585859" />
+                  <mssgle:LineSegment
+                    End="-68.0000000000001,46.6" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -63299,7 +63319,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -63321,7 +63343,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -63487,38 +63511,38 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output]"
-          TopLeft="1649.12309955168,405.019355032224">
+          Id="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output2]"
+          TopLeft="1020.31541669609,535.316124994276">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="288.261537854906,82.9806449677762"
+              EndConnector="305.669238683603,74.3612849364542"
               Start="0,0"
-              End="288.261537854906,75.4806449677762">
+              End="305.669238683603,66.8612849364542">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.6597545784783" />
+                    End="0,33.1806424682271" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,29.6597545784783"
-                    Point2="0,33.6597545784783"
-                    Point3="4,33.6597545784783" />
+                    Point1="0,33.1806424682271"
+                    Point2="0,37.1806424682271"
+                    Point3="4,37.1806424682271" />
                   <mssgle:LineSegment
-                    End="284.261537854906,33.6597545784783" />
+                    End="301.669238683603,37.1806424682271" />
                   <mssgle:CubicBezierSegment
-                    Point1="284.261537854906,33.6597545784783"
-                    Point2="288.261537854906,33.6597545784783"
-                    Point3="288.261537854906,37.6597545784783" />
+                    Point1="301.669238683603,37.1806424682271"
+                    Point2="305.669238683603,37.1806424682271"
+                    Point3="305.669238683603,41.1806424682271" />
                   <mssgle:LineSegment
-                    End="288.261537854906,75.4806449677762" />
+                    End="305.669238683603,66.8612849364542" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="115.794382208703,38.6597545784783,56.6727734375,11.43359375"
+              BoundingBox="124.498232623051,42.1806424682271,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -63559,38 +63583,38 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output2]"
-          TopLeft="1020.31541669609,535.316124994276">
+          Id="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output]"
+          TopLeft="1649.12309955168,405.019355032224">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="305.669238683603,74.3612849364542"
+              EndConnector="288.261537854906,82.9806449677762"
               Start="0,0"
-              End="305.669238683603,66.8612849364542">
+              End="288.261537854906,75.4806449677762">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.1806424682271" />
+                    End="0,29.6597545784783" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,33.1806424682271"
-                    Point2="0,37.1806424682271"
-                    Point3="4,37.1806424682271" />
+                    Point1="0,29.6597545784783"
+                    Point2="0,33.6597545784783"
+                    Point3="4,33.6597545784783" />
                   <mssgle:LineSegment
-                    End="301.669238683603,37.1806424682271" />
+                    End="284.261537854906,33.6597545784783" />
                   <mssgle:CubicBezierSegment
-                    Point1="301.669238683603,37.1806424682271"
-                    Point2="305.669238683603,37.1806424682271"
-                    Point3="305.669238683603,41.1806424682271" />
+                    Point1="284.261537854906,33.6597545784783"
+                    Point2="288.261537854906,33.6597545784783"
+                    Point3="288.261537854906,37.6597545784783" />
                   <mssgle:LineSegment
-                    End="305.669238683603,66.8612849364542" />
+                    End="288.261537854906,75.4806449677762" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="124.498232623051,42.1806424682271,56.6727734375,11.43359375"
+              BoundingBox="115.794382208703,38.6597545784783,56.6727734375,11.43359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -63637,7 +63661,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -63671,7 +63697,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -63693,7 +63721,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -63727,7 +63757,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -63761,7 +63793,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -63795,7 +63829,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -63829,7 +63865,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
