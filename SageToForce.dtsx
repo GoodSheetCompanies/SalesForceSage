@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="530"
-  DTS:VersionGUID="{FFD26F3B-162F-473D-99E4-E08C1A284193}">
+  DTS:VersionBuild="531"
+  DTS:VersionGUID="{8E7D26A0-1165-4BAF-89E1-C5FDA1F9E2BF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -5670,7 +5670,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACEUhZGEKNsw5rUhqwnZUYhAAAAAASAAACgAAAAEAAAAHTIkOneCuhgU2PPUOY+WdU4AAAAd/3V2MI8h6jhkC40D21JakxPmziHz0hui6E5tbXxFTDMDYhpCG0eo5AZ2Vm/3iv+Qz3zuNweQaAUAAAAfSVMX62T/09Vcyp6yP9bvUb8ecU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADKUjgJGJWzz1bXe236L4f4AAAAAASAAACgAAAAEAAAAFMow20w99fWLpQCAVBguQo4AAAAub3ysHsNLoKqZM21p8vv0wE1kHmlTP/TXlkuXUFo+GB2MHMU/mUw5zlLRfNpxDHMmjePDFIoPsUUAAAAfFdjmt2k+x0kyOFP3fzmpQyRwMo</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -5685,13 +5685,13 @@
           ConnectByProxy="False">
           <TokenPassword
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAdMvdR0iOrpoiFZ31oZ+0gAAAAAASAAACgAAAAEAAAAOJIs485+Q+NdkO/dRA1Vb0wAAAACzka4P0Qxs7UB7lazNKCHeE1gsh7nE/rzm++oycAngnIZkaiaD0kCgKJkkNhirW9FAAAAL30/mFy48hQb9YhPMcKxAACfDH/</TokenPassword>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB/zi0m6On5JOOUs2UOTNDhAAAAAASAAACgAAAAEAAAABeHeITEx9CG2aLzyW5IEfYwAAAA3ZPQUnmbwTLl/yGTimiu0dYTZ8bcWmoq/OxWRiZ78AP0tCCynMI+y9e60Iq/JwBZFAAAAOI8HGemIzCbPvXFmFYyoi/tFTHq</TokenPassword>
           <Password
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACVrr5YAtIkw8eVsOdtm8pXAAAAAASAAACgAAAAEAAAAEseiricNxT/gOwfKZ3uGw4wAAAAR8V/25fGn89fiGDXAYqATmBVnf4Qaue2MsFmaXxnCuQuca4qX3EKYdsOcgURSpDpFAAAAK92mcfCTDD8s1rmtAoHPMgq+Hc3</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB9n9hG5pwyrI5hmTzMGOoVAAAAAASAAACgAAAAEAAAAMXvnhFSJgWRM8VcCx1E1pEwAAAAWKZlttQRK7SYDPjhoC/VtTK1SP4zWFmRAG3nMbM4EbKJlN1k5w7ey/paiak6swQ+FAAAAOZGOnkFSjHhN8dZrGs04/mDFZ8R</Password>
           <ClientSecret
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADke1TwDjNIdlydn4gEgVUwAAAAAASAAACgAAAAEAAAAMASPYoja6Kc3s8X0Buj8HaIAAAAbcN9a9GfJpieBN/S3HkSeutRWDa+D/ybvtNMlWgXJCyrkECdXe9pXJStpQOCG16jqJJLU2X+Y+o647Alzp1XelXNKOJfGl1r/wDZLwFywrhbL0Si8rIm8/CIJilSR6yejsV78JQeDfZOAb022iPUZiA2UvZ5OHKUrH6DPNNIxs4c1Bh8Qy2LfBQAAAAQDUcq9NY4aPB1nrDsk/VKhdFRKw</ClientSecret>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADQytm1QMwU600Gv1m1V04mAAAAAASAAACgAAAAEAAAAMHPDw6abgiPZtUEGaIQYsuIAAAAK0Vw7nHTTSjfdlR018lnGEjxY1w04TqxBrvTIDCgQ+fWCcAIHb45L4EO4h5yDknsBdsDezoDTV+6OT5b/FDy4FBCokTY0s8CV6GbIWQJHPvdNh/qjHpVzYahXs9jGRksgU6uMPIu/eXecBgbPw8PBfuT+kcYEvmAWg1KFhHetA1016DakEX76RQAAAChPdb41/4lKr7tpW7kG41ZLs0yGQ</ClientSecret>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -5706,10 +5706,10 @@
           ConnectByProxy="False">
           <Password
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACfd8uJnS3yCgbvjuurflgaAAAAAASAAACgAAAAEAAAAF0DfPyIaEXKkgWNuH0vb9gwAAAAU2b5LDCBVOUr8YZJkOFiObzHj59takKzOwEZgYireP60lFhs/Oe4neRLN8pPf0FWFAAAAPjkU+17Eh9EfymSEKkzdJeREnIz</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAFhW53pmU3qAw4sXhH+oTgAAAAAASAAACgAAAAEAAAAM8jzVPv4bBwLtMibg0y+hIwAAAAktsk6QDoBhI5ZchpjFRFRn8a3wp8wF6BSgAWdxUOcQbzA7ZCBUMoYBpcNTXFRBqOFAAAAEEi36x5vdvEic2QONR9bxOdDqXE</Password>
           <SecurityToken
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACZL6Pe61qq3IxO7XwKtg69AAAAAASAAACgAAAAEAAAABAWGjIOXOX2zYiIBX73Fwg4AAAAmI28B9HY+ciOioShT25/z4kaZvDD01hl1Tt4nwa74HzrFeOwS/DgGw7o1Sj1YBq+oUrhfr7WguQUAAAAeTDjYhstwK1Z9bWMn5Ux2FLILoM</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMa2dUlx7FUGuvVfesPSL5gAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC+gZQnnccVRytyVlON0w/zAAAAAASAAACgAAAAEAAAAF4JiClyUm2fYp1Uu3bUPKI4AAAAr+0VFW3GzeRP6be/qa0GFYrVg65/hABwtCU4P8gFiV9xDk8mJLbqQc1/T1oH2EpOCk8l+0cXSwQUAAAApDtWw2+uuHOF0Dpqf/GrJY479/M</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -6134,7 +6134,8 @@
                   componentClassID="Microsoft.Cache"
                   contactInfo="Cache Transform;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
                   description="Writes data to a cache (a .caw file) with the Cache Connection Manager. Reuse the cache between multiple Lookup transforms to reduce database load. Share the cache to reduce memory usage. Note: cache data is stored in clear text and not recommended for sensitive data."
-                  name="Cache OrderLines from SF">
+                  name="Cache OrderLines from SF"
+                  version="1">
                   <properties>
                     <property
                       dataType="System.Boolean"
@@ -22558,65 +22559,70 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   name="Default Output"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF.Outputs[Default Output]" />
                 <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output8]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Remove Blank LastName.Inputs[Derived Column Input]"
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output9]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Script Component.Inputs[Input 0]"
                   name="Derived Column Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add RecordType and Split Name.Outputs[Derived Column Output]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Clean Addresses.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output8]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF 2.Inputs[OLE DB Destination Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 4.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output7]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is New? 1.Inputs[Conditional Split Input]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF 3.Inputs[OLE DB Destination Input]"
                   name="Derived Column Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 1.Outputs[Derived Column Output]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 5.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output6]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingAccountsSF.Inputs[OLE DB Destination Input]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is New?.Inputs[Conditional Split Input]"
                   name="Derived Column Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create SyncDateTime.Outputs[Derived Column Output]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output5]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF.Inputs[OLE DB Destination Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 2.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output9]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Exsists in  Sync Tables.Inputs[Lookup Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Remove Blank LastName.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output3]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF 1.Inputs[OLE DB Destination Input]"
                   name="Derived Column Output"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 3.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output2]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is New?.Inputs[Conditional Split Input]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingAccountsSF.Inputs[OLE DB Destination Input]"
                   name="Derived Column Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate.Outputs[Derived Column Output]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create SyncDateTime.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output3]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF.Inputs[OLE DB Destination Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 2.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output1]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF 3.Inputs[OLE DB Destination Input]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is New? 1.Inputs[Conditional Split Input]"
                   name="Derived Column Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 5.Outputs[Derived Column Output]" />
-                <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output4]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Insert into tblSageStagingToAccountsSF 2.Inputs[OLE DB Destination Input]"
-                  name="Derived Column Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 4.Outputs[Derived Column Output]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add SyncTimeDate 1.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Script Component.Inputs[Input 0]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Remove Blank LastName.Inputs[Derived Column Input]"
                   name="Derived Column Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Clean Addresses.Outputs[Derived Column Output]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Add RecordType and Split Name.Outputs[Derived Column Output]" />
                 <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output5]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Update Errors - Full Update.Inputs[Flat File Destination Input]"
-                  name="Error Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF - Full Update.Outputs[Error Output]" />
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output4]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Exsists in  Sync Tables.Inputs[Lookup Input]"
+                  name="Derived Column Output"
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Remove Blank LastName.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output4]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Personal Account Creation Errors.Inputs[Flat File Destination Input]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Personal Update Errors - Full Update.Inputs[Flat File Destination Input]"
                   name="Error Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create Personal Account.Outputs[Error Output]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Account Personal - Full Update.Outputs[Error Output]" />
+                <path
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output5]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Creation Errors.Inputs[Flat File Destination Input]"
+                  name="Error Output"
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Salesforce Destination.Outputs[Error Output]" />
+                <path
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output3]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Update Errors - Delta Update.Inputs[Flat File Destination Input]"
+                  name="Error Output"
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output2]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Personal Update Errors  - Delta Update.Inputs[Flat File Destination Input]"
@@ -22624,19 +22630,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Account Personal - Delta.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output1]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Update Errors - Delta Update.Inputs[Flat File Destination Input]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Personal Account Creation Errors.Inputs[Flat File Destination Input]"
                   name="Error Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF.Outputs[Error Output]" />
-                <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output3]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Personal Update Errors - Full Update.Inputs[Flat File Destination Input]"
-                  name="Error Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Account Personal - Full Update.Outputs[Error Output]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create Personal Account.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Creation Errors.Inputs[Flat File Destination Input]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Log Account Update Errors - Full Update.Inputs[Flat File Destination Input]"
                   name="Error Output"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Salesforce Destination.Outputs[Error Output]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF - Full Update.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Lookup No Match Output]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\IsPersonal Account?.Inputs[Conditional Split Input]"
@@ -22653,30 +22654,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   name="New Record"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is New? 1.Outputs[New Record]" />
                 <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No3]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Sage Record Updated?.Inputs[Conditional Split Input]"
-                  name="No"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Run Full Update?.Outputs[No]" />
-                <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No4]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF.Inputs[Input]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create SyncDateTime.Inputs[Derived Column Input]"
                   name="No"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is Personal Account?.Outputs[No]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Sage Record Updated?.Outputs[No]" />
                 <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No]"
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No2]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Salesforce Destination.Inputs[Input]"
                   name="No"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\IsPersonal Account?.Outputs[No]" />
                 <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No2]"
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No3]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF - Full Update.Inputs[Input]"
                   name="No"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Personal Account?.Outputs[No]" />
                 <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No1]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Create SyncDateTime.Inputs[Derived Column Input]"
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Sage Record Updated?.Inputs[Conditional Split Input]"
                   name="No"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Sage Record Updated?.Outputs[No]" />
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Run Full Update?.Outputs[No]" />
+                <path
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No1]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Accounts in SF.Inputs[Input]"
+                  name="No"
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is Personal Account?.Outputs[No]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[OLE DB Source Output]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Clean Addresses.Inputs[Derived Column Input]"
@@ -22687,6 +22688,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Convert DateTime.Inputs[Data Conversion Input]"
                   name="Output 0"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Script Component.Outputs[Output 0]" />
+                <path
+                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Yes4]"
+                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Personal Account?.Inputs[Conditional Split Input]"
+                  name="Yes"
+                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Run Full Update?.Outputs[Yes]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Yes]"
                   description="Yes"
@@ -22708,11 +22714,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Account Personal - Delta.Inputs[Input]"
                   name="Yes"
                   startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Is Personal Account?.Outputs[Yes]" />
-                <path
-                  refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Yes4]"
-                  endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Personal Account?.Inputs[Conditional Split Input]"
-                  name="Yes"
-                  startId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Run Full Update?.Outputs[Yes]" />
                 <path
                   refId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Yes5]"
                   endId="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Update Account Personal - Full Update.Inputs[Input]"
@@ -24181,7 +24182,7 @@ where [refTable].[SFAccountID] = ?</property>
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                      name="ParameterMap">#{Package\Sage to SF Contact Sync\Sales Force Contacts Sync\2357:invalid};</property>
+                      name="ParameterMap">#{Package\Sage to SF Contact Sync\Sales Force Contacts Sync\2367:invalid};</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -25056,153 +25057,6 @@ WHERE UDF_TYPE NOT IN ('I','FF')</property>
                   </outputs>
                 </component>
                 <component
-                  refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF"
-                  componentClassID="Microsoft.OLEDBDestination"
-                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
-                  description="OLE DB Destination"
-                  name="Insert Into tblSageStagingToContactsSF"
-                  usesDispositions="true"
-                  version="4">
-                  <properties>
-                    <property
-                      dataType="System.Int32"
-                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                      name="CommandTimeout">0</property>
-                    <property
-                      dataType="System.String"
-                      description="Specifies the name of the database object used to open a rowset."
-                      name="OpenRowset">[dbo].[tblSageStagingToContactsSF]</property>
-                    <property
-                      dataType="System.String"
-                      description="Specifies the variable that contains the name of the database object used to open a rowset."
-                      name="OpenRowsetVariable"></property>
-                    <property
-                      dataType="System.String"
-                      description="The SQL command to be executed."
-                      name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                    <property
-                      dataType="System.Int32"
-                      description="Specifies the column code page to use when code page information is unavailable from the data source."
-                      name="DefaultCodePage">1252</property>
-                    <property
-                      dataType="System.Boolean"
-                      description="Forces the use of the DefaultCodePage property value when describing character data."
-                      name="AlwaysUseDefaultCodePage">false</property>
-                    <property
-                      dataType="System.Int32"
-                      description="Specifies the mode used to access the database."
-                      name="AccessMode"
-                      typeConverter="AccessMode">3</property>
-                    <property
-                      dataType="System.Boolean"
-                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
-                      name="FastLoadKeepIdentity">false</property>
-                    <property
-                      dataType="System.Boolean"
-                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
-                      name="FastLoadKeepNulls">false</property>
-                    <property
-                      dataType="System.String"
-                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
-                    <property
-                      dataType="System.Int32"
-                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
-                      name="FastLoadMaxInsertCommitSize">2147483647</property>
-                  </properties>
-                  <connections>
-                    <connection
-                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Connections[OleDbConnection]"
-                      connectionManagerID="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
-                      connectionManagerRefId="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
-                      description="The OLE DB runtime connection used to access the database."
-                      name="OleDbConnection" />
-                  </connections>
-                  <inputs>
-                    <input
-                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input]"
-                      errorOrTruncationOperation="Insert"
-                      errorRowDisposition="FailComponent"
-                      hasSideEffects="true"
-                      name="OLE DB Destination Input">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SFContactID]"
-                          cachedDataType="wstr"
-                          cachedLength="18"
-                          cachedName="SFContactID"
-                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFContactID]"
-                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Outputs[Lookup Match Output].Columns[SFContactID]" />
-                        <inputColumn
-                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SyncDateTime]"
-                          cachedDataType="dbTimeStamp"
-                          cachedName="SyncDateTime"
-                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[LastSyncDateTime]"
-                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Output].Columns[SyncDateTime]" />
-                        <inputColumn
-                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SFAccountID]"
-                          cachedDataType="wstr"
-                          cachedLength="18"
-                          cachedName="SFAccountID"
-                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFAccountID]"
-                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Outputs[Lookup Match Output].Columns[SFAccountID]" />
-                        <inputColumn
-                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[cSageUpdatedDT]"
-                          cachedDataType="dbTimeStamp"
-                          cachedName="cSageUpdatedDT"
-                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SageUpdateTime]"
-                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Convert strDate to date.Outputs[Data Conversion Output].Columns[cSageUpdatedDT]" />
-                      </inputColumns>
-                      <externalMetadataColumns
-                        isUsed="True">
-                        <externalMetadataColumn
-                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFContactID]"
-                          dataType="wstr"
-                          length="18"
-                          name="SFContactID" />
-                        <externalMetadataColumn
-                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SageUpdateTime]"
-                          dataType="dbTimeStamp"
-                          name="SageUpdateTime" />
-                        <externalMetadataColumn
-                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[LastSyncDateTime]"
-                          dataType="dbTimeStamp"
-                          name="LastSyncDateTime" />
-                        <externalMetadataColumn
-                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFAccountID]"
-                          dataType="wstr"
-                          length="18"
-                          name="SFAccountID" />
-                      </externalMetadataColumns>
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output]"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="OLE DB Destination Error Output"
-                      synchronousInputId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
                   refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert into tblSageStagingToContactsSF"
                   componentClassID="Microsoft.OLEDBDestination"
                   contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
@@ -25342,6 +25196,153 @@ WHERE UDF_TYPE NOT IN ('I','FF')</property>
                           refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                           dataType="i4"
                           lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="Insert Into tblSageStagingToContactsSF"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[tblSageStagingToContactsSF]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
+                      connectionManagerRefId="Package.ConnectionManagers[mars.MAS_LOL.LOL_DATA]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SFContactID]"
+                          cachedDataType="wstr"
+                          cachedLength="18"
+                          cachedName="SFContactID"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFContactID]"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Outputs[Lookup Match Output].Columns[SFContactID]" />
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SyncDateTime]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="SyncDateTime"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[LastSyncDateTime]"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Output].Columns[SyncDateTime]" />
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[SFAccountID]"
+                          cachedDataType="wstr"
+                          cachedLength="18"
+                          cachedName="SFAccountID"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFAccountID]"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SyncTable Contacts.Outputs[Lookup Match Output].Columns[SFAccountID]" />
+                        <inputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].Columns[cSageUpdatedDT]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="cSageUpdatedDT"
+                          externalMetadataColumnId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SageUpdateTime]"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Convert strDate to date.Outputs[Data Conversion Output].Columns[cSageUpdatedDT]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFContactID]"
+                          dataType="wstr"
+                          length="18"
+                          name="SFContactID" />
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SageUpdateTime]"
+                          dataType="dbTimeStamp"
+                          name="SageUpdateTime" />
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[LastSyncDateTime]"
+                          dataType="dbTimeStamp"
+                          name="LastSyncDateTime" />
+                        <externalMetadataColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input].ExternalColumns[SFAccountID]"
+                          dataType="wstr"
+                          length="18"
+                          name="SFAccountID" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -29228,14 +29229,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create SyncDateTime.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output1]"
-                  endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Log Contact Update Errors.Inputs[Flat File Destination Input]"
-                  name="Error Output"
-                  startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Update Contact in SF.Outputs[Error Output]" />
-                <path
-                  refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output]"
                   endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Log Contact Create Errors.Inputs[Flat File Destination Input]"
                   name="Error Output"
                   startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Create or Update Contact in SF.Outputs[Error Output]" />
+                <path
+                  refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output]"
+                  endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Log Contact Update Errors.Inputs[Flat File Destination Input]"
+                  name="Error Output"
+                  startId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Update Contact in SF.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Lookup Match Output]"
                   endId="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Split Name.Inputs[Derived Column Input]"
@@ -33842,27 +33843,27 @@ where [refTable].[cSAGELineNum_ERP__c] = ? and [refTable].[SageSalesOrderNo] = ?
                   name="Default Output"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update Order LInes in SF - Delta.Outputs[Default Output]" />
                 <path
-                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output3]"
+                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output]"
                   endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Remove Null Lines.Inputs[Conditional Split Input]"
                   name="Derived Column Output"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Create SyncDateTime - Full Update.Outputs[Derived Column Output]" />
                 <path
-                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output2]"
+                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output1]"
                   endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Remove Null Lines Delta.Inputs[Conditional Split Input]"
                   name="Derived Column Output"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Create SyncDateTime - Delta.Outputs[Derived Column Output]" />
                 <path
-                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output4]"
+                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output2]"
                   endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items - Fix.Inputs[OLE DB Destination Input]"
                   name="Derived Column Output"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Sync DateTime Fix.Outputs[Derived Column Output]" />
                 <path
-                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output]"
+                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output3]"
                   endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items.Inputs[OLE DB Destination Input]"
                   name="Derived Column Output"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Sync DateTime.Outputs[Derived Column Output]" />
                 <path
-                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output1]"
+                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output4]"
                   endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Insert into Staging Table.Inputs[OLE DB Destination Input]"
                   name="Derived Column Output"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Create SyncDateTime.Outputs[Derived Column Output]" />
@@ -33882,22 +33883,22 @@ where [refTable].[cSAGELineNum_ERP__c] = ? and [refTable].[SageSalesOrderNo] = ?
                   name="Error Output"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update Order LInes in SF - Full.Outputs[Error Output]" />
                 <path
-                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup Match Output]"
-                  endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Run Full Update?.Inputs[Conditional Split Input]"
-                  name="Lookup Match Output"
-                  startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Line Exsists.Outputs[Lookup Match Output]" />
-                <path
                   refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup Match Output1]"
                   endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Sync DateTime Fix.Inputs[Derived Column Input]"
                   name="Lookup Match Output"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Missing Sync?.Outputs[Lookup Match Output]" />
                 <path
-                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output1]"
+                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup Match Output]"
+                  endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Run Full Update?.Inputs[Conditional Split Input]"
+                  name="Lookup Match Output"
+                  startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Line Exsists.Outputs[Lookup Match Output]" />
+                <path
+                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output]"
                   endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Create OrderItem SalesForce.Inputs[Input]"
                   name="Lookup No Match Output"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Missing Sync?.Outputs[Lookup No Match Output]" />
                 <path
-                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output]"
+                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output1]"
                   endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Missing Sync?.Inputs[Lookup Input]"
                   name="Lookup No Match Output"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Line Exsists.Outputs[Lookup No Match Output]" />
@@ -33922,12 +33923,12 @@ where [refTable].[cSAGELineNum_ERP__c] = ? and [refTable].[SageSalesOrderNo] = ?
                   name="No Nulls"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Remove Null Lines Delta.Outputs[No Nulls]" />
                 <path
-                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Null Lines1]"
+                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Null Lines]"
                   endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Insert Staging Table - Delta.Inputs[OLE DB Destination Input]"
                   name="Null Lines"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Remove Null Lines Delta.Outputs[Null Lines]" />
                 <path
-                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Null Lines]"
+                  refId="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Null Lines1]"
                   endId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Log Null Order Lines - Full.Inputs[Flat File Destination Input]"
                   name="Null Lines"
                   startId="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Remove Null Lines.Outputs[Null Lines]" />
@@ -44260,9 +44261,9 @@ where [refTable].[SageSalesOrderNo] = ?</property>
                   startId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Add SyncTimeDate.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Order Sync\Sales Force Orders Sync.Paths[Error Output2]"
-                  endId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Log Sales Order Errors - Delta.Inputs[Flat File Destination Input]"
+                  endId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Log Order Creation Errors.Inputs[Flat File Destination Input]"
                   name="Error Output"
-                  startId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Update Sales Order - Delta Update.Outputs[Error Output]" />
+                  startId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Create or Update Order in SF.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Order Sync\Sales Force Orders Sync.Paths[Error Output1]"
                   endId="Package\Sage to SF Order Sync\Sales Force Orders Sync\FF Sale Order Update Errors - Full.Inputs[Flat File Destination Input]"
@@ -44270,9 +44271,9 @@ where [refTable].[SageSalesOrderNo] = ?</property>
                   startId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Update Sales Order - Full.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Order Sync\Sales Force Orders Sync.Paths[Error Output]"
-                  endId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Log Order Creation Errors.Inputs[Flat File Destination Input]"
+                  endId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Log Sales Order Errors - Delta.Inputs[Flat File Destination Input]"
                   name="Error Output"
-                  startId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Create or Update Order in SF.Outputs[Error Output]" />
+                  startId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Update Sales Order - Delta Update.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Order Sync\Sales Force Orders Sync.Paths[Lookup Match Output]"
                   endId="Package\Sage to SF Order Sync\Sales Force Orders Sync\Add SyncTimeDate - Missing Sync.Inputs[Derived Column Input]"
@@ -52886,9 +52887,9 @@ where [refTable].[SageItemCode] = ?</property>
                   startId="Package\Sage to SF Product Sync\Sales Force Products Sync\Create SyncDateTime.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output2]"
-                  endId="Package\Sage to SF Product Sync\Sales Force Products Sync\Log Product Creation Errors.Inputs[Flat File Destination Input]"
+                  endId="Package\Sage to SF Product Sync\Sales Force Products Sync\Log Product Update Errors - Full Update.Inputs[Flat File Destination Input]"
                   name="Error Output"
-                  startId="Package\Sage to SF Product Sync\Sales Force Products Sync\SF Products - New.Outputs[Error Output]" />
+                  startId="Package\Sage to SF Product Sync\Sales Force Products Sync\SF Products - Full Update.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output1]"
                   endId="Package\Sage to SF Product Sync\Sales Force Products Sync\Product Update Errors - Delta Update.Inputs[Flat File Destination Input]"
@@ -52896,9 +52897,9 @@ where [refTable].[SageItemCode] = ?</property>
                   startId="Package\Sage to SF Product Sync\Sales Force Products Sync\SF Products - Delta Update.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output]"
-                  endId="Package\Sage to SF Product Sync\Sales Force Products Sync\Log Product Update Errors - Full Update.Inputs[Flat File Destination Input]"
+                  endId="Package\Sage to SF Product Sync\Sales Force Products Sync\Log Product Creation Errors.Inputs[Flat File Destination Input]"
                   name="Error Output"
-                  startId="Package\Sage to SF Product Sync\Sales Force Products Sync\SF Products - Full Update.Outputs[Error Output]" />
+                  startId="Package\Sage to SF Product Sync\Sales Force Products Sync\SF Products - New.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Lookup Match Output]"
                   endId="Package\Sage to SF Product Sync\Sales Force Products Sync\Run Full Update?.Inputs[Conditional Split Input]"
@@ -56964,19 +56965,19 @@ where [refTable].[SFProductID] = ?</property>
                   startId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\StandardPriceBook ID.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output2]"
+                  endId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\Log Errors - Full Update.Inputs[Flat File Destination Input]"
+                  name="Error Output"
+                  startId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\Update Pricebook Entry - Full Update.Outputs[Error Output]" />
+                <path
+                  refId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output]"
                   endId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\Log errors - Delta Update.Inputs[Flat File Destination Input]"
                   name="Error Output"
                   startId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\Update Pricebook Entry - Delta Update.Outputs[Error Output]" />
                 <path
-                  refId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output]"
+                  refId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output1]"
                   endId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\Log PriceBook Entry Creation Errors.Inputs[Flat File Destination Input]"
                   name="Error Output"
                   startId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\Create Price Book Entry.Outputs[Error Output]" />
-                <path
-                  refId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output1]"
-                  endId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\Log Errors - Full Update.Inputs[Flat File Destination Input]"
-                  name="Error Output"
-                  startId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\Update Pricebook Entry - Full Update.Outputs[Error Output]" />
                 <path
                   refId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Lookup Match Output]"
                   endId="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\Run Full Update?.Inputs[Conditional Split Input]"
@@ -57075,14 +57076,35 @@ where [refTable].[SFProductID] = ?</property>
           ReadOnlyVariables="$Package::WorkingDirectory"
           ReadWriteVariables="User::varAccount_U_Error_FileName,User::varAccount_U_F_Error_FileName">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_bdae1ff4ffe748cd845126c4e19d0bbe")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_bdae1ff4ffe748cd845126c4e19d0bbe")]
+[assembly: AssemblyCopyright("Copyright @  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -57459,35 +57481,14 @@ namespace ST_bdae1ff4ffe748cd845126c4e19d0bbe.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_bdae1ff4ffe748cd845126c4e19d0bbe")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_bdae1ff4ffe748cd845126c4e19d0bbe")]
-[assembly: AssemblyCopyright("Copyright @  2021")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -57807,6 +57808,43 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="249,42"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines"
+          TopLeft="27.916673279057,111.686723028886" />
+        <NodeLayout
+          Size="228,42"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders"
+          TopLeft="31.0238161495047,34.8446176369421" />
+        <EdgeLayout
+          Id="Package\Cache Current Orders in SF.PrecedenceConstraints[Constraint]"
+          TopLeft="148.803578047614,76.8446176369421">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34.8421053919435"
+              Start="0,0"
+              End="0,27.3421053919435">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.3421053919435" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="301,209"
+          Size="301,252"
+          Id="Package\Cache Current Orders in SF"
+          TopLeft="1802.67854456657,1282.70678778057" />
+        <NodeLayout
           Size="186,42"
           Id="Package\Create Staging Tables"
           TopLeft="538.351668098271,413.044540497613" />
@@ -57823,7 +57861,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Accounts Sync\Insert DateTime tblSageToAccountsSF"
           TopLeft="93.1795098174962,104.866664333754" />
         <NodeLayout
-          Size="209.333333333334,42.6666666666667"
+          Size="209,43"
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync"
           TopLeft="122.000003301179,27.6247292304592" />
         <EdgeLayout
@@ -57851,8 +57889,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="493.333333333334,209.333333333334"
-          Size="493.333333333334,252"
+          PanelSize="493,209"
+          Size="493,252"
           Id="Package\Sage to SF Accounts Sync"
           TopLeft="289.404774690286,623.578298681126" />
         <NodeLayout
@@ -57860,7 +57898,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Contact Sync\Insert DateTime tblSageToContactsSF"
           TopLeft="124.092314576821,110.845156342827" />
         <NodeLayout
-          Size="209.333333333334,42"
+          Size="209,42"
           Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync"
           TopLeft="158.576928691752,21.3612887357688" />
         <EdgeLayout
@@ -57889,7 +57927,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           HeaderHeight="43"
           IsExpanded="True"
           PanelSize="488,208"
-          Size="488,250.666666666667"
+          Size="488,251"
           Id="Package\Sage to SF Contact Sync"
           TopLeft="312.03297847827,975.600293825143" />
         <NodeLayout
@@ -57897,19 +57935,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Order Sync\Reset Update flag tblSageToOrderSF"
           TopLeft="55.1698474433383,458.320818389649" />
         <NodeLayout
-          Size="216,42.6666666666667"
+          Size="216,43"
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync"
           TopLeft="75.623514148806,209.647233019613" />
         <NodeLayout
-          Size="198.666666666667,42.6666666666667"
+          Size="199,43"
           Id="Package\Sage to SF Order Sync\Sales Force Orders Sync"
           TopLeft="84.3032849034953,22.5703987085767" />
         <NodeLayout
-          Size="234.666666666667,42"
+          Size="235,42"
           Id="Package\Sage to SF Order Sync\Update Order Lines Sync Tables"
           TopLeft="68.2184996774172,299.979292344426" />
         <NodeLayout
-          Size="265.333333333334,42"
+          Size="265,42"
           Id="Package\Sage to SF Order Sync\Update Order Status on Closed Orders"
           TopLeft="48.9088583767225,380.633843836275" />
         <NodeLayout
@@ -58029,8 +58067,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="373.333333333334,513.333333333334"
-          Size="373.333333333334,556.666666666667"
+          PanelSize="373,514"
+          Size="373,557"
           Id="Package\Sage to SF Order Sync"
           TopLeft="2240.49745531098,1037.26011714276" />
         <NodeLayout
@@ -58038,7 +58076,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Product Sync\Insert DateTime tblSageToProductsSF"
           TopLeft="140.830812117901,116.105367599425" />
         <NodeLayout
-          Size="208,42.6666666666667"
+          Size="208,43"
           Id="Package\Sage to SF Product Sync\Sales Force Products Sync"
           TopLeft="166.538462695286,30.6021502925184" />
         <EdgeLayout
@@ -58066,12 +58104,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="558,213.333333333334"
+          PanelSize="558,213"
           Size="558,256"
           Id="Package\Sage to SF Product Sync"
           TopLeft="555.193206284167,1351.57213048495" />
         <NodeLayout
-          Size="289.333333333334,42"
+          Size="289,42"
           Id="Package\Sage to SF Standard Price Sync\Insert DateTime tblSageToStandardPriceBk"
           TopLeft="69.2539145122621,128.954828259948" />
         <NodeLayout
@@ -58104,7 +58142,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           HeaderHeight="43"
           IsExpanded="True"
           PanelSize="424,228"
-          Size="424,270.666666666667"
+          Size="424,271"
           Id="Package\Sage to SF Standard Price Sync"
           TopLeft="1272.05132870983,1289.83715835359" />
         <NodeLayout
@@ -58313,50 +58351,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <AnnotationLayout
-          Text="mlm"
-          ParentId="Package"
-          FontInfo="{assembly:Null}"
-          Size="53.3333333333334,40"
-          Id="fd4aaff6-2532-419a-b0a9-01ac1bc4f068"
-          TopLeft="4764.32324462022,532.464518373789" />
-        <NodeLayout
-          Size="228,42"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders"
-          TopLeft="31.0238161495047,34.8446176369421" />
-        <NodeLayout
-          Size="249.333333333334,42"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines"
-          TopLeft="27.916673279057,111.686723028886" />
-        <EdgeLayout
-          Id="Package\Cache Current Orders in SF.PrecedenceConstraints[Constraint]"
-          TopLeft="148.803578047614,76.8446176369421">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34.8421053919435"
-              Start="0,0"
-              End="0,27.3421053919435">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.3421053919435" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="300.666666666667,208.666666666667"
-          Size="300.666666666667,252"
-          Id="Package\Cache Current Orders in SF"
-          TopLeft="1802.67854456657,1282.70678778057" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
           TopLeft="1696.05132870983,1425.17049168692">
@@ -58425,6 +58419,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <AnnotationLayout
+          Text="mlm"
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="53,40"
+          Id="fd4aaff6-2532-419a-b0a9-01ac1bc4f068"
+          TopLeft="4764.32324462022,532.464518373789" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -58440,6 +58441,197 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       </GraphLayout>
     </LayoutInfo>
   </DtsEventHandler>
+  <TaskHost
+    design-time-name="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="246.666666666667,42"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Get Current OrderLineIDs from SF"
+          TopLeft="602,22" />
+        <NodeLayout
+          Size="177.333333333334,42"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\LkUp SalesOrderNo"
+          TopLeft="632,109" />
+        <EdgeLayout
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines.Paths[Salesforce Source Output]"
+          TopLeft="723,64">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45"
+              Start="0,0"
+              End="0,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="222.666666666667,42.6666666666667"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Convert Primary Key Columns"
+          TopLeft="608,202" />
+        <EdgeLayout
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines.Paths[Lookup Match Output]"
+          TopLeft="720,151">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51"
+              Start="0,0"
+              End="0,43.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,15.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="206.666666666667,42.6666666666667"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Cache OrderLines from SF"
+          TopLeft="620,313" />
+        <EdgeLayout
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines.Paths[Data Conversion Output]"
+          TopLeft="721.333333333333,244.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68.3333333333334"
+              Start="0,0"
+              End="0,60.8333333333334">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.8333333333334" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\LkUp SalesOrderNo">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[tblSageToOrderSF]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Cache Current Orders in SF\DFT Cache Current SF Orders">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="226.666666666667,42"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders\Convert SalesOrderNo to STR"
+          TopLeft="627,107" />
+        <NodeLayout
+          Size="210,42"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders\Retrieve Current Order IDs"
+          TopLeft="612,31" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders\Cache Current SF Orders"
+          TopLeft="633,230" />
+        <EdgeLayout
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders.Paths[Salesforce Source Output]"
+          TopLeft="717,73">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="23.5,34"
+              Start="0,0"
+              End="23.5,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13"
+                    Point2="0,17"
+                    Point3="4,17" />
+                  <mssgle:LineSegment
+                    End="19.5,17" />
+                  <mssgle:CubicBezierSegment
+                    Point1="19.5,17"
+                    Point2="23.5,17"
+                    Point3="23.5,21" />
+                  <mssgle:LineSegment
+                    End="23.5,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders.Paths[Data Conversion Output]"
+          TopLeft="737.75,149">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,81"
+              Start="0,0"
+              End="0,73.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,73.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
   <TaskHost
     design-time-name="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync">
     <LayoutInfo>
@@ -58874,7 +59066,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No4]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No1]"
           TopLeft="561.303292914396,699.71566795949">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -58910,7 +59102,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No3]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No]"
           TopLeft="1178.28390825618,511.935476627112">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -58946,7 +59138,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No2]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No3]"
           TopLeft="1619.75384344518,601.284792474681">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -58982,7 +59174,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No1]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No4]"
           TopLeft="901.869234098627,604.479262265512">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59018,7 +59210,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[No2]"
           TopLeft="3270.66989092435,591.326335501009">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59162,7 +59354,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output5]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output]"
           TopLeft="1557.42749957982,946.922414861794">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59198,7 +59390,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output4]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output1]"
           TopLeft="3512.74499212454,818.06772791543">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59234,7 +59426,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output3]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output4]"
           TopLeft="2163.056469198,851.438701066068">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59306,7 +59498,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output1]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output3]"
           TopLeft="301.076186886812,935.336403094448">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59342,7 +59534,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Error Output5]"
           TopLeft="2964.08723381558,859.225797511288">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59378,7 +59570,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output7]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output1]"
           TopLeft="2783.7,1021.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59400,7 +59592,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output6]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output2]"
           TopLeft="1056.42747317037,710.355749328256">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59434,7 +59626,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output5]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output3]"
           TopLeft="2014.6,990.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59468,7 +59660,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output4]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output8]"
           TopLeft="716.676921905992,1048.8">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59502,7 +59694,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output3]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output5]"
           TopLeft="1399.67692190599,1083.2">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59536,7 +59728,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output2]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output6]"
           TopLeft="3392.77692190599,1030.83363609021">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59558,7 +59750,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output1]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output7]"
           TopLeft="112.742853553479,1123.8">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59592,7 +59784,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output9]"
           TopLeft="1103.77364733148,138.370965851954">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59862,7 +60054,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync\Remove Blank LastName"
           TopLeft="1562,304" />
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output8]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output]"
           TopLeft="1603.35261821817,270.98924247184">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -59896,7 +60088,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output9]"
+          Id="Package\Sage to SF Accounts Sync\Sales Force Accounts Sync.Paths[Derived Column Output4]"
           TopLeft="1662.33333333333,346.666666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -60396,7 +60588,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output1]"
+          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output]"
           TopLeft="558.105320040056,857.925345475603">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -60432,7 +60624,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output]"
+          Id="Package\Sage to SF Contact Sync\Sales Force Contacts Sync.Paths[Error Output1]"
           TopLeft="1324.00825131362,849.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -60783,19 +60975,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Lookup SF AccountNo">
     <Properties>
       <Property>
@@ -60862,197 +61041,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="246.666666666667,42"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Get Current OrderLineIDs from SF"
-          TopLeft="602,22" />
-        <NodeLayout
-          Size="177.333333333334,42"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\LkUp SalesOrderNo"
-          TopLeft="632,109" />
-        <EdgeLayout
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines.Paths[Salesforce Source Output]"
-          TopLeft="723,64">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,45"
-              Start="0,0"
-              End="0,37.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,37.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="222.666666666667,42.6666666666667"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Convert Primary Key Columns"
-          TopLeft="608,202" />
-        <EdgeLayout
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines.Paths[Lookup Match Output]"
-          TopLeft="720,151">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,51"
-              Start="0,0"
-              End="0,43.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,15.9453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="206.666666666667,42.6666666666667"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\Cache OrderLines from SF"
-          TopLeft="620,313" />
-        <EdgeLayout
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines.Paths[Data Conversion Output]"
-          TopLeft="721.333333333333,244.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68.3333333333334"
-              Start="0,0"
-              End="0,60.8333333333334">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.8333333333334" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Cache Current Orders in SF\DFT Cache Current SF OrderLines\LkUp SalesOrderNo">
+    design-time-name="Package\Sage to SF Contact Sync\Sales Force Contacts Sync\Insert Into tblSageStagingToContactsSF">
     <Properties>
       <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[tblSageToOrderSF]</Value>
+        <Name>DataSourceViewID</Name>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Cache Current Orders in SF\DFT Cache Current SF Orders">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="226.666666666667,42"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders\Convert SalesOrderNo to STR"
-          TopLeft="627,107" />
-        <NodeLayout
-          Size="210,42"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders\Retrieve Current Order IDs"
-          TopLeft="612,31" />
-        <NodeLayout
-          Size="204,42"
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders\Cache Current SF Orders"
-          TopLeft="633,230" />
-        <EdgeLayout
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders.Paths[Salesforce Source Output]"
-          TopLeft="717,73">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="23.5,34"
-              Start="0,0"
-              End="23.5,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,13" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13"
-                    Point2="0,17"
-                    Point3="4,17" />
-                  <mssgle:LineSegment
-                    End="19.5,17" />
-                  <mssgle:CubicBezierSegment
-                    Point1="19.5,17"
-                    Point2="23.5,17"
-                    Point3="23.5,21" />
-                  <mssgle:LineSegment
-                    End="23.5,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cache Current Orders in SF\DFT Cache Current SF Orders.Paths[Data Conversion Output]"
-          TopLeft="737.75,149">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,81"
-              Start="0,0"
-              End="0,73.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,73.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
   <TaskHost
     design-time-name="Package\Sage to SF Order Sync\Sales Force Order Line Sync">
     <LayoutInfo>
@@ -61219,7 +61220,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output3]"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output]"
           TopLeft="1077,562">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -61253,7 +61254,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output2]"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output1]"
           TopLeft="191.6,593.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -61287,7 +61288,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output1]"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output4]"
           TopLeft="642.799999999999,484.821935503222">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -61321,7 +61322,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output]"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output3]"
           TopLeft="2056.56666666666,431.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -61551,7 +61552,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Null Lines1]"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Null Lines]"
           TopLeft="202.3,697.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -61587,7 +61588,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Null Lines]"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Null Lines1]"
           TopLeft="1136.58333333333,662.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -61843,7 +61844,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Missing Sync?"
           TopLeft="1652,203" />
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output]"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output1]"
           TopLeft="1281.83333333333,171.366666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -61919,7 +61920,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output1]"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Lookup No Match Output]"
           TopLeft="1800,224.333333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -61959,7 +61960,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items - Fix"
           TopLeft="1529,459" />
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output4]"
+          Id="Package\Sage to SF Order Sync\Sales Force Order Line Sync.Paths[Derived Column Output2]"
           TopLeft="1633.66666666667,391.666666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -61995,19 +61996,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Insert into Staging Table">
     <Properties>
@@ -62045,6 +62033,29 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Missing Sync?">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string"></Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Get Lines for Orders">
     <Properties>
       <Property>
@@ -62054,6 +62065,32 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Insert Staging Table - Delta">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items - Fix">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -62171,7 +62208,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Id="Package\Sage to SF Order Sync\Sales Force Orders Sync\Update Sales Order - Delta Update"
           TopLeft="218,555.363870806481" />
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Orders Sync.Paths[Error Output2]"
+          Id="Package\Sage to SF Order Sync\Sales Force Orders Sync.Paths[Error Output]"
           TopLeft="380.666666666667,597.363870806481">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -62243,7 +62280,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Order Sync\Sales Force Orders Sync.Paths[Error Output]"
+          Id="Package\Sage to SF Order Sync\Sales Force Orders Sync.Paths[Error Output2]"
           TopLeft="1894.67985312716,509.723399839539">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -62944,8 +62981,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Order Sync\Sales Force Orders Sync\Get Orders from SQL">
+    design-time-name="Package\Sage to SF Order Sync\Sales Force Orders Sync\Update Staging Tables - Full Update">
     <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sage to SF Order Sync\Sales Force Orders Sync\Sync Record?">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[tblSageToOrderSF]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -62975,23 +63040,21 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Order Sync\Sales Force Orders Sync\Sync Record?">
+    design-time-name="Package\Sage to SF Order Sync\Sales Force Orders Sync\Update Staging Tables - Delta Update">
     <Properties>
       <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[tblSageToOrderSF]</Value>
+        <Name>DataSourceViewID</Name>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q2:string">Table</Value>
       </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sage to SF Order Sync\Sales Force Orders Sync\Get Orders from SQL">
+    <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -62999,32 +63062,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Sage to SF Order Sync\Sales Force Orders Sync\Insert SyncTime tblSageStagingToOrdersSF">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Order Sync\Sales Force Orders Sync\Update Staging Tables - Full Update">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Order Sync\Sales Force Orders Sync\Update Staging Tables - Delta Update">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -63452,7 +63489,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output2]"
+          Id="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output]"
           TopLeft="1649.12309955168,405.019355032224">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -63524,7 +63561,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output]"
+          Id="Package\Sage to SF Product Sync\Sales Force Products Sync.Paths[Error Output2]"
           TopLeft="1020.31541669609,535.316124994276">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64006,7 +64043,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output2]"
+          Id="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output]"
           TopLeft="424.7,691.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64042,7 +64079,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output1]"
+          Id="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output2]"
           TopLeft="1409.86666666667,624.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64078,7 +64115,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output]"
+          Id="Package\Sage to SF Standard Price Sync\Sales Force Price Sync.Paths[Error Output1]"
           TopLeft="1893.7,496.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -64641,42 +64678,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Sage to SF Standard Price Sync\Sales Force Price Sync\Update Staging Table with SyncDateTime">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Missing Sync?">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Sage to SF Order Sync\Sales Force Order Line Sync\Update SyncTable Line Items - Fix">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
