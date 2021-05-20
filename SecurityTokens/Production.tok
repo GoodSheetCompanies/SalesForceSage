@@ -1,0 +1,62 @@
+/*
+This is an OAuth token file for the Salesforce connection manager in SSIS Integration Toolkit for Salesforce. 
+A proper password is required in order to read the file.
+*/
+
+{
+  "_about": {
+    "created_at": "2021-05-18T18:04:18.9662647Z",
+    "updated_at": "2021-05-18T18:04:18.9662647Z",
+    "use_in_app_authentication_on_import": false
+  },
+  "access_token": "jpcpf490shSQ4OHDx6jv3FfLpdCHkmVYLE7JzyextwTXQGtn7lcR0UNlS7h7ivLW+1BMuG23eTesIsnjyrtYXmR+gnvdquBCGICHdrv6Q8qwmkCA8d5xXPw5N0nDyhOIDavSKbK9Ijtvy/rBSHpy6xw0nLx2kyiaEsEfW9nBVAw=",
+  "client_assertion": {
+    "additional_claims": []
+  },
+  "client_id": "3MVG9kBt168mda__VrLIOWD0G9toOG5IoWQmdPQ4zHPJccZlhEKxS3mpJ._O8jryE9nM2n39l1VKpbxhopM6g",
+  "client_secret": "m1iFfxdA19hvoHcAhazbqt19LDl6tTv7UwT4HdMoiwnnS5WpPEASRmMITYQqskONYsFolbgawiDohpuAUq9p2mnlh2dXSGVa4vcAobucFWw=",
+  "connection_user_id": "https://login.salesforce.com/id/00D4x0000031kPAEAY/0054x000005EL26AAG",
+  "has_expiry": false,
+  "instance_url": "https://lolldesigns.my.salesforce.com",
+  "manual_token_expiry_time_unit": "Hours",
+  "refresh_token": "BPIMTjG1tzRqSI+1SfgJYq3/XlS2S4rxOjWToh3TKdoiqpUerxdRHsSKBIcpZQdkN2ANPSdQrSu5J0LGYAj9YHfyt24S/1Bw6/miv83SHk2cmhxmNC6oNLFqxJc5BYTP",
+  "refresh_tokens_strategy": {
+    "additional_parameters": [],
+    "base_url": "https://login.salesforce.com/services/oauth2/token",
+    "grant_type": "refresh_token",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/x-www-form-urlencoded"
+      },
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ]
+  },
+  "request_tokens_strategy": {
+    "additional_parameters": [],
+    "base_url": "https://login.salesforce.com/services/oauth2/token",
+    "grant_type": "authorization_code",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/x-www-form-urlencoded"
+      },
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ]
+  },
+  "sign_in_strategy": {
+    "additional_parameters": [
+      {
+        "name": "response_type",
+        "value": "code"
+      }
+    ],
+    "base_url": "https://login.salesforce.com/services/oauth2/authorize"
+  }
+}
