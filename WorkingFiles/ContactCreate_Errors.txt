@@ -1,5 +1,6 @@
 ErrorCode,ErrorColumn,ErrorMessage,FirstName,LastName,Salutation,SFAccountID,TelephoneNo1,cContactCode,City,CountryCode,ZipCode,State,StreetAddress,EmailAddress,TelephoneNo2,cSageUpdatedDT,FaxNo
 1,,DUPLICATE_VALUE:Duplicate external id specified: elizabeth@missingemail.com:Email --,Elizabeth,Ghaly,,0014x00000L5ffEAAR,,ELIZABETH,Seattle,US,98134,WA,,ELIZABETH@missingEmail.com,,2012-02-08 10:18:23,
+1,,DUPLICATE_VALUE:Duplicate external id specified: varmstrong@dwr.com:Email --,Valerie,Armstrong,,0014x00000L5xH5AAJ,,VALERIE,Stamford,US,06902,CT,,varmstrong@dwr.com,,2014-12-14 18:26:01,
 1,,DUPLICATE_VALUE:Duplicate external id specified: scott@missingemail.com:Email --,Scott,Esparza,,0014x00000L5fd5AAB,,SCOTT,Carolina,US,00987,PR,,SCOTT@missingEmail.com,,2012-02-02 13:32:11,
 1,,DUPLICATE_VALUE:Duplicate external id specified: brian@missingemail.com:Email --,Brian,Fitzsimmons,,0014x00000L5fNLAAZ,,BRIAN,Oklahoma City,US,73106,OK,,BRIAN@missingEmail.com,,2014-06-09 11:01:35,
 1,,DUPLICATE_VALUE:Duplicate external id specified: brian@missingemail.com:Email --,Brian,Anderluh,,0014x00000L5f4YAAR,,BRIAN,Corte Madera,US,94925,CA,,BRIAN@missingEmail.com,,2012-01-18 09:21:10,
@@ -41,3 +42,4 @@ ErrorCode,ErrorColumn,ErrorMessage,FirstName,LastName,Salutation,SFAccountID,Tel
 1,,INVALID_FIELD_FOR_INSERT_UPDATE:Account: bad field names on insert/update call:  AccountId: AccountId --,Jackie,Hanson,,0014x00000L5gZbAAJ,,JACQUELYN,,,,,,jackie@bluejdesign.com,,2014-06-10 15:57:10,
 1,,DUPLICATE_VALUE:Duplicate external id specified: jed@missingemail.com:Email --,,NS,,0014x00000L5ga9AAB,,JED,Palm Beach,US,33480,FL,,JED@missingEmail.com,,2014-08-07 11:49:00,
 1,,DUPLICATE_VALUE:Duplicate external id specified: nweitl@thinkconfluence.com:Email --,Nate,Weitl,,0014x00000L5ewSAAR,,NATE,Des Moines,US,50309,IA,,nweitl@thinkconfluence.com,,2014-05-20 11:23:39,
+1,,DUPLICATE_VALUE:Duplicate external id specified: varmstrong@dwr.com:Email --,Valerie,Armstrong,,0014x00000L5ewAAAR,,VALERIE,Stamford,US,06902,CT,,varmstrong@dwr.com,,2015-01-12 17:44:10,
